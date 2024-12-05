@@ -1,0 +1,74 @@
+.presentations-iframe {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  margin-top: 25px;
+}
+
+
+.help-table .text-danger {
+  font-weight: bold;
+}
+
+.help-table .quote {
+    position: relative;
+}
+
+.help-table .quote::before {
+    content: '„'; /* Opening German quotation mark */
+    position: absolute;
+    left: -0.6em; /* Adjust as necessary for spacing */
+}
+
+.help-table .quote::after {
+    content: '“'; /* Closing German quotation mark */
+    position: absolute;
+    right: -0.6em; /* Adjust as necessary for spacing */
+}
+
+.help-table table {
+    border-collapse: collapse; /* Ensures that borders collapse into a single border */
+    width: 100%; /* Makes the table take the full width */
+    margin-bottom: 150px;
+}
+
+.help-table th, .help-table td {
+    border-bottom: 1px solid #000; /* Adds a solid black border */
+    padding: 8px; /* Adds padding for better spacing */
+    text-align: left; /* Aligns text to the left */
+}
+
+.worksheet {
+    width: 80%;                     /* Set the width of the worksheet */
+    margin: 20px auto;             /* Center the worksheet on the page */
+    padding: 20px;                 /* Add padding inside the worksheet */
+    border: 1px solid #ccc;        /* Light gray border */
+    border-radius: 8px;            /* Rounded corners */
+    background-color: #f9f9f9;     /* Light background color */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Clean font style */
+    line-height: 1.6;              /* Improve readability */
+}
+
+.worksheet h1, .worksheet h2, .worksheet h3 {
+    margin-top: 0;                 /* Remove top margin for headings */
+}
+
+.worksheet p {
+    margin-bottom: 15px;           /* Space between paragraphs */
+}
+
+.worksheet .question {
+    margin: 10px 0;                /* Space between questions */
+    padding: 10px;                 /* Padding for questions */
+    border: 1px dashed #999;       /* Dashed border for questions */
+    border-radius: 4px;            /* Rounded corners for questions */
+}
+
+.kwics {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 80%;
+}
