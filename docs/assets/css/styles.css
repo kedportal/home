@@ -41,7 +41,7 @@
 }
 
 .worksheet {
-    width: 80%;                     /* Set the width of the worksheet */
+    width: 90%;                     /* Set the width of the worksheet */
     margin: 20px auto;             /* Center the worksheet on the page */
     padding: 20px;                 /* Add padding inside the worksheet */
     border: 1px solid #ccc;        /* Light gray border */
@@ -50,6 +50,7 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     font-family: Arial, sans-serif; /* Clean font style */
     line-height: 1.6;              /* Improve readability */
+    font-size: 0.85em;
 }
 
 .worksheet h1, .worksheet h2, .worksheet h3 {
@@ -71,4 +72,13 @@
   margin-left: 25px;
   margin-right: 25px;
   font-size: 80%;
+}
+
+
+ubr {
+  border-bottom: 2px solid #E74C3C;
+}
+
+ubb {
+  border-bottom: 2px solid #3498DB;
 }
