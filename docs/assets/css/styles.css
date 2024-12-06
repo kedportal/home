@@ -40,6 +40,22 @@
     text-align: left; /* Aligns text to the left */
 }
 
+.help-button {
+   display: inline-block;          /* Allows padding and background to apply */
+    padding: 10px 20px;           /* Adds space around the text */
+    background-color: #5bc0de;    /* Flatly primary button color */
+    color: white;                  /* Text color */
+    border: none;                  /* No border */
+    border-radius: 4px;           /* Rounded corners */
+    font-size: 16px;               /* Font size */
+    text-align: center;            /* Center the text */
+    text-decoration: none;         /* Remove underline */
+    cursor: default;               /* Default cursor */
+}
+
+
+
+
 .worksheet {
     width: 90%;                     /* Set the width of the worksheet */
     margin: 20px auto;             /* Center the worksheet on the page */
@@ -82,3 +98,5 @@ ubr {
 ubb {
   border-bottom: 2px solid #3498DB;
 }
+
+

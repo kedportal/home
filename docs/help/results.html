@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -236,9 +256,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="beispiele" class="level4">
-<h4 class="anchored" data-anchor-id="beispiele">Beispiele</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Beispiele</button> finden Sie eine zufällige Auswahl von 25 Belegen für Ihren Suchausdruck aus dem Korpus. Die Belege werden im Panel <i>Beispiele</i> in einer Tabelle angezeigt. Sie können mit <button class="btn btn-default action-button btn-sm shiny-bound-input">+25</button>, <button class="btn btn-default action-button btn-sm shiny-bound-input">+50</button> und <button class="btn btn-default action-button btn-sm shiny-bound-input">+100</button> weitere Belege hinzufügen oder mit <button class="btn btn-default action-button btn-sm shiny-bound-input">alle</button> die restlichen Belege anzeigen lassen. Sie können die Belege mit <a class="btn btn-default shiny-download-link btn-sm shiny-bound-output" download="" aria-live="polite"><i class="fas fa-download" role="presentation" aria-label="download icon"></i> Herunterladen</a> als Excel-Tabelle herunterladen. Die heruntergeladene Tabelle enthält neben den Belegen noch weitere Angaben zum Quelltext. Sie können die Ergebnistabelle nach bestimmten Ausdrücken durchsuchen. Sie können mit dem Eingabefeld <i>Suche</i> die gesamte Tabelle durchsuchen oder mit den Eingabefeldern darunter die einzelnen Spalten. Sie können die Spalten der Tabelle alphabetisch sortieren. Klicken Sie dafür auf die Spalten-Überschriften <i>Linker Kontext</i>, <i>Suchausdruck</i> und <i>Rechter Kontext</i>. Sie können Details von einzelnen Belegen anzeigen lassen. Klicken Sie dafür die gewünschte Zeile in der Tabelle an. Sie können die Belege mit den Schaltflächen <a href="#" class="btn btn-default btn-sm"><i class="fa fa-clipboard" aria-hidden="true" role="presentation"></i> Kopieren</a> in die Zwischenablage kopieren.</p>
+<section id="sucheingabe-beispiele" class="level4">
+<h4 class="anchored" data-anchor-id="sucheingabe-beispiele">Sucheingabe / Beispiele</h4>
+<p>Geben Sie in Ihren Suchausdruck in der Sucheingabe ein und drücken Sie die Eingabetaste auf Ihrer Tastatur. Sie erhalten eine zufällige Auswahl von 25 Belegen für Ihren Suchausdruck aus dem Korpus. Die Belege werden im Panel <i>Suchergebnisse</i> in einer Tabelle (Konkordanzliste) angezeigt. Sie können mit <button class="btn btn-default action-button btn-sm shiny-bound-input">+25</button>, <button class="btn btn-default action-button btn-sm shiny-bound-input">+50</button> und <button class="btn btn-default action-button btn-sm shiny-bound-input">+100</button> weitere Belege hinzufügen oder mit <button class="btn btn-default action-button btn-sm shiny-bound-input">alle</button> die restlichen Belege anzeigen lassen. Sie können die Belege mit <a class="btn btn-default shiny-download-link btn-sm shiny-bound-output" download="" aria-live="polite"><i class="fas fa-download" role="presentation" aria-label="download icon"></i> Herunterladen</a> als Excel-Tabelle herunterladen. Die heruntergeladene Tabelle enthält neben den Belegen noch weitere Angaben zum Quelltext. Sie können die Ergebnistabelle nach bestimmten Ausdrücken durchsuchen. Sie können mit dem Eingabefeld <i>Suche</i> die gesamte Tabelle durchsuchen oder mit den Eingabefeldern darunter die einzelnen Spalten. Sie können die Spalten der Tabelle alphabetisch sortieren. Klicken Sie dafür auf die Spalten-Überschriften <i>Linker Kontext</i>, <i>Suchausdruck</i> und <i>Rechter Kontext</i>. Sie können Details von einzelnen Belegen anzeigen lassen. Klicken Sie dafür die gewünschte Zeile in der Tabelle an. Sie können die Belege mit den Schaltflächen <a href="#" class="btn btn-default btn-sm"><i class="fa fa-clipboard" aria-hidden="true" role="presentation"></i> Kopieren</a> in die Zwischenablage kopieren.</p>
 </section>
 <section id="statistik" class="level4">
 <h4 class="anchored" data-anchor-id="statistik">Statistik</h4>
@@ -246,20 +266,54 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="texte" class="level4">
 <h4 class="anchored" data-anchor-id="texte">Texte</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Texte</button> erhalten Sie Angaben zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Die Angaben werden im Panel <i>Texte</i> angezeigt. Unter <i>Titel</i> werden die Titel der Texte angezeigt. Unter <i>n Beispiele</i> wird die Anzahl der Treffer für Ihren Suchausdruck im jeweiligen Text angezeigt. Unter <i>n Textwörter</i> wird die Anzahl der Wörter im jeweiligen Text angezeigt. Unter <i>Herder1k</i> wird angegeben, wie viel Prozent der Textwörter in den 1.000 häufigsten Wörtern des Deutschen enthalten sind. Die Angabe <i>59%</i> bedeutet zum Beispiel, dass 59% der Wörter in diesem Text zu den 1.000 häufigsten Wörtern des Deutschen gehören. Wenn Sie die 1.000 häufigsten Wörter des Deutschen kennen, dann kennen Sie 59% der Wörter in diesem Text, 41% sind ihnen noch unbekannt. Unter <i>Textarchiv</i> finden Sie Links zu den Volltexten angegeben. Die Links führen Sie zur Originalquelle oder zu einer Kopie der Originalquelle im <i>Internet Archive</i>. Unter <i>Lizenz</i> sind die Nutzungsrechte der Originalquelle angegeben (cc: Creative Commons, oder ©: urheberrechtlich geschützt).</p>
+<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Texte</button> erhalten Sie Angaben zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Die Angaben werden im Panel <i>Texte</i> angezeigt. Unter <i>Titel</i> werden die Titel der Texte angezeigt. Unter <i>n Beispiele</i> wird die Anzahl der Treffer für Ihren Suchausdruck im jeweiligen Text angezeigt. Unter <i>n Textwörter</i> wird die Anzahl der Wörter im jeweiligen Text angezeigt. Unter <i>Herder1K</i> wird angegeben, wie viel Prozent der Textwörter in den 1.000 häufigsten Wörtern des Deutschen enthalten sind. Unter <i>Textarchiv</i> finden Sie Links zu den Volltexten. Die Links führen Sie zur Originalquelle oder zu einer Kopie der Originalquelle im <i>Internet Archive</i>. Unter <i>Lizenz</i> sind die Nutzungsrechte der Originalquelle angegeben (cc: Creative Commons, oder ©: urheberrechtlich geschützt).</p>
 </section>
 <section id="n-gramme" class="level4">
 <h4 class="anchored" data-anchor-id="n-gramme">N-Gramme</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">N-Gramme</button> finden Sie häufige N-Gramme im Kontext Ihres Suchausdrucks. N-Gramme sind Wortfolgen einer bestimmten Länge. Die 20 häufigsten N-Gramme und ihre Häufigkeit werden im Panel <i>N-Gramme</i> als Tabelle angezeigt. Sie können die Spalten alphabetisch und nach Häufigkeit sortieren. Klicken Sie dazu auf die Spalten-Überschriften <i>N-Gramme</i> und <i>Häufigkeit</i>. Sie können die Spalten der Tabelle nach bestimmten Ausdrücken und nach bestimmten Häufigkeiten durchsuchen. Geben Sie dazu einen Suchausdruck oder einen Häufigkeitsbereich in das entsprechende Eingabefeld ein. Standardmäßig werden Zwei-Wort-Abfolgen (2-Gramme) angezeigt. Unter <i>Länge</i> können Sie die Länge der N-Gramme ändern. Unter <i>Lücke</i> können Sie einstellen, ob Sie einen Abstand zwischen den Wörtern eines N-Gramms erlauben wollen und wie groß der Abstand sein darf.</p>
+<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">N-Gramme</button> finden Sie häufige N-Gramme im Kontext Ihres Suchausdrucks. N-Gramme sind Wortfolgen einer bestimmten Länge. Die 20 häufigsten N-Gramme und ihre Häufigkeit werden im Panel <i>N-Gramme</i> als Tabelle angezeigt. Sie können die Spalten alphabetisch und nach Häufigkeit sortieren. Klicken Sie dazu auf die Spalten-Überschriften <i>N-Gramme</i> und <i>Häufigkeit</i>. Sie können die Spalten der Tabelle nach bestimmten Ausdrücken und nach bestimmten Häufigkeiten durchsuchen bzw. filtern. Geben Sie dazu einen Suchausdruck oder einen Häufigkeitsbereich in das entsprechende Eingabefeld ein. Standardmäßig werden Zwei-Wort-Abfolgen (2-Gramme) angezeigt. Unter <i>Länge</i> können Sie die Länge der N-Gramme ändern. Unter <i>Lücke</i> können Sie einstellen, ob Sie einen Abstand zwischen den Wörtern eines N-Gramms erlauben wollen und wie groß der Abstand sein darf.</p>
 </section>
 <section id="kollokationen" class="level4">
 <h4 class="anchored" data-anchor-id="kollokationen">Kollokationen</h4>
 <p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Kollokationen</button> finden Sie die 25 häufigsten Kollokate Ihres Suchausdrucks. Kollokate sind Wörter, die besonders häufig zusammen mit Ihrem Suchausdruck verwendet werden und zusammen eine Kollokation bilden (z.B. <i>Hoffnung+hegen</i> oder <i>Zeit+vergehen</i>). Die Kollokationen werden im Panel <i>Kollokationen</i> als Netzwerk dargestellt. In der Mitte des Netzwerks befindet sich Ihr Suchausdruck. Um ihn herum sind seine Kollokate angeordnet. Die Größe der Kollokate und ihre Nähe zum Suchausdruck zeigen ihre gegenseitige Anziehungskraft an (Kollokationsstärke, ‚pointwise mutual information‘).</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wenn Sie die folgenden Einstellungen nach Ihrer Sucheingabe ändern, gehen eventuell bereits gemachte Filterangaben in der Konkordanzliste verloren und müssen neu eingegeben werden.</p>
+</div>
+</div>
+</section>
+<section id="kontextlänge-einstellen" class="level4">
+<h4 class="anchored" data-anchor-id="kontextlänge-einstellen">Kontextlänge einstellen</h4>
+<p>Unter <strong>Kontextlänge einstellen</strong> können Sie die Länge des Kontextes vor und nach dem Suchausdruck einstellen.</p>
+</section>
+<section id="korpussuche-einschränken" class="level4">
+<h4 class="anchored" data-anchor-id="korpussuche-einschränken">Korpussuche einschränken</h4>
+<p>Über die Dropdown-Listen <strong>Textsorte</strong>, <strong>Adressaten</strong>, <strong>Vertextungsstrategie</strong> und <strong>Thema</strong> können Sie die Korpussuche auf eine bestimmte Auswahl einschränken, z. B. auf Texte, die für Kinder geschrieben wurden, oder auf Texte, die dem Themenbereich <em>Gesundheit und Krankheit</em> zugeordnet sind.</p>
+</section>
+<section id="textlänge" class="level4">
+<h4 class="anchored" data-anchor-id="textlänge">Textlänge</h4>
+<p>Mit dem Schieberegler <strong>Textlänge</strong> wird die Suche auf Texte mit einer bestimmten Länge (in Wörtern) eingeschränkt.</p>
+</section>
+<section id="textdeckung-herder1k" class="level4">
+<h4 class="anchored" data-anchor-id="textdeckung-herder1k">Textdeckung: Herder1K</h4>
+<p>Mit dem Schieberegler <strong>Textdeckung</strong> können Sie die Auswahl auf Texte mit einer bestimmten Textdeckung eingeschränkt. Der Wert gibt an, wie viel Prozent der Wörter eines Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören. Die Angabe 59% bedeutet z.B., dass 59% der Wörter dieses Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören <span class="citation" data-cites="tschirner2020">(nach der Herder-Liste, <a href="#ref-tschirner2020" role="doc-biblioref">Tschirner und Möhring 2020</a>)</span>. Wenn Sie die 1.000 häufigsten Wörter der deutschen Sprache kennen, dann kennen Sie 59% der Wörter in diesem Text, 41% sind Ihnen noch unbekannt. Je höher die Werte, desto einfacher sind die Texte in Bezug auf den Wortschatz.</p>
+
 
 
 </section>
 
-<p>© Daniel Jach und Gunther Dietz 2024. All rights reserved. | <a href="imprint.html">Impressum</a></p></main> <!-- /main -->
+<p>© Daniel Jach und Gunther Dietz 2024. All rights reserved. | <a href="imprint.html">Impressum</a></p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-tschirner2020" class="csl-entry" role="listitem">
+Tschirner, Erwin, und Jupp Möhring. 2020. <em>A frequency dictionary of German: core vocabulary for learners</em>. 2. Aufl. Abingdon, Oxon, und New York, NY: Routledge.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
