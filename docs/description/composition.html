@@ -145,19 +145,19 @@ div.csl-indent {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hilfe">    
         <li>
     <a class="dropdown-item" href="../help/index.html">
- <span class="dropdown-text">Hilfe zur Korpussuche</span></a>
+ <span class="dropdown-text">Hilfe zur KED-Suche</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../help/login.html">
- <span class="dropdown-text">Wie logge ich mich im KED ein?</span></a>
+ <span class="dropdown-text">Wie logge ich mich in der KED-Suche ein?</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../help/search.html">
- <span class="dropdown-text">Wie suche ich im KED nach Beispielen?</span></a>
+ <span class="dropdown-text">Wie suche ich in der KED-Suche nach Beispielen?</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../help/results.html">
- <span class="dropdown-text">Welche Möglichkeiten bietet das KED-Suchportal?</span></a>
+ <span class="dropdown-text">Welche Möglichkeiten bietet die KED-Suche?</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../help/cite.html">
@@ -216,8 +216,8 @@ div.csl-indent {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../partners/index.html"> 
-<span class="menu-text">Partner</span></a>
+    <a class="nav-link" href="../sources/index.html"> 
+<span class="menu-text">Quellen</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../contact.html"> 
@@ -241,6 +241,10 @@ div.csl-indent {
   <ul>
   <li><a href="#überblick" id="toc-überblick" class="nav-link active" data-scroll-target="#überblick">Überblick</a></li>
   <li><a href="#teilkorpora" id="toc-teilkorpora" class="nav-link" data-scroll-target="#teilkorpora">Teilkorpora</a></li>
+  <li><a href="#weitere-metadaten" id="toc-weitere-metadaten" class="nav-link" data-scroll-target="#weitere-metadaten">Weitere Metadaten</a>
+  <ul class="collapse">
+  <li><a href="#textdeckung" id="toc-textdeckung" class="nav-link" data-scroll-target="#textdeckung">Textdeckung</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -315,7 +319,7 @@ Tabelle&nbsp;1: KED im Überblick
 </section>
 <section id="teilkorpora" class="level2">
 <h2 class="anchored" data-anchor-id="teilkorpora">Teilkorpora</h2>
-<p>Die Texte im Korpus sind mit Adressatengruppe, Textsorte, Vertextungsstrategie und Thema annotiert. Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite <em>Kuppelkucker</em> beispielsweise an Kinder gerichtet<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, Texte aus der Online-Ausgabe des <em>Fluter</em>-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Textsorte und Vertextungsstrategie wurden den Texten nach subjektiver Einschätzung der Korpusautoren zugeordnet, abhängig von ihrer Quelle. Teilweise wurden Texte einer Quelle weiter unterteilt. Von der Webseite der Bundeszentrale für politische Bildung beispielsweise sind sowohl Erklärtexte aus der <em>einfach POLITIK</em>-Subdomäne<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> als auch Lexikoneinträge aus dem <em>einfach POLITIK: Lexikon</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> im KED enthalten. Die Themen der Texte wurden hingegen mit Hilfe von einem unüberwachtem maschinellen Lernverfahren ermittelt <span class="citation" data-cites="silge2017">(‚topic modeling‘, <a href="#ref-silge2017" role="doc-biblioref">Silge und Robinson 2017</a>)</span>. Das Verfahren wird ausführlicher <a href="../description/development.html">hier</a> beschrieben. In <a href="#tbl-panel" class="quarto-xref">Tabelle&nbsp;2</a> wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in <a href="#fig-wordclouds" class="quarto-xref">Abbildung&nbsp;2 (i)</a> zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Titel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.</p>
+<p>Die Texte im Korpus sind mit Adressatengruppe, Textsorte, Vertextungsstrategie und Thema annotiert. Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite <em>Kuppelkucker</em> beispielsweise an Kinder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, Texte aus der Online-Ausgabe des <em>Fluter</em>-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Textsorte und Vertextungsstrategie wurden den Texten nach subjektiver Einschätzung der Korpusautoren zugeordnet, abhängig von ihrer Quelle. Teilweise wurden Texte einer Quelle weiter unterteilt. Von der Webseite der Bundeszentrale für politische Bildung beispielsweise sind sowohl Erklärtexte aus der <em>einfach POLITIK</em>-Subdomäne<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> als auch Lexikoneinträge aus dem <em>einfach POLITIK: Lexikon</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> im KED enthalten. Die Themen der Texte wurden hingegen mit Hilfe von einem unüberwachtem maschinellen Lernverfahren ermittelt <span class="citation" data-cites="silge2017">(‚unsupervised topic modeling‘, <a href="#ref-silge2017" role="doc-biblioref">Silge und Robinson 2017</a>)</span>. Das Verfahren wird ausführlicher <a href="../description/development.html">hier</a> beschrieben. In <a href="#tbl-panel" class="quarto-xref">Tabelle&nbsp;2</a> wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in <a href="#fig-wordclouds" class="quarto-xref">Abbildung&nbsp;2 (i)</a> zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Thementitel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.</p>
 <div id="tbl-panel" class="quarto-layout-panel anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -588,16 +592,51 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 </div>
 </figure>
 </div>
-<!-- ## Textdeckung -->
+</section>
+<section id="weitere-metadaten" class="level2">
+<h2 class="anchored" data-anchor-id="weitere-metadaten">Weitere Metadaten</h2>
+<section id="textdeckung" class="level3">
+<h3 class="anchored" data-anchor-id="textdeckung">Textdeckung</h3>
+<p>Darüber hinaus sind die Texte im KED mit einer Reihe weiterer didaktisch relevanter Merkmale annotiert. Dazu gehört die Textdeckung der häufigsten Wörter des Deutschen. Die Textdeckung gibt den Anteil der Textwörter an, die in der Liste der häufigsten Wörter des Deutschen enthalten sind. Dabei wird auf der Grundlage der Herder-Häufigkeitsliste <span class="citation" data-cites="tschirner2020">(<a href="#ref-tschirner2020" role="doc-biblioref">Tschirner und Möhring 2020</a>)</span> zwischen den häufigsten 1.000, 2.000, 3.000, 4.000 und 5.000 Wörtern des Deutschen unterschieden. <a href="#fig-textcoverageExamples" class="quarto-xref">Abbildung&nbsp;1</a> zeigt beispielhaft die Textdeckung von fünf zufällig ausgewählten Texte.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<div id="fig-textcoverageExamples" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="plots/textcoverage_examples.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte"><img src="plots/textcoverage_examples.svg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte
+</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:48%;">
+<div id="fig-textcoverage1k" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="plots/textcoverage.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Abbildung&nbsp;2: Verteilung der Textdeckung im KED"><img src="plots/textcoverage.svg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Verteilung der Textdeckung im KED
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Der Text mit dem Titel <em>Antisemitismus</em> weist beispielsweise für die 1.000 häufigsten Wörter des Deutschen lediglich eine Textdeckung von etwa 0,5 auf, d.h. etwa 50% der Textwörter sind in der Liste der 1.000 häufigsten Wörter des Deutschen enthalten, während die übrigen 50% nicht enthalten sind. Die Textdeckung nimmt mit der Länge der Wortliste zu. Die Textdeckung der 2.000 häufigsten Wörter des Deutschen beträgt nahezu 60%, während sie bei den 3.000 häufigsten Wörtern bereits über 60% liegt. Bei den 4.000 häufigsten Wörtern steigt die Textdeckung auf nahezu 65% an. Die nächsten 1.000 Wörter erzielen dagegen keine signifikante Erhöhung der Textdeckung, die bei knapp unter 65 % konstant bleibt. <a href="#fig-textcoverage1k" class="quarto-xref">Abbildung&nbsp;2</a> zeigt die Verteilung der Textdeckung im KED. Die Textdeckung lässt sich als Maß für die Schwierigkeit eines Textes interpretieren. Für Anfänger ist ein Text umso einfacher zu verstehen, je höher die Textdeckung bei relativ kleinem Wortschatz ist (z. B. nur die 1.000 häufigsten Wörter des Deutschen) und je schneller die Textabdeckung mit steigendem Wortschatz zunimmt.</p>
 
 
 
+</section>
 </section>
 
 
 <p>© Daniel Jach und Gunther Dietz 2024. All rights reserved. | <a href="imprint.html">Impressum</a></p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-silge2017" class="csl-entry" role="listitem">
 Silge, Julia, und David Robinson. 2017. <em>Text Mining with R: A Tidy Approach</em>. Sebastopol, CA: O’Reilly. <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a>.
+</div>
+<div id="ref-tschirner2020" class="csl-entry" role="listitem">
+Tschirner, Erwin, und Jupp Möhring. 2020. <em>A frequency dictionary of German: core vocabulary for learners</em>. 2. Aufl. Abingdon, Oxon, und New York, NY: Routledge.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
 
