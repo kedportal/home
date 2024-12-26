@@ -226,6 +226,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-searchPositions" id="toc-sec-searchPositions" class="nav-link" data-scroll-target="#sec-searchPositions">Suche mit Positionsangaben</a></li>
   <li><a href="#sec-posTags" id="toc-sec-posTags" class="nav-link" data-scroll-target="#sec-posTags">Wortartenkürzel</a></li>
   <li><a href="#sec-placeholders" id="toc-sec-placeholders" class="nav-link" data-scroll-target="#sec-placeholders">Platzhalter</a></li>
+  <li><a href="#suchen-und-filtern-mit-regulären-ausdrücken" id="toc-suchen-und-filtern-mit-regulären-ausdrücken" class="nav-link" data-scroll-target="#suchen-und-filtern-mit-regulären-ausdrücken">Suchen und Filtern mit regulären Ausdrücken</a></li>
   </ul>
 </nav>
     </div>
@@ -287,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
   </tr>
   <tr>
     <th scope="row" rowspan="3">Wortarten</th>
-    <td>Wenn Sie nach Belegen für eine bestimmte Wortart suchen, dann geben Sie die Wortart in einer Abkürzung mit <span class="text-danger">[pos=</span>WORTARTENKÜRZEL<span class="text-danger">]</span> ein. Die wichtigsten suchbaren Wortartenkürzel finden Sie [hier](#sec-posTags).</td>
+    <td>Wenn Sie nach Belegen für eine bestimmte Wortart suchen, dann geben Sie die Wortart in einer Abkürzung mit <span class="text-danger">[pos=</span>WORTARTENKÜRZEL<span class="text-danger">]</span> ein. Die wichtigsten suchbaren Wortartenkürzel finden Sie <a href="#sec-posTags">hier</a>.</td>
     <td>Sie suchen Beispiele für unterordnende Konjunktionen. Das Wortartenkürzel ist "KOUS".</td>
     <td><span class="text-danger">[pos=</span>KOUS<span class="text-danger">]</span></td>
     <td><i>dass, ob, weil, ...</i></td>
@@ -919,7 +920,7 @@ ul.task-list li input[type="checkbox"] {
     </thead>
     <tbody>
       <tr>
-        <th scope="row" colspan="4">Operatoren</th>
+        <th scope="row" colspan="4" id="sec-placeholders-operators">Operatoren</th>
       </tr>
       <tr>
         <th rowspan="2">.</th>
@@ -956,7 +957,7 @@ ul.task-list li input[type="checkbox"] {
         <td><i>bzw.</i></td>
       </tr>
       <tr>
-        <th scope="row" colspan="4">Quantifizierer</th>
+        <th scope="row" colspan="4" id="sec-placeholders-quantifiers">Quantifizierer</th>
       </tr>
       <tr>
         <th scope="row">?</th>
@@ -996,6 +997,109 @@ ul.task-list li input[type="checkbox"] {
       </tr>
     </tbody>
 </table>
+</section>
+<section id="suchen-und-filtern-mit-regulären-ausdrücken" class="level3">
+<h3 class="anchored" data-anchor-id="suchen-und-filtern-mit-regulären-ausdrücken">Suchen und Filtern mit regulären Ausdrücken</h3>
+<p>Sie können mit regulären Ausdrücken suchen und die Kontexte der Suchergebnisse filtern. Mit regulären Ausdrücken können Sie nur den Rohtext durchsuchen. Eine Suche nach Lemmata oder Wortarten ist nicht möglich. Die folgende Tabelle enthält eine Auswahl wichtiger regulärer Ausdrücke.</p>
+<!--| quarto-html-table-processing: none -->
+
+<table class="help-table">
+<thead>
+  <tr>
+    <th>Ausdruck</th>
+    <th>Erläuterung</th>
+    <th>Beispiel</th>
+    <th>Eingabe</th>
+    <th>Treffer (Beispiele)</th>
+  </tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row" rowspan="3" class="text-danger">\b</th>
+  <td rowspan="3">Der Ausdruck \b markiert eine Wortgrenze. Eine Wortgrenze ist der Punkt zwischen einem Wortzeichen (z. B. Buchstaben oder Zahlen) und einem Nicht-Wortzeichen (z. B. Leerzeichen, Satzzeichen oder dem Anfang/Ende einer Zeile).</td>
+  <td>Sie suchen nach der Form "so".</td>
+  <td><span class="text-danger">\b</span>so<span class="text-danger">\b</span></td>
+  <td><i>so<i>&nbsp;[am&nbsp;Ende&nbsp;der&nbsp;Zeile]<br>so&nbsp;</i>&nbsp;[mit&nbsp;Leerzeichen]<br><i>so,</i>&nbsp;[mit&nbsp;Komma]<br><i>so!&nbsp;[mit&nbsp;Ausrufezeichen]</i><br>(aber nicht: <i>sofort</i>, <i>also</i>, <i>Isolde</i> etc.)</i></td>
+</tr>
+<tr>
+  <td>Sie suchen nach Formen, die auf "so" enden.</td>
+  <td>so<span class="text-danger">\b</span></td>
+  <td><i>so</i><br><i>ebenso</i><br><i>also</i></td>
+</tr>
+<tr>
+  <td>Sie suchen nach Formen, die mit "So" (groß geschrieben) beginnen.</td>
+  <td><span class="text-danger">\b</span>So</td>
+  <td><i>So</i><br><i>Sofort</i><br><i>Sonst</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">[...]</th>
+  <td>Eckige Klammern [...] werden verwendet, um eine Zeichenklasse zu definieren. Alles, was innerhalb der eckigen Klammern steht, wird als mögliche Übereinstimmung betrachtet.</td>
+  <td>Sie suchen nach Formen von "so" sowohl groß geschrieben als auch klein geschrieben.</td>
+  <td>\b<span class="text-danger">[</span>Ss<span class="text-danger">]</span>o\b</td>
+  <td><i>So</i><br><i>so</i><br><i>So!</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">|</th>
+  <td>Das Zeichen | wird als logisches "ODER" verwendet. Es ermöglicht, zwischen mehreren Alternativen zu wählen. Nutzen Sie runde Klammern (...), um komplexere Ausdrücke zu erstellen.</td>
+  <td>Sie suchen nach den Formen "desto" oder "umso".</td>
+  <td><span class="text-danger">(</span>desto<span class="text-danger">|</span>umso<span class="text-danger">)</span></td>
+  <td><i>desto</i><br><i>umso</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">^</th>
+  <td>Das Zeichen ^ wird als Anker verwendet, um den Anfang einer Zeile oder eines Strings zu kennzeichnen.</td>
+  <td>Sie suchen in den Suchergebnissen nach Belegen, deren linker Kontext mit "so" beginnen. Geben Sie den folgenden Ausdruck im linken Kontextfilter ein.</td>
+  <td><span class="text-danger">^</span>so</td>
+  <td><i>solange ...</i><br><i>so ist ...</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">$</th>
+  <td>Das Zeichen $ wird als Anker verwendet, um das Ende einer Zeile oder eines Strings zu kennzeichnen.</td>
+  <td>Sie suchen in den Suchergebnissen nach Belegen, deren rechter Kontext mit "so" endet. Geben Sie den folgenden Ausdruck im rechten Kontextfilter ein.</td>
+  <td>so<span class="text-danger">$</span></td>
+  <td><i>... dann ist das eben so</i><br><i>... er ist so</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">\d</th>
+  <td>Das Zeichen \d steht für ein Ziffernzeichen. Es ist ein Kurzschreibweise, die eine Ziffer von 0 bis 9 repräsentiert.</td>
+  <td>Sie suchen nach Folgen von vier Ziffern, z. B. Jahreszahlen.</td>
+  <td><span class="text-danger">\d\d\d\d</span></td>
+  <td><i>1984</i><br><i>2024</i></td>
+</tr>
+<tr>
+  <th scope="row" class="text-danger">\w</th>
+  <td>Das Zeichen \w steht für ein Wortzeichen. Es repräsentiert jeden alphanumerischen Charakter, einschließlich Buchstaben (sowohl Groß- als auch Kleinbuchstaben), Ziffern und dem Unterstrich (_).</td>
+  <td>Sie suchen nach der Zeichenfolge "ein" im Innern oder am Ende eines Wortes.</td>
+  <td><span class="text-danger">\w</span>ein</td>
+  <td><i>sein</i><br><i>deine</i><br><i>mein</i><br><i>keiner</i><br><i>nacheinander</i></td>
+</tr>
+<tr>
+  <th scope="row" rowspan="2" class="text-danger">.</th>
+  <td rowspan="2">Das Punkt-Zeichen . steht für ein beliebiges Zeichen.</td>
+  <td>Sie suchen nach der Zeichenfolge "ich".</td>
+  <td><span class="text-danger">.</span>ich</td>
+  <td><i>ich</i><br><i>mich</i><br><i>sich</i><br><i>unendlich</i><br><i>sicher</i></td>
+</tr>
+<tr>
+  <td>Weitere Beispiele zu diesem Platzhalterzeichen finden Sie <a href="#sec-placeholders-operators">hier</a>.</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row" rowspan="2" class="text-danger">*?+</th>
+  <td rowspan="2">Die Zeichen *, ? und + sind Quantifizierer. Sie geben an, wie häufig das vorangegangene Zeichen wiederholt werden soll. * steht für eine beliebige Anzahl von Wiederholungen, ? für maximal eine Wiederholung und + für mindestens eine Wiederholung.</td>
+  <td>Sie suchen nach Zeitangaben bestehend aus einer oder mehr Ziffern gefolgt von einem Leerzeichen und dem Ausdruck "Uhr".</td>
+  <td>\d.<span class="text-danger">*</span>Uhr</td>
+  <td><i>9 Uhr</i><br><i>18 Uhr</i><br><i>11.11 Uhr</i><br><i>16:32 Uhr</i></td>
+</tr>
+<tr>
+  <td>Weitere Beispiele zu diesen und anderen Quantifizierern finden Sie <a href="#sec-placeholders-quantifiers">hier</a>.</td>
+  <td></td>
+  <td></td>
+</tr>
+</tbody>
+</table>
+
 
 
 </section>
