@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-82d654392e504105e208b76733b1c48a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -121,10 +124,6 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hilfe">    
         <li>
-    <a class="dropdown-item" href="../help/index.html">
- <span class="dropdown-text">Hilfe zur KED-Suche</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../help/login.html">
  <span class="dropdown-text">Wie logge ich mich in der KED-Suche ein?</span></a>
   </li>  
@@ -139,6 +138,10 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../help/cite.html">
  <span class="dropdown-text">Wie soll ich das KED zitieren?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../help/faq.html">
+ <span class="dropdown-text">Weitere häufige Fragen</span></a>
   </li>  
     </ul>
   </li>
@@ -226,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-searchPositions" id="toc-sec-searchPositions" class="nav-link" data-scroll-target="#sec-searchPositions">Suche mit Positionsangaben</a></li>
   <li><a href="#sec-posTags" id="toc-sec-posTags" class="nav-link" data-scroll-target="#sec-posTags">Wortartenkürzel</a></li>
   <li><a href="#sec-placeholders" id="toc-sec-placeholders" class="nav-link" data-scroll-target="#sec-placeholders">Platzhalter</a></li>
-  <li><a href="#suchen-und-filtern-mit-regulären-ausdrücken" id="toc-suchen-und-filtern-mit-regulären-ausdrücken" class="nav-link" data-scroll-target="#suchen-und-filtern-mit-regulären-ausdrücken">Suchen und Filtern mit regulären Ausdrücken</a></li>
+  <li><a href="#suchergebnisse-mit-regulären-ausdrücken-filtern" id="toc-suchergebnisse-mit-regulären-ausdrücken-filtern" class="nav-link" data-scroll-target="#suchergebnisse-mit-regulären-ausdrücken-filtern">Suchergebnisse mit regulären Ausdrücken filtern</a></li>
   </ul>
 </nav>
     </div>
@@ -992,15 +995,26 @@ ul.task-list li input[type="checkbox"] {
       <tr>
         <th scope="row">{n,m}</th>
         <td>Das Zeichen davor kommt mindestens n-mal, aber nicht öfter als m-mal vor.</td>
-        <td>"Schlos{1,3}}traße"</td>
+        <td>"Schlos{1,3}traße"</td>
         <td><i>Schlostraße, Schlosstraße, Schlossstraße</i></td>
       </tr>
     </tbody>
 </table>
 </section>
-<section id="suchen-und-filtern-mit-regulären-ausdrücken" class="level3">
-<h3 class="anchored" data-anchor-id="suchen-und-filtern-mit-regulären-ausdrücken">Suchen und Filtern mit regulären Ausdrücken</h3>
-<p>Sie können mit regulären Ausdrücken suchen und die Kontexte der Suchergebnisse filtern. Mit regulären Ausdrücken können Sie nur den Rohtext durchsuchen. Eine Suche nach Lemmata oder Wortarten ist nicht möglich. Die folgende Tabelle enthält eine Auswahl wichtiger regulärer Ausdrücke.</p>
+<section id="suchergebnisse-mit-regulären-ausdrücken-filtern" class="level3">
+<h3 class="anchored" data-anchor-id="suchergebnisse-mit-regulären-ausdrücken-filtern">Suchergebnisse mit regulären Ausdrücken filtern</h3>
+<p>Sie können die Suchergebnisse mit regulären Ausdrücken filtern. Nutzen Sie dafür die Kontextfilter im Kopf der Ergebnistabelle (<a href="#fig-filterbar" class="quarto-xref">Abbildung&nbsp;1</a>).</p>
+<div id="fig-filterbar" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-filterbar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/filterbar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle"><img src="images/filterbar.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-filterbar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
+</figcaption>
+</figure>
+</div>
+<p>Mit regulären Ausdrücken können Sie nur den Rohtext durchsuchen. Eine Suche nach Lemmata oder Wortarten ist nicht möglich. Die folgende Tabelle enthält eine Auswahl wichtiger regulärer Ausdrücke.</p>
 <!--| quarto-html-table-processing: none -->
 
 <table class="help-table">
@@ -1047,14 +1061,14 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr>
   <th scope="row" class="text-danger">^</th>
-  <td>Das Zeichen ^ wird als Anker verwendet, um den Anfang einer Zeile oder eines Strings zu kennzeichnen.</td>
+  <td>Das Zeichen ^ wird als Anker verwendet, um den Anfang einer Zeile zu kennzeichnen.</td>
   <td>Sie suchen in den Suchergebnissen nach Belegen, deren linker Kontext mit "so" beginnen. Geben Sie den folgenden Ausdruck im linken Kontextfilter ein.</td>
   <td><span class="text-danger">^</span>so</td>
   <td><i>solange ...</i><br><i>so ist ...</i></td>
 </tr>
 <tr>
   <th scope="row" class="text-danger">$</th>
-  <td>Das Zeichen $ wird als Anker verwendet, um das Ende einer Zeile oder eines Strings zu kennzeichnen.</td>
+  <td>Das Zeichen $ wird als Anker verwendet, um das Ende einer Zeile zu kennzeichnen.</td>
   <td>Sie suchen in den Suchergebnissen nach Belegen, deren rechter Kontext mit "so" endet. Geben Sie den folgenden Ausdruck im rechten Kontextfilter ein.</td>
   <td>so<span class="text-danger">$</span></td>
   <td><i>... dann ist das eben so</i><br><i>... er ist so</i></td>
@@ -1523,6 +1537,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
