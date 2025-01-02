@@ -35,7 +35,7 @@
 }
 
 .help-table th, .help-table td {
-    border-bottom: 1px solid #000; /* Adds a solid black border */
+    border-bottom: none; /* Adds a solid black border */
     padding: 8px; /* Adds padding for better spacing */
     text-align: left; /* Aligns text to the left */
 }

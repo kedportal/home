@@ -39,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-82d654392e504105e208b76733b1c48a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -270,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
   </tr>
 </thead>
 <tbody>
-  <tr>
+  <tr style="background-color: #F2F2F2;">
     <th scope="row">Einfache Wortform</th>
     <td>Wenn Sie ein Wort in einer bestimmten Form suchen, dann geben Sie diese Form ein.</td>
     <td>Sie suchen nach der Form "liest".</td>
@@ -289,20 +286,20 @@ ul.task-list li input[type="checkbox"] {
     <td><span class="text-danger">[base=</span>Kind<span class="text-danger">]</span></td>
     <td><i>Kinder, Kind, Kindes, Kindern</i></td>
   </tr>
-  <tr>
+  <tr style="background-color: #F2F2F2;">
     <th scope="row" rowspan="3">Wortarten</th>
     <td>Wenn Sie nach Belegen für eine bestimmte Wortart suchen, dann geben Sie die Wortart in einer Abkürzung mit <span class="text-danger">[pos=</span>WORTARTENKÜRZEL<span class="text-danger">]</span> ein. Die wichtigsten suchbaren Wortartenkürzel finden Sie <a href="#sec-posTags">hier</a>.</td>
     <td>Sie suchen Beispiele für unterordnende Konjunktionen. Das Wortartenkürzel ist "KOUS".</td>
     <td><span class="text-danger">[pos=</span>KOUS<span class="text-danger">]</span></td>
     <td><i>dass, ob, weil, ...</i></td>
   </tr>
-  <tr>
+  <tr style="background-color: #F2F2F2;">
     <td rowspan="2">Tipp: Mit dem Zeichen <span class="text-danger">/x</span> lassen sich Unterkategorien von Wortarten wieder zusammenfassen.</td>
     <td>Sie suchen z.B. nach Vollverben (VV), unabhängig davon, ob sie als finite, infinite oder Imperativ-formen vorkommen.</td>
     <td><span class="text-danger">[pos=</span>VV<span class="text-danger">/x]</span></td>
     <td><i>informiert, dauert, hinstellen, hilft, ...</i></td>
   </tr>
-  <tr>
+  <tr style="background-color: #F2F2F2;">
     <td>Sie suchen nach allen Vorkommen des Adjektivs "gültig", unabhängig davon, ob es attributiv, prädikativ oder adverbial verwendet wird.</td>
     <td><span class="text-danger">[base=</span>gültig <span class="text-danger">&amp; pos=</span>ADJ<span class="text-danger">/x]</span></td>
     <td><i>[ob Sie ein] gültiges [Ticket haben], [wann die Regeln] gültig</i></td>
@@ -326,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Folge einfacher Wortformen</th>
       <td>Wenn Sie eine Folge von Wörtern in einer bestimmten Form suchen, dann geben Sie die Folge in dieser Form ein.</td>
       <td>Sie suchen nach Belegen, in denen die Wortfolge "Hunde und Katzen" (in genau dieser Form) vorkommt.</td>
@@ -345,7 +342,7 @@ ul.task-list li input[type="checkbox"] {
       <td><span class="text-danger">[base=</span>der<span class="text-danger">]</span><span class="text-danger">[base=</span>Tag<span class="text-danger">]</span></td>
       <td><i>der Tag, die Tage, den Tagen</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Folge von Wortarten</th>
       <td>Sie suchen eine Folge von Wortarten.</td>
       <td>Sie suchen Beispiele für die Folge "Artikel - Adjektiv - Nomen". Geben Sie die Wortartenkürzel nacheinander ein.</td>
@@ -388,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Suche nach Wortanfängen</th>
       <td>Wenn Sie alle Wörter mit einem gemeinsamen Anfang suchen, dann geben Sie den Anfang ein, gefolgt von einem Platzhalter.</td>
       <td>Sie suchen Wörter mit "Lieblings-" am Anfang. Verwenden Sie dafür die Symbole <span class="text-danger">.</span> und <span class="text-danger">+</span>.</td>
@@ -402,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
       <td><span class="text-danger">".+</span>ling<span class="text-danger">"</span></td>
       <td><i>Frühling, Schädling, ...</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Suche nach Wortbestandteilen in beliebigen Positionen</th>
       <td>Um nach Teilen von Wörtern an beliebigen Wortpositionen zu suchen, verwenden Sie die Platzhalterzeichen <span class="text-danger">.</span> und <span class="text-danger">*</span>.</td>
       <td>Sie suchen Beispielwörter für die Schreibung mit "-ieh-" an beliebiger Position.</td>
@@ -427,7 +424,7 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Alternativen einfacher Wortformen</th>
       <td>Wenn Sie nach Beispielen für eine bestimmte Form eines Wortes oder für eine bestimmte Form eines anderen Wortes suchen, dann schreiben Sie die jeweiligen Formen in runde Klammern und trennen diese mit einem senkrechten Strich: <span class="text-danger">(</span>WORTFORM1<span class="text-danger">|</span>WORTFORM2<span class="text-danger">)</span></td>
       <td>Sie suchen nach Beispielen, in denen "Hund" oder "Katze" in diesen Formen vorkommen.</td>
@@ -441,14 +438,14 @@ ul.task-list li input[type="checkbox"] {
       <td><span class="text-danger">[base=</span>Hund<span class="text-danger">]|[base=</span>Katze<span class="text-danger">]</span></td>
       <td><i>Hund, Hunde, Hunden..., Katze, Katzen, ...</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row" rowspan="2">Alternativen von Wortfolgen</th>
       <td rowspan="2">Wenn Sie nach alternativen Wortfolgen suchen, schreiben Sie die Wortfolgen in runde Klammern <span class="text-danger">(</span>WORTFOLGE1<span class="text-danger">)|(</span>WORTFOLGE2<span class="text-danger">)</span></td>
       <td>Sie suchen Beispiele für "warme Hände" und "kalte Füße".</td>
       <td><span class="text-danger">(</span>warme Hände<span class="text-danger">)|(</span>kalte Füße<span class="text-danger">)</span></td>
       <td><i>warme Hände, kalte Füße</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <td>Sie suchen alle Formen der Wortfolgen "warme Hand" und "kalter Fuß" (Grundformensuche). </td>
       <td><span class="text-danger">(</span>[base=warm] [base=Hand]<span class="text-danger">|</span>[base=kalt] [base=Fuß]<span class="text-danger">)</span></td>
       <td><i>warme Hände, kalte Füße, kalten Füße, warmer Hand, ...</i></td>
@@ -471,19 +468,19 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row" rowspan="3">Positive Bedingungen</th>
       <td rowspan="3">Wenn Sie Ihrer Suchanfrage mit einer Bedingung verknüpfen wollen, verwenden Sie das <span class="text-danger">&amp;</span>-Zeichen. Hinweis: Um das Bedingungszeichen <span class="text-danger">&amp;</span> für einfache Wortformen zu nutzen, müssen Sie diese mit <span class="text-danger">[orth=</span>WORTFORM<span class="text-danger">]</span> angeben.</td>
       <td>Sie suchen Beispiele für "weg" als Adverb.</td>
       <td><span class="text-danger">[orth=</span>weg <span class="text-danger">&amp;</span> <span class="text-danger">pos=</span>ADV<span class="text-danger">]</span></td>
       <td><i>[damit der Wind sie weit] weg [tragen kann], [außer dass etwas] weg [ist]</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <td>Sie suchen Beispiele für "weg" als (trennbarem) Verbteil (Verbpräfix).</td>
       <td><span class="text-danger">[orth=</span>weg <span class="text-danger">&amp; pos=</span>PTKVZ<span class="text-danger">]</span></td>
       <td><i>[pumpt man das Wasser] weg, [schwemmt der Regen die Erde] weg</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <td>Sie suchen nach den Formen der Grundform "wehen" als Verbformen.</td>
       <td><span class="text-danger">[base=</span>wehen <span class="text-danger">&amp; pos=</span>VVFIN<span class="text-danger">]</span></td>
       <td><i>wehen, weht, wehte, ...</i></td>
@@ -513,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Ein Wort Abstand</th>
       <td>Um Ausdrücke zu suchen, zwischen denen ein bestimmter Abstand, d.h. eine bestimmte Anzahl von (beliebigen) Wörtern vorkommen soll, verwenden Sie eckige Klammern <span class="text-danger">[]</span> zwischen den Suchausdrücken.</td>
       <td>Sie möchten Belege für die Formen "das" und "Kind" finden, zwischen denen ein weiteres Wort steht.</td>
@@ -527,7 +524,7 @@ ul.task-list li input[type="checkbox"] {
       <td><span class="text-danger">[pos=</span>ART<span class="text-danger">] []{</span>2<span class="text-danger">}</span> Kind</td>
       <td><i>das neu geborene Kind, das sich ein Kind, der Mensch als Kind, ...</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Max./Min. N Wörter Abstand</th>
       <td>Sie können eine Mindest- und Höchstzahl an Abstandswörtern festlegen. Schreiben Sie Mindest- und Höchstzahl mit Komma getrennt in die geschweifte Klammer: <span class="text-danger">{</span>x,y<span class="text-danger">}</span></td>
       <td>Sie möchten Belege für die Formen "Kinder" und "gehen" finden, zwischen denen mindestens 1 Wort und höchstens drei Wörter stehen.</td>
@@ -552,14 +549,14 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row" rowspan="2">Groß- oder Kleinschreibung</th>
       <td rowspan="2">Wenn Sie ein Wort groß oder klein geschrieben haben möchten, dann geben Sie es mit der gewünschten Schreibung ein.</td>
       <td>Sie wollen Satzanfänge finden, die mit "Am Morgen" beginnen: Schreiben Sie "am" groß.</td>
       <td>Am Morgen</td>
       <td><i>Am Morgen</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <td>Wenn Sie "am Morgen" innerhalb von Sätzen, also kleingeschrieben, finden wollen, dann schreiben Sie "am" klein.</td>
       <td>am Morgen</td>
       <td><i>am Morgen</i></td>
@@ -589,7 +586,7 @@ ul.task-list li input[type="checkbox"] {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Suchausdruck = Satz</th>
       <td>Ihr Suchausdruck soll den gesamten Satz umfassen, also identisch mit dem Satz sein. Geben Sie <span class="text-danger">matches(&lt;base/s=s&gt;</span>, SUCHAUSDRUCK<span class="text-danger">)</span> ein.</td>
       <td>Sie suchen nach Sätzen bzw. Satzfragmenten, die aus einer Zahl und einem Nomen bestehen, etwa um Überschriften in dieser Form zu finden.</td>
@@ -603,14 +600,14 @@ ul.task-list li input[type="checkbox"] {
       <td><span class="text-danger">startsWith(&lt;base/s=s&gt;, [pos=</span>KOUS<span class="text-danger">])</span></td>
       <td><i><u>Wenn Sie die Apps sehr oft und lange nutzen</u>, denken Sie vielleicht ständig an Ihre Migräne. <u>Damit das Video von YouTube abgerufen werden kann</u>, müssen Marketing-Cookies akzeptiert werden.</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Suchausdruck am Satzende</th>
       <td>Ihr Suchausdruck soll am Satzende vorkommen.</td>
       <td>Sie suchen nach Sätzen, die auf ein prädikatives oder adverbiales Adjektiv enden.</td>
       <td><span class="text-danger">endsWith(&lt;base/s=s&gt;, [pos=</span>ADJD<span class="text-danger">])</span></td>
       <td><i>Eine Thrombose ist gefährlich. Bei Osteoporose brechen die Knochen leicht.</i></td>
     </tr>
-    <tr>
+    <tr style="background-color: #F2F2F2;">
       <th scope="row">Suchausdruck nur innerhalb eines Satzes</th>
       <td>Ihr Suchausdruck soll nur innerhalb der Grenzen eines Satzes gefunden werden.</td>
       <td>Sie suchen nach Belegen für das Wort "Kind", gefolgt vom Verb "schlafen" in einem beliebigen Abstand, aber innerhalb eines Satzes.</td>
@@ -634,7 +631,7 @@ ul.task-list li input[type="checkbox"] {
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" colspan="4">Verben</th>
         </tr>
         <tr>
@@ -658,38 +655,38 @@ ul.task-list li input[type="checkbox"] {
             <td>abgetrennter Verbzusatz</td>
             <td><i>[er kommt] <span class="text-info">an</span>, [er fährt] <span class="text-info">Rad</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="7" style="text-align: right;">infinite Verbformen</th>
             <td>VVINF</td>
             <td>Infinitiv von Vollverben</td>
             <td><i><span class="text-info">gehen</span>, <span class="text-info">ankommen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>VVIZU</td>
             <td>Infinitiv von Vollverben mit (integriertem) "zu"</td>
             <td><i><span class="text-info">anzukommen</span>, <span class="text-info">loszulassen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PTKZU</td>
             <td>"zu" vor Infinitiv</td>
             <td><i><span class="text-info">zu</span> [gehen]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>VAINF</td>
             <td>Infinitiv von Hilfsverben</td>
             <td><i><span class="text-info">haben</span>, <span class="text-info">sein</span>, <span class="text-info">werden</span>, <span class="text-info">bleiben</span>, ...</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>VMINF</td>
             <td>Infinitiv von Modalverben</td>
             <td><i><span class="text-info">wollen</span>, <span class="text-info">dürfen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>VVPP</td>
             <td>Partizip Perfekt (Partizip II) von Vollverben</td>
             <td><i><span class="text-info">gegangen</span>, <span class="text-info">angekommen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>VAPP</td>
             <td>Partizip Perfekt (Partizip II) von Hilfsverben</td>
             <td><i><span class="text-info">gewesen</span></i></td>
@@ -705,18 +702,18 @@ ul.task-list li input[type="checkbox"] {
             <td>Imperativ von Hilfsverben</td>
             <td><i><span class="text-info">Sei</span> [ruhig !]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="3">Nomen</th>
             <td>NN</td>
             <td>normales Nomen, Infinitive als Nomen</td>
             <td><i><span class="text-info">Tisch</span>, <span class="text-info">Herr</span>, [das] <span class="text-info">Reisen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>NE</td>
             <td>Eigennamen</td>
             <td><i><span class="text-info">Hans</span>, <span class="text-info">Hamburg</span>, <span class="text-info">HSV</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>TRUNC</td>
             <td>Kompositions-Erstglied</td>
             <td><i><span class="text-info">An</span>- [und Abreise]</i></td>
@@ -732,18 +729,18 @@ ul.task-list li input[type="checkbox"] {
             <td>adverbiales oder prädikatives Adjektiv</td>
             <td><i>[er fährt] <span class="text-info">schnell</span>, [er ist] <span class="text-info">schnell</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="3">Adverben</th>
             <td>ADV</td>
             <td>Adverb</td>
             <td><i><span class="text-info">schon</span>, <span class="text-info">bald</span>, <span class="text-info">doch</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PAV</td>
             <td>Pronominal-Adverb</td>
             <td><i><span class="text-info">dafür</span>, <span class="text-info">dabei</span>, <span class="text-info">deswegen</span>, <span class="text-info">trotzdem</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PTKA</td>
             <td>Partikel bei Adjektiv oder Adverb</td>
             <td><i><span class="text-info">am</span> [schönsten], <span class="text-info">zu</span> [schnell]</i></td>
@@ -764,33 +761,33 @@ ul.task-list li input[type="checkbox"] {
             <td>Postposition</td>
             <td><i>[ihm] <span class="text-info">zufolge</span>, [der Sache] <span class="text-info">wegen</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="6">Artikel</th>
             <td>ART</td>
             <td>Definit- oder Indefinit-Artikel</td>
             <td><i><span class="text-info">der</span> [Kuchen], <span class="text-info">die</span>, <span class="text-info">das</span>, <span class="text-info">ein</span>, <span class="text-info">eine</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PDAT</td>
             <td>Demonstrativ-Artikel</td>
             <td><i><span class="text-info">diese</span> [Menschen]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PPOSAT</td>
             <td>Possessiv-Artikel</td>
             <td><i><span class="text-info">mein</span> [Buch], <span class="text-info">deine</span> [Mutter]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PWAT</td>
             <td>Interrogativ-Artikel</td>
             <td><i><span class="text-info">welche</span> [Farbe], <span class="text-info">wessen</span> [Hände]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PRELAT</td>
             <td>Relativ-Artikel ("dessen" und "deren")</td>
             <td><i>[der Mann ,] <span class="text-info">dessen</span> [Hund]; [die Eltern, mit] <span class="text-info">deren</span> [Kindern]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>PIAT</td>
             <td>Weitere Artikel</td>
             <td><i><span class="text-info">kein</span> [Mensch], <span class="text-info">irgendein</span> [Glas], <span class="text-info">viele</span> [Stellen], <span class="text-info">einige</span> [Wörter], <span class="text-info">manche</span> [Leute], <span class="text-info">alle</span> [Menschen], <span class="text-info">wenig</span> [Kaffee], <span class="text-info">jeder</span> [Tag], <span class="text-info">mehrere</span> [Autos]</i></td>
@@ -836,23 +833,23 @@ ul.task-list li input[type="checkbox"] {
             <td>adverbiales Interrogativ- oder Relativpronomen</td>
             <td><i><span class="text-info">warum</span>, <span class="text-info">wo</span>, <span class="text-info">wann</span>, <span class="text-info">worüber</span>, <span class="text-info">wobei</span>, <span class="text-info">wie</span>, …</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="4">Konjunktionen</th>
             <td>KOUS</td>
             <td>Nebensatz-einleitende Konjunktion (Subjunktor)</td>
             <td><i><span class="text-info">weil</span>, <span class="text-info">dass</span>, <span class="text-info">damit</span>, <span class="text-info">wenn</span>, <span class="text-info">ob</span>, <span class="text-info">als</span>, ...</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>KOUI</td>
             <td>Infinitiv-mit-zu-Satz einleitende Konjunktion (Subjunktor)</td>
             <td><i><span class="text-info">um</span> [zu leben], <span class="text-info">anstatt</span> [zu fragen], <span class="text-info">ohne</span> [abzunehmen]</i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>KON</td>
             <td>nebenordnende Konjunktion (Konjunktor)</td>
             <td><i><span class="text-info">und</span>, <span class="text-info">oder</span>, <span class="text-info">aber</span>, <span class="text-info">denn</span>, <span class="text-info">sondern</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>KOKOM</td>
             <td>Vergleichskonjunktion</td>
             <td><i>[besser] <span class="text-info">als</span> [mein Vater], [so , ] <span class="text-info">wie</span> [ich dachte]</i></td>
@@ -873,13 +870,13 @@ ul.task-list li input[type="checkbox"] {
             <td>Interjektion</td>
             <td><i><span class="text-info">mhm</span>, <span class="text-info">ach</span>, <span class="text-info">tja</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <th scope="row" rowspan="2">Sonstige</th>
             <td>CARD</td>
             <td>Kardinalzahl</td>
             <td><i><span class="text-info">zwei</span> [Männer], [im Jahre] <span class="text-info">1994</span></i></td>
         </tr>
-        <tr>
+        <tr style="background-color: #F2F2F2;">
             <td>FM</td>
             <td>Fremdsprachliche Ausdrücke</td>
             <td><i>[Er hat das mit “] <span class="text-info">A big fish</span> [” übersetzt]</i></td>
@@ -922,7 +919,7 @@ ul.task-list li input[type="checkbox"] {
         </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row" colspan="4" id="sec-placeholders-operators">Operatoren</th>
       </tr>
       <tr>
@@ -935,7 +932,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"Fr..de"</td>
         <td><i>Fremde, Freude, Friede</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row">()</th>
         <td>Runde Klammern umfassen eine Gruppe von Zeichen, Zeichenfolgen oder Wörtern. Hinweis: Werden bei der Suche normalerweise zusammen mit <b><span class="text-info">|</span></b> verwendet.</td>
         <td>"Fr(ie|eu)de"</td>
@@ -947,7 +944,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"Fr(ie|eu|em)de"</td>
         <td><i>Friede, Freude, Fremde</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row">[]</th>
         <td>Eckige Klammern umfassen alternative Zeichen.</td>
         <td>"H[au]nd"</td>
@@ -959,7 +956,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"b.w\."</td>
         <td><i>bzw.</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row" colspan="4" id="sec-placeholders-quantifiers">Quantifizierer</th>
       </tr>
       <tr>
@@ -968,7 +965,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"kl?eine" Kinder</td>
         <td><i>kleine Kinder, keine Kinder</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row">*</th>
         <td>Das Zeichen davor kommt 0 mal oder beliebig oft vor.</td>
         <td>".*ab"</td>
@@ -980,7 +977,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"Schif+ahrt"</td>
         <td><i>Schiffahrt, Schifffahrt, Schiffffahrt</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row">{n}</th>
         <td>Das Zeichen davor kommt genau n-mal vor.</td>
         <td>"Rha(bar){2}"</td>
@@ -992,7 +989,7 @@ ul.task-list li input[type="checkbox"] {
         <td>"(K|k)an{1,}te"</td>
         <td><i>kannte, Kante, Kannte</i></td>
       </tr>
-      <tr>
+      <tr style="background-color: #F2F2F2;">
         <th scope="row">{n,m}</th>
         <td>Das Zeichen davor kommt mindestens n-mal, aber nicht öfter als m-mal vor.</td>
         <td>"Schlos{1,3}traße"</td>
@@ -1003,14 +1000,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="suchergebnisse-mit-regulären-ausdrücken-filtern" class="level3">
 <h3 class="anchored" data-anchor-id="suchergebnisse-mit-regulären-ausdrücken-filtern">Suchergebnisse mit regulären Ausdrücken filtern</h3>
-<p>Sie können die Suchergebnisse mit regulären Ausdrücken filtern. Nutzen Sie dafür die Kontextfilter im Kopf der Ergebnistabelle (<a href="#fig-filterbar" class="quarto-xref">Abbildung&nbsp;1</a>).</p>
-<div id="fig-filterbar" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>Sie können die Suchergebnisse mit regulären Ausdrücken filtern. Nutzen Sie dafür den Kontextfilter oder die Filter im Kopf der Ergebnistabelle (<a href="#fig-filter" class="quarto-xref">Abbildung&nbsp;1</a>).</p>
+<div id="fig-filter" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-filterbar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/filterbar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle"><img src="images/filterbar.png" class="img-fluid figure-img"></a>
+<div aria-describedby="fig-filter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/filter.webp" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-filterbar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-filter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Kontextfilter
 </figcaption>
 </figure>
 </div>
@@ -1028,19 +1025,19 @@ Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
   </tr>
 </thead>
 <tbody>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <th scope="row" rowspan="3" class="text-danger">\b</th>
   <td rowspan="3">Der Ausdruck \b markiert eine Wortgrenze. Eine Wortgrenze ist der Punkt zwischen einem Wortzeichen (z. B. Buchstaben oder Zahlen) und einem Nicht-Wortzeichen (z. B. Leerzeichen, Satzzeichen oder dem Anfang/Ende einer Zeile).</td>
   <td>Sie suchen nach der Form "so".</td>
   <td><span class="text-danger">\b</span>so<span class="text-danger">\b</span></td>
   <td><i>so<i>&nbsp;[am&nbsp;Ende&nbsp;der&nbsp;Zeile]<br>so&nbsp;</i>&nbsp;[mit&nbsp;Leerzeichen]<br><i>so,</i>&nbsp;[mit&nbsp;Komma]<br><i>so!&nbsp;[mit&nbsp;Ausrufezeichen]</i><br>(aber nicht: <i>sofort</i>, <i>also</i>, <i>Isolde</i> etc.)</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <td>Sie suchen nach Formen, die auf "so" enden.</td>
   <td>so<span class="text-danger">\b</span></td>
   <td><i>so</i><br><i>ebenso</i><br><i>also</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <td>Sie suchen nach Formen, die mit "So" (groß geschrieben) beginnen.</td>
   <td><span class="text-danger">\b</span>So</td>
   <td><i>So</i><br><i>Sofort</i><br><i>Sonst</i></td>
@@ -1052,7 +1049,7 @@ Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
   <td>\b<span class="text-danger">[</span>Ss<span class="text-danger">]</span>o\b</td>
   <td><i>So</i><br><i>so</i><br><i>So!</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <th scope="row" class="text-danger">|</th>
   <td>Das Zeichen | wird als logisches "ODER" verwendet. Es ermöglicht, zwischen mehreren Alternativen zu wählen. Nutzen Sie runde Klammern (...), um komplexere Ausdrücke zu erstellen.</td>
   <td>Sie suchen nach den Formen "desto" oder "umso".</td>
@@ -1066,7 +1063,7 @@ Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
   <td><span class="text-danger">^</span>so</td>
   <td><i>solange ...</i><br><i>so ist ...</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <th scope="row" class="text-danger">$</th>
   <td>Das Zeichen $ wird als Anker verwendet, um das Ende einer Zeile zu kennzeichnen.</td>
   <td>Sie suchen in den Suchergebnissen nach Belegen, deren rechter Kontext mit "so" endet. Geben Sie den folgenden Ausdruck im rechten Kontextfilter ein.</td>
@@ -1080,7 +1077,7 @@ Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
   <td><span class="text-danger">\d\d\d\d</span></td>
   <td><i>1984</i><br><i>2024</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <th scope="row" class="text-danger">\w</th>
   <td>Das Zeichen \w steht für ein Wortzeichen. Es repräsentiert jeden alphanumerischen Charakter, einschließlich Buchstaben (sowohl Groß- als auch Kleinbuchstaben), Ziffern und dem Unterstrich (_).</td>
   <td>Sie suchen nach der Zeichenfolge "ein" im Innern oder am Ende eines Wortes.</td>
@@ -1099,14 +1096,14 @@ Abbildung&nbsp;1: Kontextfilter im Kopf der Ergebnistabelle
   <td></td>
   <td></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <th scope="row" rowspan="2" class="text-danger">*?+</th>
   <td rowspan="2">Die Zeichen *, ? und + sind Quantifizierer. Sie geben an, wie häufig das vorangegangene Zeichen wiederholt werden soll. * steht für eine beliebige Anzahl von Wiederholungen, ? für maximal eine Wiederholung und + für mindestens eine Wiederholung.</td>
   <td>Sie suchen nach Zeitangaben bestehend aus einer oder mehr Ziffern gefolgt von einem Leerzeichen und dem Ausdruck "Uhr".</td>
   <td>\d.<span class="text-danger">*</span>Uhr</td>
   <td><i>9 Uhr</i><br><i>18 Uhr</i><br><i>11.11 Uhr</i><br><i>16:32 Uhr</i></td>
 </tr>
-<tr>
+<tr style="background-color: #F2F2F2;">
   <td>Weitere Beispiele zu diesen und anderen Quantifizierern finden Sie <a href="#sec-placeholders-quantifiers">hier</a>.</td>
   <td></td>
   <td></td>
@@ -1537,38 +1534,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
