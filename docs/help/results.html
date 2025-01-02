@@ -240,7 +240,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#suchfunktionen" id="toc-suchfunktionen" class="nav-link active" data-scroll-target="#suchfunktionen">Suchfunktionen</a></li>
-  <li><a href="#suchergebnisse-beispiele" id="toc-suchergebnisse-beispiele" class="nav-link" data-scroll-target="#suchergebnisse-beispiele">Suchergebnisse / Beispiele</a></li>
+  <li><a href="#suchergebnisse" id="toc-suchergebnisse" class="nav-link" data-scroll-target="#suchergebnisse">Suchergebnisse</a></li>
   </ul>
 </nav>
     </div>
@@ -266,13 +266,36 @@ div.csl-indent {
 </header>
 
 
-<section id="suchfunktionen" class="level2">
-<h2 class="anchored" data-anchor-id="suchfunktionen">Suchfunktionen</h2>
-<div style="float: left; margin-right: 15px;">
-<div id="fig-sidebar" class="quarto-float quarto-figure quarto-figure-center anchored">
+
+<style>
+.header-section-number {
+  color: white;
+  border: solid white 1px;
+  background-color: rgba(66, 139, 202, 0.8); /* 20% transparency */
+  font-size: 12pt;
+  width: 40px; /* Set width */
+  height: 40px; /* Set height equal to width */
+  border-radius: 50%; /* This makes it circular */
+  display: inline-flex; /* Optional: Center content */
+  align-items: center; /* Optional: Center content vertically */
+  justify-content: center; /* Optional: Center content horizontally */
+  margin: 0 auto; /* Optional: Center the circle horizontally in its container */
+}
+
+figure {
+  background-color: white;
+}
+
+</style>
+
+<section id="suchfunktionen" class="level1 unnumbered">
+<h1 class="unnumbered">Suchfunktionen</h1>
+<div>
+<div style="position: sticky; float: left; top: 10px; z-score: 1000; background-color: white;">
+<div id="fig-sidebar" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-height: 80vh; width: auto; margin-right: 15px; margin-bottom: 15px;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sidebar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/sidebar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Suchfunktionen"><img src="images/sidebar.png" class="img-fluid figure-img"></a>
+<a href="images/sidebar.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Suchfunktionen"><img src="images/sidebar.svg" class="img-fluid figure-img" style="max-height: 80vh; width: auto; margin-right: 15px; margin-bottom: 15px;"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sidebar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Abbildung&nbsp;1: Suchfunktionen
@@ -280,25 +303,29 @@ Abbildung&nbsp;1: Suchfunktionen
 </figure>
 </div>
 </div>
-<section id="sucheingabe-beispielsuche" class="level4">
-<h4 class="anchored" data-anchor-id="sucheingabe-beispielsuche">Sucheingabe / Beispielsuche</h4>
-<p>Geben Sie in Ihren Suchausdruck in der Sucheingabe ein und drücken Sie die Eingabetaste auf Ihrer Tastatur. Sie erhalten eine zufällige Auswahl von 25 Belegen für Ihren Suchausdruck aus dem Korpus. Die Belege werden im Panel <i>Suchergebnisse</i> in einer Tabelle (Konkordanzliste) angezeigt.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+
+</div><div class="column" style="width:48%;">
+<section id="sucheingabe" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="1">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="1"><span class="header-section-number">1</span> Sucheingabe</h1>
+<p>Geben Sie in Ihren Suchausdruck in der Sucheingabe ein und drücken Sie die Eingabetaste auf Ihrer Tastatur. Sie erhalten eine zufällige Auswahl von 25 Belegen für Ihren Suchausdruck aus dem Korpus. Die Belege werden im Panel <a href="#fig-kwics"><i>Belege</i></a> in Form einer Tabelle (Konkordanzliste) angezeigt.</p>
 </section>
-<section id="statistik" class="level4">
-<h4 class="anchored" data-anchor-id="statistik">Statistik</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Statistik</button> erhalten Sie Angaben zur Häufigkeit und Verteilung Ihres Suchausdrucks im Korpus. Die Angaben werden im Panel <i>Statistik</i> als Balkendiagramme dargestellt. Die Größe der Balken gibt an, wie oft Ihr Suchausdruck in den verschiedenen Teilen des Korpus (verschiedene Adressaten, Textsorten, Themen und Vertextungsstrategien) gefunden wurde. Die Anzahl der Treffer wird in Promille angegeben (Anzahl pro 1.000 Wörter).</p>
+<section id="statistik" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="2">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="2"><span class="header-section-number">2</span> Statistik</h1>
+<p>Mit der Schaltfläche <strong>Statistik</strong> erhalten Sie Angaben zur Häufigkeit und Verteilung Ihres Suchausdrucks im Korpus. Die Angaben werden im Panel <a href="#fig-statistics"><i>Statistik</i></a> als Balkendiagramme dargestellt.</p>
 </section>
-<section id="texte" class="level4">
-<h4 class="anchored" data-anchor-id="texte">Texte</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Texte</button> erhalten Sie Angaben zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Die Angaben werden im Panel <i>Texte</i> angezeigt. Unter <i>Titel</i> werden die Titel der Texte angezeigt. Unter <i>n Beispiele</i> wird die Anzahl der Treffer für Ihren Suchausdruck im jeweiligen Text angezeigt. Unter <i>n Textwörter</i> wird die Anzahl der Wörter im jeweiligen Text angezeigt. Unter <i>Herder1K</i> wird angegeben, wie viel Prozent der Textwörter in den 1.000 häufigsten Wörtern des Deutschen enthalten sind. Unter <i>Textarchiv</i> finden Sie Links zu den Volltexten. Die Links führen Sie zur Originalquelle oder zu einer Kopie der Originalquelle im <i>Internet Archive</i>. Unter <i>Lizenz</i> sind die Nutzungsrechte der Originalquelle angegeben (cc: Creative Commons, oder ©: urheberrechtlich geschützt).</p>
+<section id="texte" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="3">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="3"><span class="header-section-number">3</span> Texte</h1>
+<p>Mit der Schaltfläche <strong>Texte</strong> erhalten Sie Angaben zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Die Angaben werden im Panel <a href="#fig-texts"><i>Texte</i></a> angezeigt.</p>
 </section>
-<section id="n-gramme" class="level4">
-<h4 class="anchored" data-anchor-id="n-gramme">N-Gramme</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">N-Gramme</button> finden Sie häufige N-Gramme im Kontext Ihres Suchausdrucks. N-Gramme sind Wortfolgen einer bestimmten Länge. Die 20 häufigsten N-Gramme und ihre Häufigkeit werden im Panel <i>N-Gramme</i> als Tabelle angezeigt. Sie können die Spalten alphabetisch und nach Häufigkeit sortieren. Klicken Sie dazu auf die Spalten-Überschriften <i>N-Gramme</i> und <i>Häufigkeit</i>. Sie können die Spalten der Tabelle nach bestimmten Ausdrücken und nach bestimmten Häufigkeiten durchsuchen bzw. filtern. Geben Sie dazu einen Suchausdruck oder einen Häufigkeitsbereich in das entsprechende Eingabefeld ein. Standardmäßig werden Zwei-Wort-Abfolgen (2-Gramme) angezeigt. Unter <i>Länge</i> können Sie die Länge der N-Gramme ändern. Unter <i>Lücke</i> können Sie einstellen, ob Sie einen Abstand zwischen den Wörtern eines N-Gramms erlauben wollen und wie groß der Abstand sein darf.</p>
+<section id="n-gramme" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="4">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="4"><span class="header-section-number">4</span> N-Gramme</h1>
+<p>Mit der Schaltfläche <strong>N-Gramme</strong> finden Sie häufige N-Gramme im Kontext Ihres Suchausdrucks. N-Gramme sind Wortfolgen einer bestimmten Länge. Die 20 häufigsten N-Gramme und ihre Häufigkeit werden im Panel <a href="#fig-ngrams"><i>N-Gramme</i></a> als Tabelle angezeigt.</p>
 </section>
-<section id="kollokationen" class="level4">
-<h4 class="anchored" data-anchor-id="kollokationen">Kollokationen</h4>
-<p>Mit der Schaltfläche <button class="btn btn-default action-button btn-sm shiny-bound-input">Kollokationen</button> finden Sie die 25 häufigsten Kollokate Ihres Suchausdrucks. Kollokate sind Wörter, die besonders häufig zusammen mit Ihrem Suchausdruck verwendet werden und zusammen eine Kollokation bilden (z.B. <i>Hoffnung+hegen</i> oder <i>Zeit+vergehen</i>). Die Kollokationen werden im Panel <i>Kollokationen</i> als Netzwerk dargestellt. In der Mitte des Netzwerks befindet sich Ihr Suchausdruck. Um ihn herum sind seine Kollokate angeordnet. Die Größe der Kollokate und ihre Nähe zum Suchausdruck zeigen ihre gegenseitige Anziehungskraft an (Kollokationsstärke, ‚pointwise mutual information‘).</p>
+<section id="kollokationen" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="5">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="5"><span class="header-section-number">5</span> Kollokationen</h1>
+<p>Mit der Schaltfläche <strong>Kollokationen</strong> finden Sie die 25 häufigsten Kollokate Ihres Suchausdrucks. Kollokate sind Wörter, die besonders häufig zusammen mit Ihrem Suchausdruck verwendet werden und zusammen eine Kollokation bilden (z.B. <i>Hoffnung+hegen</i> oder <i>Zeit+vergehen</i>). Die Kollokationen werden im Panel <a href="#fig-collocs"><i>Kollokationen</i></a> als Netzwerk dargestellt.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -313,59 +340,146 @@ Hinweis
 </div>
 </div>
 </section>
-<section id="kontextlänge-einstellen" class="level4">
-<h4 class="anchored" data-anchor-id="kontextlänge-einstellen">Kontextlänge einstellen</h4>
+<section id="kontextlänge-einstellen" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="6">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="6"><span class="header-section-number">6</span> Kontextlänge einstellen</h1>
 <p>Unter <strong>Kontextlänge einstellen</strong> können Sie die Länge des Kontextes vor und nach dem Suchausdruck einstellen.</p>
 </section>
-<section id="korpussuche-einschränken" class="level4">
-<h4 class="anchored" data-anchor-id="korpussuche-einschränken">Korpussuche einschränken</h4>
+<section id="korpussuche-einschränken" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="7">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="7"><span class="header-section-number">7</span> Korpussuche einschränken</h1>
 <p>Über die Dropdown-Listen <strong>Textsorte</strong>, <strong>Adressaten</strong>, <strong>Vertextungsstrategie</strong> und <strong>Thema</strong> können Sie die Korpussuche auf eine bestimmte Auswahl einschränken, z. B. auf Texte, die für Kinder geschrieben wurden, oder auf Texte, die dem Themenbereich <em>Gesundheit und Krankheit</em> zugeordnet sind.</p>
 </section>
-<section id="textlänge" class="level4">
-<h4 class="anchored" data-anchor-id="textlänge">Textlänge</h4>
+<section id="textlänge" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="8">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="8"><span class="header-section-number">8</span> Textlänge</h1>
 <p>Mit dem Schieberegler <strong>Textlänge</strong> wird die Suche auf Texte mit einer bestimmten Länge (in Wörtern) eingeschränkt.</p>
 </section>
-<section id="textdeckung-herder1k" class="level4">
-<h4 class="anchored" data-anchor-id="textdeckung-herder1k">Textdeckung: Herder1K</h4>
+<section id="textdeckung-herder1k" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="9">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="9"><span class="header-section-number">9</span> Textdeckung: Herder1K</h1>
 <p>Mit dem Schieberegler <strong>Textdeckung</strong> können Sie die Auswahl auf Texte mit einer bestimmten Textdeckung eingeschränkt. Der Wert gibt an, wie viel Prozent der Wörter eines Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören. Die Angabe 59% bedeutet z.B., dass 59% der Wörter dieses Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören <span class="citation" data-cites="tschirner2020">(nach der Herder-Liste, <a href="#ref-tschirner2020" role="doc-biblioref">Tschirner und Möhring 2020</a>)</span>. Wenn Sie die 1.000 häufigsten Wörter der deutschen Sprache kennen, dann kennen Sie 59% der Wörter in diesem Text, 41% sind Ihnen noch unbekannt. Je höher die Werte, desto einfacher sind die Texte in Bezug auf den Wortschatz.</p>
 </section>
-<section id="quellen" class="level4">
-<h4 class="anchored" data-anchor-id="quellen">Quellen</h4>
-<p>Über die Dropdown-Liste <em>Quellen</em> können Sie die Korpussuche auf bestimmte Textquellen einschränken. Die einzelnen Quellen werden <a href="../sources/index.html">hier</a> genauer beschrieben.</p>
+<section id="quellen" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="10">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="10"><span class="header-section-number">10</span> Quellen</h1>
+<p>Über die Dropdown-Liste <strong>Quellen</strong> können Sie die Korpussuche auf bestimmte Textquellen einschränken. Die einzelnen Quellen werden <a href="../sources/index.html">hier</a> genauer beschrieben.</p>
 </section>
+</div>
+</div>
+</div>
 </section>
-<section id="suchergebnisse-beispiele" class="level2">
-<h2 class="anchored" data-anchor-id="suchergebnisse-beispiele">Suchergebnisse / Beispiele</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="images/kwics_table.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Konkordanzliste"><img src="images/kwics_table.png" class="img-fluid figure-img" alt="Konkordanzliste"></a></p>
-<figcaption>Konkordanzliste</figcaption>
+<section id="suchergebnisse" class="level1 unnumbered">
+<h1 class="unnumbered">Suchergebnisse</h1>
+<div style="margin-bottom: 50px;">
+<div style="position: sticky; float: center; top: 10px; z-score: 1000; background-color: white;">
+<div id="fig-kwics" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-height: 40vh; width: auto;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-kwics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/results_kwics.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2: Belege"><img src="images/results_kwics.svg" class="img-fluid figure-img" style="max-height: 40vh; width: auto;"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kwics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Belege
+</figcaption>
 </figure>
 </div>
-<section id="unterschiedliche-ergebnismengen-ausgeben" class="level4">
-<h4 class="anchored" data-anchor-id="unterschiedliche-ergebnismengen-ausgeben">Unterschiedliche Ergebnismengen ausgeben</h4>
-<p>Über die ersten 25 Zufallsbelege hinaus können Sie mit <button class="btn btn-default action-button btn-sm shiny-bound-input">+25</button>, <button class="btn btn-default action-button btn-sm shiny-bound-input">+50</button> und <button class="btn btn-default action-button btn-sm shiny-bound-input">+100</button> weitere Belege hinzufügen oder mit <button class="btn btn-default action-button btn-sm shiny-bound-input">alle</button> die restlichen Belege anzeigen lassen.</p>
+</div>
+<section id="belege-exportieren" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="11">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="11"><span class="header-section-number">11</span> Belege exportieren</h1>
+<p>Mit der Schaltfläche <strong>Belege exportieren</strong> können Sie alle gefundenen Belege zusammen mit Angaben zu den Quelltexten (Text-ID, Adressaten, Textsorte, Vertextungsstrategie, Thema) als formatierte Excel-Datei herunterladen.</p>
 </section>
-<section id="länge-der-beispielliste-einstellen" class="level4">
-<h4 class="anchored" data-anchor-id="länge-der-beispielliste-einstellen">Länge der Beispielliste einstellen</h4>
-<p>Über die Dropdown-Liste können Sie zwischen 10 und 100 Treffer in der Beispieltabelle anzeigen lassen. Über die Navigation rechts unterhalb der Tabelle können Sie weitere Trefferseiten auswählen und zwischen den Seiten hin und her wechseln.</p>
+<section id="zwischenablage-und-excel" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="12">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="12"><span class="header-section-number">12</span> Zwischenablage und Excel</h1>
+<p>Mit den Schaltflächen <strong>Zwischenablage</strong> und <strong>Excel</strong> können Sie die in der Ergebnistabelle angezeigten Belege als unformatierten Text ohne weitere Angaben in die Zwischenablage kopieren bzw. als Excel-Datei herunterladen.</p>
 </section>
-<section id="filtern-und-sortieren" class="level4">
-<h4 class="anchored" data-anchor-id="filtern-und-sortieren">Filtern und Sortieren</h4>
-<p>Sie können die Tabelle mit den Suchergebnissen nach bestimmten Ausdrücken filtern, um passendere Ergebnisse zu erhalten. Mit dem Kontextfilter wird die gesamte Tabelle gefiltert, mit dem linken und rechten Kontextfilter wird der Kontext vor bzw. nach dem Suchausdruck gefiltert. Die Eingabesyntax für Filterausdrücke ist <a href="https://korpus-einfaches-deutsch.de/help/search.html">hier</a> näher erläutert.</p>
-<p>Sie können die Spalten der Tabelle alphabetisch sortieren. Klicken Sie dazu auf die Spaltenüberschriften <em>Linker Kontextfilter</em>, <em>Suchausdruck</em> oder <em>Rechter Kontextfilter</em>. Hinweis: Alle Textspalten werden aus technischen Gründen von links nach rechts sortiert.</p>
+<section id="länge-der-ergebnistabelle-einstellen" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="13">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="13"><span class="header-section-number">13</span> Länge der Ergebnistabelle einstellen</h1>
+<p>Über die Dropdown-Liste können Sie auswählen, wieviele Belege in der Ergebnistabelle angezeigt werden sollen.</p>
 </section>
-<section id="weitere-angaben-zu-einzelnen-belegen" class="level4">
-<h4 class="anchored" data-anchor-id="weitere-angaben-zu-einzelnen-belegen">Weitere Angaben zu einzelnen Belegen</h4>
-<p>Sie können sich Details zu den einzelnen Belegen anzeigen lassen. Klicken Sie dazu in der Tabelle auf die gewünschte Zeile. Unterhalb der Tabelle erscheinen weitere Informationen zum Text, einschließlich des Links zur Quelle.</p>
+<section id="filtern-und-sortieren" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="14">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="14"><span class="header-section-number">14</span> Filtern und Sortieren</h1>
+<p>Sie können die Ergebnistabelle nach bestimmten Ausdrücken filtern, um relevantere Ergebnisse zu erhalten. Mit dem Kontextfilter wird die gesamte Tabelle gefiltert, mit dem linken und rechten Kontextfilter und dem Suchausdruckfilter werden die Kontexte vor und nach dem Suchausdruck bzw. die Formen des Suchausdrucks gefiltert. Die Eingabesyntax für Filterausdrücke ist <a href="https://korpus-einfaches-deutsch.de/help/search.html">hier</a> näher erläutert.</p>
+<p>Sie können die Spalten der Ergebnistabelle alphabetisch sortieren. Klicken Sie dazu auf die Spaltenüberschriften <em>Linker Kontext</em>, <em>Suchausdruck</em> oder <em>Rechter Kontext</em>. Hinweis: Alle Textspalten werden aus technischen Gründen von links nach rechts sortiert.</p>
 </section>
-<section id="exportieren-von-belegen" class="level4">
-<h4 class="anchored" data-anchor-id="exportieren-von-belegen">Exportieren von Belegen</h4>
-<p>Sie können Belege auf drei verschiedene Arten exportieren. Sie können die Belege mit <button class="btn btn-default action-button btn-sm shiny-bound-input">Herunterladen</button> als Excel-Tabelle herunterladen. Die heruntergeladene Tabelle enthält neben den Belegen noch weitere Angaben zum Quelltext (Text-ID, Adressaten, Textsorte, Vertextungsstrategie, Thema). Sie können die Belege einschließlich der Text-ID mit den Schaltflächen <button class="btn btn-default action-button btn-sm shiny-bound-input">Kopieren</button> in die Zwischenablage kopieren. Sie können einzelne oder mehrere Belege kopieren, indem Sie sie wie in einem Textprogramm auswählen und mit Kopieren-und-Einfügen in ein anderes Textdokument übertragen.</p>
+<section id="ergebnistabelle-durchblättern" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="15">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="15"><span class="header-section-number">15</span> Ergebnistabelle durchblättern</h1>
+<p>Über die Navigation rechts unterhalb der Tabelle können Sie weitere Ergbnisseiten auswählen und zwischen den Seiten der Ergebnistabelle hin und her wechseln.</p>
+</section>
+<section id="weitere-angaben-zu-einzelnen-belegen" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="16">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="16"><span class="header-section-number">16</span> Weitere Angaben zu einzelnen Belegen</h1>
+<p>Sie können sich Details zu den einzelnen Belegen anzeigen lassen. Klicken Sie dazu auf die gewünschte Zeile in der Ergebnistabelle. Unterhalb der Tabelle erscheinen weitere Informationen zum Text, einschließlich des Links zur Quelle.</p>
+</section>
+</div>
+<div class="clearfix">
+<div style="float: left;">
+<div id="fig-statistics" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-statistics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/results_statistics.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Abbildung&nbsp;3: Texte"><img src="images/results_statistics.svg" class="img-fluid figure-img" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-statistics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;3: Texte
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="statistik-1" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="17">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="17"><span class="header-section-number">17</span> Statistik</h1>
+<p>Die Größe der Balken gibt an, wie oft Ihr Suchausdruck in den verschiedenen Teilen des Korpus (verschiedene Adressaten, Textsorten, Themen und Vertextungsstrategien) gefunden wurde. Die Anzahl der Treffer wird in Promille angegeben (Anzahl pro 1.000 Wörter).</p>
+</section>
+</div>
+<div class="clearfix">
+<div style="float: right;">
+<div id="fig-texts" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-texts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/results_texts.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Abbildung&nbsp;4: Texte"><img src="images/results_texts.svg" class="img-fluid figure-img" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-texts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;4: Texte
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="texte-1" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="18">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="18"><span class="header-section-number">18</span> Texte</h1>
+<p>Angezeigt werden bis zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Unter <i>Titel</i> werden die Titel der Texte angezeigt. Unter <i>n Beispiele</i> wird die Anzahl der Treffer für Ihren Suchausdruck im jeweiligen Text angezeigt. Unter <i>n Textwörter</i> wird die Anzahl der Wörter im jeweiligen Text angezeigt. Unter <i>Herder1K</i> wird angegeben, wie viel Prozent der Textwörter in den 1.000 häufigsten Wörtern des Deutschen enthalten sind. Unter <i>Textarchiv</i> finden Sie Links zu den Volltexten. Die Links führen Sie zur Originalquelle oder zu einer Kopie der Originalquelle im <i>Internet Archive</i>. Unter <i>Lizenz</i> sind die Nutzungsrechte der Originalquelle angegeben (cc: Creative Commons, oder ©: urheberrechtlich geschützt).</p>
+</section>
+</div>
+<div class="clearfix">
+<div style="float: left;">
+<div id="fig-ngrams" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ngrams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/results_ngrams.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Abbildung&nbsp;5: N-Gramme"><img src="images/results_ngrams.svg" class="img-fluid figure-img" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ngrams-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5: N-Gramme
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="n-gramme-1" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="19">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="19"><span class="header-section-number">19</span> N-Gramme</h1>
+<p>Angezeigt werden die 20 häufigsten N-Gramme Ihres Suchausdrucks. Sie können die Spalten alphabetisch und nach Häufigkeit sortieren. Klicken Sie dazu auf die Spalten-Überschriften <i>N-Gramme</i> und <i>Häufigkeit</i>. Sie können die Spalten der Tabelle nach bestimmten Ausdrücken und nach bestimmten Häufigkeiten durchsuchen bzw. filtern. Geben Sie dazu einen Suchausdruck oder einen Häufigkeitsbereich in das entsprechende Eingabefeld ein. Standardmäßig werden Zwei-Wort-Abfolgen (2-Gramme) angezeigt. Unter <i>Länge</i> können Sie die Länge der N-Gramme ändern. Unter <i>Lücke</i> können Sie einstellen, ob Sie einen Abstand zwischen den Wörtern eines N-Gramms erlauben wollen und wie groß der Abstand sein darf.</p>
+</section>
+</div>
+<div class="clearfix">
+<div style="float: left;">
+<div id="fig-collocs" class="quarto-float quarto-figure quarto-figure-center anchored" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-collocs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/results_collocs.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Abbildung&nbsp;6: Kollokationen"><img src="images/results_collocs.svg" class="img-fluid figure-img" style="max-width: 40vh; width: auto; margin-right: 15px; margin-bottom: 15px;"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-collocs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6: Kollokationen
+</figcaption>
+</figure>
+</div>
+</div>
+<section id="kollokationen-1" class="level1" style="margin-top: 0px; font-size: 14pt;" data-number="20">
+<h1 style="margin-top: 0px; font-size: 14pt;" data-number="20"><span class="header-section-number">20</span> Kollokationen</h1>
+<p>Angezeigt werden die 25 häufigsten Kollokate Ihres Suchausdrucks. In der Mitte des Netzwerks befindet sich Ihr Suchausdruck. Um ihn herum sind seine Kollokate angeordnet. Die Größe der Kollokate und ihre Nähe zum Suchausdruck zeigen ihre gegenseitige Anziehungskraft an (Kollokationsstärke, ‚pointwise mutual information‘).</p>
+</section>
+</div>
 
 
 
-</section>
 </section>
 
 <p>© Daniel Jach und Gunther Dietz 2024. All rights reserved. | <a href="imprint.html">Impressum</a></p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">

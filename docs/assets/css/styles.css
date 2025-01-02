@@ -99,4 +99,8 @@ ubb {
   border-bottom: 2px solid #3498DB;
 }
 
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
