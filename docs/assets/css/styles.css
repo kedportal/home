@@ -92,15 +92,31 @@
 
 
 ubr {
-  border-bottom: 2px solid #E74C3C;
+  border-bottom: 1.5px solid #E74C3C;
 }
 
 ubb {
-  border-bottom: 2px solid #3498DB;
+  border-bottom: 1.5px solid #3498DB;
 }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+hlb {
+    background-color: rgba(52, 152, 219, 0.2); 
+    color: black; 
+    padding: 1px; 
+    border-radius: 2px; 
+}
+
+
+.nice-img {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.3s ease;
 }
