@@ -70,74 +70,172 @@
     "text": "Suchfunktionen\n\n\n\n\n\n\n\n\nAbbildung 1: Suchfunktionen\n\n\n\n\n\n\n\n\n\n1 Sucheingabe\nGeben Sie in Ihren Suchausdruck in der Sucheingabe ein und drücken Sie die Eingabetaste auf Ihrer Tastatur. Sie erhalten eine zufällige Auswahl von 25 Belegen für Ihren Suchausdruck aus dem Korpus. Die Belege werden im Panel Belege in Form einer Tabelle (Konkordanzliste) angezeigt.\n\n\n2 Statistik\nMit der Schaltfläche Statistik erhalten Sie Angaben zur Häufigkeit und Verteilung Ihres Suchausdrucks im Korpus. Die Angaben werden im Panel Statistik als Balkendiagramme dargestellt.\n\n\n3 Texte\nMit der Schaltfläche Texte erhalten Sie Angaben zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Die Angaben werden im Panel Texte angezeigt.\n\n\n4 N-Gramme\nMit der Schaltfläche N-Gramme finden Sie häufige N-Gramme im Kontext Ihres Suchausdrucks. N-Gramme sind Wortfolgen einer bestimmten Länge. Die 20 häufigsten N-Gramme und ihre Häufigkeit werden im Panel N-Gramme als Tabelle angezeigt.\n\n\n5 Kollokationen\nMit der Schaltfläche Kollokationen finden Sie die 25 häufigsten Kollokate Ihres Suchausdrucks. Kollokate sind Wörter, die besonders häufig zusammen mit Ihrem Suchausdruck verwendet werden und zusammen eine Kollokation bilden (z.B. Hoffnung+hegen oder Zeit+vergehen). Die Kollokationen werden im Panel Kollokationen als Netzwerk dargestellt.\n\n\n\n\n\n\nHinweis\n\n\n\nWenn Sie die folgenden Einstellungen nach Ihrer Sucheingabe ändern, gehen eventuell bereits gemachte Filterangaben in der Konkordanzliste verloren und müssen neu eingegeben werden.\n\n\n\n\n6 Kontextlänge einstellen\nUnter Kontextlänge einstellen können Sie die Länge des Kontextes vor und nach dem Suchausdruck einstellen.\n\n\n7 Korpussuche einschränken\nÜber die Dropdown-Listen Textsorte, Adressaten, Vertextungsstrategie und Thema können Sie die Korpussuche auf eine bestimmte Auswahl einschränken, z. B. auf Texte, die für Kinder geschrieben wurden, oder auf Texte, die dem Themenbereich Gesundheit und Krankheit zugeordnet sind.\n\n\n8 Textlänge\nMit dem Schieberegler Textlänge wird die Suche auf Texte mit einer bestimmten Länge (in Wörtern) eingeschränkt.\n\n\n9 Textdeckung: Herder1K\nMit dem Schieberegler Textdeckung können Sie die Auswahl auf Texte mit einer bestimmten Textdeckung eingeschränkt. Der Wert gibt an, wie viel Prozent der Wörter eines Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören. Die Angabe 59% bedeutet z.B., dass 59% der Wörter dieses Textes zu den 1.000 häufigsten Wörtern des Deutschen gehören (nach der Herder-Liste, Tschirner und Möhring 2020). Wenn Sie die 1.000 häufigsten Wörter der deutschen Sprache kennen, dann kennen Sie 59% der Wörter in diesem Text, 41% sind Ihnen noch unbekannt. Je höher die Werte, desto einfacher sind die Texte in Bezug auf den Wortschatz.\n\n\n10 Quellen\nÜber die Dropdown-Liste Quellen können Sie die Korpussuche auf bestimmte Textquellen einschränken. Die einzelnen Quellen werden hier genauer beschrieben.\n\n\n\n\n\n\nSuchergebnisse\n\n\n\n\n\n\n\n\nAbbildung 2: Belege\n\n\n\n\n\n11 Belege exportieren\nMit der Schaltfläche Belege exportieren können Sie alle gefundenen Belege zusammen mit Angaben zu den Quelltexten (Text-ID, Adressaten, Textsorte, Vertextungsstrategie, Thema) als formatierte Excel-Datei herunterladen.\n\n\n12 Zwischenablage und Excel\nMit den Schaltflächen Zwischenablage und Excel können Sie die in der Ergebnistabelle angezeigten Belege als unformatierten Text ohne weitere Angaben in die Zwischenablage kopieren bzw. als Excel-Datei herunterladen.\n\n\n13 Länge der Ergebnistabelle einstellen\nÜber die Dropdown-Liste können Sie auswählen, wieviele Belege in der Ergebnistabelle angezeigt werden sollen.\n\n\n14 Filtern und Sortieren\nSie können die Ergebnistabelle nach bestimmten Ausdrücken filtern, um relevantere Ergebnisse zu erhalten. Mit dem Kontextfilter wird die gesamte Tabelle gefiltert, mit dem linken und rechten Kontextfilter und dem Suchausdruckfilter werden die Kontexte vor und nach dem Suchausdruck bzw. die Formen des Suchausdrucks gefiltert. Die Eingabesyntax für Filterausdrücke ist hier näher erläutert. Ein Beispielszenario finden Sie hier.\nSie können die Spalten der Ergebnistabelle alphabetisch sortieren. Klicken Sie dazu auf die Spaltenüberschriften Linker Kontext, Suchausdruck oder Rechter Kontext. Hinweis: Alle Textspalten werden aus technischen Gründen von links nach rechts sortiert.\n\n\n15 Ergebnistabelle durchblättern\nÜber die Navigation rechts unterhalb der Tabelle können Sie weitere Ergbnisseiten auswählen und zwischen den Seiten der Ergebnistabelle hin und her wechseln.\n\n\n16 Weitere Angaben zu einzelnen Belegen\nSie können sich Details zu den einzelnen Belegen anzeigen lassen. Klicken Sie dazu auf die gewünschte Zeile in der Ergebnistabelle. Unterhalb der Tabelle erscheinen weitere Informationen zum Text, einschließlich des Links zur Quelle.\n\n\n\n\n\n\n\n\n\n\nAbbildung 3: Texte\n\n\n\n\n\n17 Statistik\nDie Größe der Balken gibt an, wie oft Ihr Suchausdruck in den verschiedenen Teilen des Korpus (verschiedene Adressaten, Textsorten, Themen und Vertextungsstrategien) gefunden wurde. Die Anzahl der Treffer wird in Promille angegeben (Anzahl pro 1.000 Wörter).\n\n\n\n\n\n\n\n\n\n\nAbbildung 4: Texte\n\n\n\n\n\n18 Texte\nAngezeigt werden bis zu zehn Texten, in denen Ihr Suchausdruck besonders häufig vorkommt. Unter Titel werden die Titel der Texte angezeigt. Unter n Beispiele wird die Anzahl der Treffer für Ihren Suchausdruck im jeweiligen Text angezeigt. Unter n Textwörter wird die Anzahl der Wörter im jeweiligen Text angezeigt. Unter Herder1K wird angegeben, wie viel Prozent der Textwörter in den 1.000 häufigsten Wörtern des Deutschen enthalten sind. Unter Textarchiv finden Sie Links zu den Volltexten. Die Links führen Sie zur Originalquelle oder zu einer Kopie der Originalquelle im Internet Archive. Unter Lizenz sind die Nutzungsrechte der Originalquelle angegeben (cc: Creative Commons, oder ©: urheberrechtlich geschützt).\n\n\n\n\n\n\n\n\n\n\nAbbildung 5: N-Gramme\n\n\n\n\n\n19 N-Gramme\nAngezeigt werden die 20 häufigsten N-Gramme Ihres Suchausdrucks. Sie können die Spalten alphabetisch und nach Häufigkeit sortieren. Klicken Sie dazu auf die Spalten-Überschriften N-Gramme und Häufigkeit. Sie können die Spalten der Tabelle nach bestimmten Ausdrücken und nach bestimmten Häufigkeiten durchsuchen bzw. filtern. Geben Sie dazu einen Suchausdruck oder einen Häufigkeitsbereich in das entsprechende Eingabefeld ein. Standardmäßig werden Zwei-Wort-Abfolgen (2-Gramme) angezeigt. Unter Länge können Sie die Länge der N-Gramme ändern. Unter Lücke können Sie einstellen, ob Sie einen Abstand zwischen den Wörtern eines N-Gramms erlauben wollen und wie groß der Abstand sein darf.\n\n\n\n\n\n\n\n\n\n\nAbbildung 6: Kollokationen\n\n\n\n\n\n20 Kollokationen\nAngezeigt werden die 25 häufigsten Kollokate Ihres Suchausdrucks. In der Mitte des Netzwerks befindet sich Ihr Suchausdruck. Um ihn herum sind seine Kollokate angeordnet. Die Größe der Kollokate und ihre Nähe zum Suchausdruck zeigen ihre gegenseitige Anziehungskraft an (Kollokationsstärke, ‚pointwise mutual information‘).\n\n\n\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | ImpressumLiteratur\n\nTschirner, Erwin, und Jupp Möhring. 2020. A frequency dictionary of German: core vocabulary for learners. 2. Aufl. Abingdon, Oxon, und New York, NY: Routledge."
   },
   {
-    "objectID": "help/login.html",
-    "href": "help/login.html",
-    "title": "Wie logge ich mich in der KED-Suche ein?",
+    "objectID": "help/cite.html",
+    "href": "help/cite.html",
+    "title": "Wie soll ich das KED zitieren?",
     "section": "",
-    "text": "Um die KED-Suche nutzen zu können, müssen Sie …\n\nsich einmalig und kostenfrei beim IDS (Institut für Deutsche Sprache) registrieren (so geht’s).\neinmalig und kostenfrei einen sog. Access-Token auf der KorAP-Seite generieren (so geht’s).\nsich mit dem Access-Token in der KED-Suche anmelden (so geht’s).\n\n\nErster Schritt: Registrierung beim IDS\n\n\nKlicken Sie auf https://perso.ids-mannheim.de/registration/, um die Registrierungsseite zu öffnen.\nWählen Sie bei Bearbeitungsmodus die Option Registrierung beantragen, dann bei IDS-Dienst die Option: DeReKo und … Korpusrecherchesysteme und darunter Noch keine Registrierung vorhanden.\nGeben Sie Ihren Vor- und Nachnamen ein.\nKlicken Sie auf Persönliche Daten eingeben, um zum Menü Registrierungsdaten anlegen zu gelangen.\nFüllen Sie alle mit einem roten Sternchen versehenen Felder aus und klicken Sie die Erklärungen an.\nHinweis: Sie können die Cosmas II/KorAP-Kennung und das Passwort frei wählen.\nKlicken Sie dann auf Registrierung abschließen.\nSie erhalten danach eine E-Mail zur Bestätigung.\n\n\n\nZweiter Schritt: Ein Access-Token erstellen\n\nKlicken Sie auf https://korap.ids-mannheim.de/instance/ked, um die KED-KorAP-Instanz zu öffnen.\n\n\n\nMelden Sie sich links oben mit Ihrer E-Mail-Adresse und Ihrem Passwort an.\nKlicken Sie auf das Schieberegler-Symbol links unten.\nKlicken Sie auf OAuth. Füllen Sie das Menü wie folgt aus:\n\nName der Client-Application: KED\nKurzbeschreibung: KED-Interface\n\nKlicken Sie dann auf Neue Client-Applikation registrieren.\nKlicken Sie im nächsten Menü unterhalb der ID der Client-Applikation auf Neues Token erstellen (‚issue new token‘).\nKopieren Sie das Access-Token mit Klick auf das Kopieren-Symbol in Ihre Zwischenablage.\nSpeichern Sie das Token sicher ab.\n\n\n\nDritter Schritt: Anmelden in der KED-Suche\n\nRufen Sie die KED-Suche auf: https://ked-portal.shinyapps.io/ked-suche/\n\n\n\nKlicken Sie rechts ob auf die Login-Schaltfläche und kopieren dann Ihr KorAP-Access-Token in das vorgegebene Feld.\nKlicken Sie auf Anmelden. Sie sind nun eingeloggt und können die KED-Suche nutzen.\n\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Sie können das KED als Ganzes zitieren, indem Sie auf den folgenden Artikel verweisen:\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n\nEinzelne Belege aus dem KED können Sie nach dem Schema ‚Text-ID, Korpussuche-URL, Zugriffsdatum‘ zitieren:\n\n(KED/KLX/01769, https://ked-portal.shinyapps.io/korpussuche/, 13.07.2024)\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "description/development.html",
-    "href": "description/development.html",
-    "title": "Entstehung",
+    "objectID": "description/concept.html",
+    "href": "description/concept.html",
+    "title": "Konzept",
     "section": "",
-    "text": "© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Das Korpus einfaches Deutsch (KED) ist eine digitale Sammlung bildungssprachlicher Texte in einfachem Deutsch. Unter Texte in einfachem Deutsch werden hier solche Texte verstanden, die für Lesende mit (vermutlich) eingeschränkter oder noch unterentwickelter Lesekompetenz geschrieben sind. Von solchen Texten ist zu erwarten, dass die Textproduzenten sie verständlicher und an die Bedürfnisse ihrer Adressaten angepasst formuliert haben (Bredel und Maaß 2016, 537). Die Auswahl der Texte erfolgt also ausdrücklich nicht nach formalen Kriterien der Einfachheit oder Komplexität eines Textes (etwa der Satzlänge oder dem Umfang des verwendeten Wortschatzes), sondern nach pragmatischen Kriterien. Das Korpus enthält solche Texte, die erkennbar mit der Absicht formuliert wurden, ihre Verständlichkeit für eine Adressatengruppe zu verbessern, von der die Textproduzenten annehmen, dass sie Schwierigkeiten beim Lesen „normalsprachlicher“ Texte haben könnte. Enthalten sind beispielsweise Texte aus dem Online-Kinderlexikon Klexikon. Diese Texte sollen laut Webseite „kindgerecht“ gestaltet sein, d.h. „dass der Inhalt gut verständlich ist und an die Lebenswelt von Kindern anschließt“1. Ein weiteres Beispiel sind Texte aus dem Online-Angebot der Apotheken Umschau in einfacher Sprache. Diese Texte sind mit der Absicht formuliert, „besonders verständlich“ zu sein, so dass „[a]lle Menschen […] sich über medizinische Themen informieren können“2.\nDie Texte im KED sind bildungssprachlich mit Bezug auf ihre Themen, Sprachhandlungen und Textsorten. Mit Bildungssprache wird das Register einer Sprache bezeichnet, das im Kontext formaler Bildung (z. B. in Schule oder Universität) besonders relevant ist (Gogolin und Lange 2011). Das bildungssprachliche Register ist als eine Auswahl von Sprachmitteln beschreibbar, die sich aufgrund ihrer formalen oder pragmatischen Eigenschaften besonders gut für die Wissensvermittlung und die Kommunikation in formalen Bildungskontexten eignen. Hierzu gehören beispielsweise ein sachlicher Stil und logischer Aufbau von Texten, abstrahierende und differenzierende Ausdrücke sowie unpersönliche Formulierungen (z. B. Passivsätze). Solche Eigenschaften sind typisch für bestimmte Textsorten, die in der formalen Bildung eine zentrale Rolle spielen, etwa Sachtexte, Berichte oder Argumentationen. Die im Korpus enthaltenen Texte sind vorwiegend Lexikonartikel, Erklärtexte und Experimente sowie Argumentationen, die häufig ausdrücklich inhaltlich an schulischen Curricula orientiert und als Ergänzung zum Fachunterricht gedacht sind. Sie behandeln Themen der Allgemein- oder schulischen Bildung. Hinzu kommen Nachrichtentexte zu politischen, kulturellen oder sportlichen Themen. Narrative Texte (z. B. Erzählungen) oder fiktionale Texte wie etwa Märchen sind dagegen nicht im Korpus enthalten.\nAuch Texte mit explizit sprachbildender Absicht sind nicht im KED enthalten. In diesem Sinn sind die Texte im KED authentisch (Gilmore 2007). Sie wurden von „echten“ Schreibern für „echte“ Leser mit der Absicht produziert, eine inhaltliche Botschaft zu übermitteln oder eine andere kommunikative Handlung zu realisieren. Sie sind nicht mit sprachdidaktischer Absicht entstanden, etwa um eine bestimmte sprachliche Zielstruktur hervorzuheben oder die Lesefähigkeit der Leser gezielt zu verbessern. Texte in Leichter Sprache (Stefanowitsch 2014) sind ebenfalls nicht im Korpus enthalten. Texte in Leichter Sprache werden von speziell geschulten Autoren verfasst und richten sich vorwiegend an Menschen mit dauerhaften kognitiven Einschränkungen. Sie folgen bestimmten Regeln und weisen besondere formale Eigenschaften auf, beispielsweise die Schreibung von Nomenkomposita mit Trennzeichen oder die weitgehende Vermeidung von Passivkonstruktionen, die sie deutlich von umgangs- oder bildungssprachlichen Varietäten unterscheiden und als ungeeignet für den Fremdsprachenunterricht erscheinen lassen.\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publikationen",
+    "objectID": "description/concept.html#footnotes",
+    "href": "description/concept.html#footnotes",
+    "title": "Konzept",
+    "section": "Fußnoten",
+    "text": "Fußnoten\n\n\nhttps://klexikon.zum.de, 06. November 2024.↩︎\nhttps://www.apotheken-umschau.de, 06. November 2024.↩︎"
+  },
+  {
+    "objectID": "description/composition.html",
+    "href": "description/composition.html",
+    "title": "Aufbau",
     "section": "",
-    "text": "Daniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Das KED umfasst gegenwärtig 6.841 Texte aus 14 verschiedenen Internetquellen. Tabelle 1 fasst das Korpus zusammen.\n\n\n\nTabelle 1: KED im Überblick\n\n\n\n\n\nKED\n\n\n\n\n\nQuellen: n\n14\n\n\nTexte: n\n6.841\n\n\nTokens: n\n2.803.454\n\n\nTokens/Text: m (se)\n409,8 (3,57)\n\n\nSätze: n\n224.042\n\n\nSätze/Text: m (se)\n32,75 (0,31)\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "publications/index.html#aufsätze",
-    "href": "publications/index.html#aufsätze",
-    "title": "Publikationen",
+    "objectID": "description/composition.html#überblick",
+    "href": "description/composition.html#überblick",
+    "title": "Aufbau",
     "section": "",
-    "text": "Daniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996."
+    "text": "Das KED umfasst gegenwärtig 6.841 Texte aus 14 verschiedenen Internetquellen. Tabelle 1 fasst das Korpus zusammen.\n\n\n\nTabelle 1: KED im Überblick\n\n\n\n\n\nKED\n\n\n\n\n\nQuellen: n\n14\n\n\nTexte: n\n6.841\n\n\nTokens: n\n2.803.454\n\n\nTokens/Text: m (se)\n409,8 (3,57)\n\n\nSätze: n\n224.042\n\n\nSätze/Text: m (se)\n32,75 (0,31)"
   },
   {
-    "objectID": "publications/index.html#vorträge",
-    "href": "publications/index.html#vorträge",
-    "title": "Publikationen",
-    "section": "Vorträge",
-    "text": "Vorträge\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Wie kommen authentische Sprachdaten in den DaF-Unterricht? Datengeleitetes Lernen (DDL) mit dem Korpus einfaches Deutsch (KED)“ (Vortrag, Mianyang, 1. Dezember 2024), https://korpus-einfaches-deutsch.de/publications/_mianyang_2024/mianyang_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGunther Dietz und Daniel Jach „Wie kommen authentische Sprachdaten in den DaF-Unterricht? Ansätze datengestützten Lernens (DDL) unter Nutzung des ‚Korpus einfaches Deutsch‘ (KED)“ (Workshop, Göttingen, 12. Oktober 2024), https://korpus-einfaches-deutsch.de/publications/_goettingen_2024/goettingen_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\nKorpora und DDL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatengestütztes Lernen (DDL) mit dem ‚Korpus einfaches Deutsch‘ (KED)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch (KED): Eine digitale Ressource für den datengestützten Fremdsprachenunterricht auf Anfängerniveau“ (Vortrag, Qingdao, 27. August 2024), https://korpus-einfaches-deutsch.de/publications/_qingdao_2024/qingdao_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Das Korpus einfaches Deutsch (KED) als Werkzeug für den DaF-Unterricht: Ein Anwendungsszenario zur Vermittlung der je-desto-Konstruktion“ (Vortrag, Bamberg, 27. September 2024), https://korpus-einfaches-deutsch.de/publications/_bamberg_2024/bamberg_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGunther Dietz und Daniel Jach „‚Korpus einfaches Deutsch‘ - Sprachdidaktische und korpuslinguistische Perspektiven eines neuen Korpusprojekts“ (Poster, Heidelberg, 21.–22. März 2024), https://korpus-einfaches-deutsch.de/publications/_heidelberg_2024/heidelberg_2024_poster.pdf."
+    "objectID": "description/composition.html#teilkorpora",
+    "href": "description/composition.html#teilkorpora",
+    "title": "Aufbau",
+    "section": "Teilkorpora",
+    "text": "Teilkorpora\nDie Texte im Korpus sind mit Adressatengruppe, Textsorte, Vertextungsstrategie und Thema annotiert. Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite Kuppelkucker beispielsweise an Kinder1, Texte aus der Online-Ausgabe des Fluter-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft2. Textsorte und Vertextungsstrategie wurden den Texten nach subjektiver Einschätzung der Korpusautoren zugeordnet, abhängig von ihrer Quelle. Teilweise wurden Texte einer Quelle weiter unterteilt. Von der Webseite der Bundeszentrale für politische Bildung beispielsweise sind sowohl Erklärtexte aus der einfach POLITIK-Subdomäne3 als auch Lexikoneinträge aus dem einfach POLITIK: Lexikon4 im KED enthalten. Die Themen der Texte wurden hingegen mit Hilfe von einem unüberwachtem maschinellen Lernverfahren ermittelt (‚unsupervised topic modeling‘, Silge und Robinson 2017). Das Verfahren wird ausführlicher hier beschrieben. In Tabelle 2 wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in Abbildung 2 (i) zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Thementitel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.\n\n\n\nTabelle 2: Aufbau des KED im Überblick\n\n\n\n\n\n\n\n(a) Adressaten im KED\n\n\n\n\n\nAdressaten\nn Texte\nn Wörter\n\n\n\n\nErwachsene\n523\n302.235\n\n\nJugendliche\n525\n379.297\n\n\nKinder\n5.793\n2.121.922\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b) Adressaten im KED\n\n\n\n\n\n\n\n\n\n\n(c) Textsorten im KED\n\n\n\n\n\nTextsorte\nn Texte\nn Wörter\n\n\n\n\nArgumentation\n55\n90.363\n\n\nEmpfehlung\n287\n198.204\n\n\nErklärtext\n915\n477.896\n\n\nExperiment\n217\n59.121\n\n\nLexikonartikel\n4.424\n1.735.711\n\n\nNachricht\n943\n242.159\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(d) Textsorten im KED\n\n\n\n\n\n\n\n\n\n\n(e) Vertextungsstrategien im KED\n\n\n\n\n\nVertextungsstrategie\nn Texte\nn Wörter\n\n\n\n\nAnweisen\n251\n69.522\n\n\nArgumentieren\n55\n90.363\n\n\nBerichten\n943\n242.159\n\n\nErklären\n5.592\n2.401.410\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(f) Vertextungsstrategien im KED\n\n\n\n\n\n\n\n\n\n\n(g) Themen im KED\n\n\n\n\n\nThema\nn Texte\nn Wörter\n\n\n\n\nGeschichte und Kultur\n2.193\n928.465\n\n\nGesundheit und Krankheit\n588\n317.010\n\n\nNatur und Leben\n1.880\n843.224\n\n\nPolitik und Gesellschaft\n2.180\n714.755\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(h) Themen im KED\n\n\n\n\n\n\n\n\n\n\n\n\n\n(i) Wichtige Nomen der Themen im KED"
   },
   {
-    "objectID": "examples/activities/strongVerbs.html",
-    "href": "examples/activities/strongVerbs.html",
-    "title": "Starke Verben",
+    "objectID": "description/composition.html#weitere-metadaten",
+    "href": "description/composition.html#weitere-metadaten",
+    "title": "Aufbau",
+    "section": "Weitere Metadaten",
+    "text": "Weitere Metadaten\n\n\nTextdeckung\nDie Textdeckung gibt den Anteil der Textwörter an, die in der Liste der häufigsten Wörter des Deutschen enthalten sind. Dabei wird auf der Grundlage der Herder-Häufigkeitsliste (Tschirner und Möhring 2020) zwischen den häufigsten 1.000, 2.000, 3.000, 4.000 und 5.000 Wörtern des Deutschen unterschieden. Abbildung 1 zeigt beispielhaft die Textdeckung von fünf zufällig ausgewählten Texte.\n\n\n\n\n\n\n\n\nAbbildung 1: Textdeckung zufällig ausgewählter Texte\n\n\n\n\n\n\n\n\n\n\nAbbildung 2: Verteilung der Textdeckung im KED\n\n\n\n\n\nDer Text mit dem Titel Antisemitismus weist beispielsweise für die 1.000 häufigsten Wörter des Deutschen lediglich eine Textdeckung von etwa 0,5 auf, d.h. etwa 50% der Textwörter sind in der Liste der 1.000 häufigsten Wörter des Deutschen enthalten, während die übrigen 50% nicht enthalten sind. Die Textdeckung nimmt mit der Länge der Wortliste zu. Die Textdeckung der 2.000 häufigsten Wörter des Deutschen beträgt nahezu 60%, während sie bei den 3.000 häufigsten Wörtern bereits über 60% liegt. Bei den 4.000 häufigsten Wörtern steigt die Textdeckung auf nahezu 65% an. Die nächsten 1.000 Wörter erzielen dagegen keine signifikante Erhöhung der Textdeckung, die bei knapp unter 65 % konstant bleibt. Abbildung 2 zeigt die Verteilung der Textdeckung im KED. Die Textdeckung lässt sich als Maß für die Schwierigkeit eines Textes interpretieren. Für Anfänger ist ein Text umso einfacher zu verstehen, je höher die Textdeckung bei relativ kleinem Wortschatz ist (z. B. nur die 1.000 häufigsten Wörter des Deutschen) und je schneller die Textabdeckung mit steigendem Wortschatz zunimmt."
+  },
+  {
+    "objectID": "description/composition.html#footnotes",
+    "href": "description/composition.html#footnotes",
+    "title": "Aufbau",
+    "section": "Fußnoten",
+    "text": "Fußnoten\n\n\nhttps://www.kuppelkucker.de, 07. November 2024.↩︎\nhttps://www.bpb.de, 07. November 2024.↩︎\nhttps://www.bpb.de/themen/politisches-system/politik-einfach-fuer-alle/, 07. November 2024.↩︎\nhttps://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/, 07. November 2024.↩︎"
+  },
+  {
+    "objectID": "examples/index.html",
+    "href": "examples/index.html",
+    "title": "Einführung",
     "section": "",
-    "text": "Sprachniveau\nA1-B1\n\n\nZielsprachhandlung\nKorrekte Verwendung häufiger starker Verben\n\n\nZielstruktur\nDie 20 häufigsten starken Verben (nach der Herder-Liste)\n\n\nAnvisierte DDL-Aktivität\nHands-off mit vorgefertigten Listen\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Wie kommen authentische Sprachdaten in den DaF-Unterricht? Hier werden Beispiele für den Einsatz von Belegen aus dem KED im Unterricht Deutsch als Fremdsprache beschrieben. Die Beispiele richten sich an Lehrende und können im eigenen Unterricht eingesetzt werden oder als Anregung bzw. Vorlage für die Entwicklung eigener Lernaktivitäten mit dem KED dienen. Inhaltlich orientieren die Aktivitäten sich an typischen Lerngegenständen in Lehrwerken. Sie sind nicht als vollständige Unterrichtseinheiten gedacht, sondern als Ergänzungen, die den Einsatz authentischer Sprachdaten im Unterricht im Rahmen eines thematischen Kapitels oder eine kommunikativen Einheit ermöglichen. Sie bestehen daher aus einem möglichst allgemein gehaltenen Szenario, einer Schritt-für-Schritt-Anleitung für die Lehrkraft sowie Hinweisen zu hilfreichen Suchanfragen im KED.\nDie Beispielsammlung wird ständig erweitert. Bisher sind 11 Aktivitäten online.\n\nInhaltsverzeichnis Lieblings‐Nomenkomposita Zeitangaben mit am vs. um gern(e) Starke Verben Trennbare Verben\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/strongVerbs.html#profil",
-    "href": "examples/activities/strongVerbs.html#profil",
-    "title": "Starke Verben",
+    "objectID": "examples/activities/favorite.html",
+    "href": "examples/activities/favorite.html",
+    "title": "Lieblings‐Nomenkomposita",
     "section": "",
-    "text": "Sprachniveau\nA1-B1\n\n\nZielsprachhandlung\nKorrekte Verwendung häufiger starker Verben\n\n\nZielstruktur\nDie 20 häufigsten starken Verben (nach der Herder-Liste)\n\n\nAnvisierte DDL-Aktivität\nHands-off mit vorgefertigten Listen"
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben nennen\n\n\nZielstruktur\nKomposita mit Lieblings-\n\n\nAnvisierte DDL-Aktivität\nHands-on\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/strongVerbs.html#szenario",
-    "href": "examples/activities/strongVerbs.html#szenario",
-    "title": "Starke Verben",
+    "objectID": "examples/activities/favorite.html#profil",
+    "href": "examples/activities/favorite.html#profil",
+    "title": "Lieblings‐Nomenkomposita",
+    "section": "",
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben nennen\n\n\nZielstruktur\nKomposita mit Lieblings-\n\n\nAnvisierte DDL-Aktivität\nHands-on"
+  },
+  {
+    "objectID": "examples/activities/favorite.html#szenario",
+    "href": "examples/activities/favorite.html#szenario",
+    "title": "Lieblings‐Nomenkomposita",
     "section": "Szenario",
-    "text": "Szenario\nIn Ihrem Kurs auf Sprachniveau A1 bis B1 sollen sich Ihre Lernenden die Formen der starken Verben bewusst machen, besonders Formen im Präsens, Präteritum und Partizip Perfekt („Stammformen“), sowie die Formen im Kontext einüben. Mit Material aus dem KED wollen Sie form-fokussierende Übungsaufgaben erstellen. Hier finden Sie vorausgewählte Belege der 20 häufigsten starken Verben in ihren relevanten Formen."
+    "text": "Szenario\nIn Ihrem A1‐Kurs sollen die Lernenden über ihre Vorlieben berichten und dabei auch Komposita mit dem Bestimmungswort Lieblings‐ nutzen. Hierfür suchen die Lernenden im KED nach geeigneten Komposita und erstellen einen Fragebogen."
   },
   {
-    "objectID": "examples/activities/strongVerbs.html#schritt-für-schritt",
-    "href": "examples/activities/strongVerbs.html#schritt-für-schritt",
-    "title": "Starke Verben",
+    "objectID": "examples/activities/favorite.html#schritt-für-schritt",
+    "href": "examples/activities/favorite.html#schritt-für-schritt",
+    "title": "Lieblings‐Nomenkomposita",
     "section": "Schritt-für-Schritt",
-    "text": "Schritt-für-Schritt\n\nVorwissen aktivieren\n\nDurchsuchen Sie die vorausgewählten Belege nach Kontexten, die neben den starken Verbformen auch schwache Verbformen enthalten.\nKopieren Sie die gewünschten Belege einzeln in eine Textdatei und erstellen Sie eine Liste von Belegen.\nVerteilen Sie die Liste an die Lernenden und weisen Sie sie an, in den Belegen nach starken und schwachen Verbformen zu suchen und diese unterschiedlich zu markieren.\n\n\nAufgabe Lesen Sie die folgenden Textschnipsel. Unterstreichen Sie alle starke Verben rot, alle schwachen Verben blau.\n(1) […] sie wäre. Sie besuchte eine Schule in der englischen Stadt Birmingham und schrieb Bücher über ihr Leben. Sie erhielt weitere Preise für ihren Einsatz für […] (KLX/01912)\n(2) […] Diese Filme spielen vor den alten Filmen. Lucas hat dafür neue Schauspieler genommen. Mit den Filmen verdiente Lucas viel Geld, doch waren viele Zuschauer enttäuscht […] (KLX/00777)\n(3) […] Sträuchern oder Stauden. Kommt das Obst von Bäumen in der freien Natur, spricht man von Wildobst. Fallobst ist Obst, das bereits vom Baum auf den […] (KLX/03110)\n…\n\n\n\nVokalwechsel im Präsens (A1/A2)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben mit Vokalwechsel im Präsens (z.B. geben). Wählen Sie im Typfilter die Typen 1 bis 4 (Präsensformen) aus.\nMarkieren Sie die ausgewählten Belege mit der Maus und übertragen Sie sie mit Kopieren und Einfügen in eine Textdatei.\nEntfernen Sie die Zielformen aus der Tabelle, so dass Lücken entstehen.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Zielformen in die Lücken einzusetzen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von geben ein.\n(1) Bei denen, die das Geld schließlich annahmen, passierte zum Teil etwas Seltsames: „Ich  gab  den Schein weiter“, versicherten die einen.” Ich spende euch zehn Franken zurück (FLU/00032)\n(2) dürfen ihre Interessen vertreten. Manche Konzerne haben zum Beispiel viel Geld. Und sie  geben  vielen Menschen Arbeit. Sie dürfen sich zum Beispiel dafür einsetzen, dass die (BPB/00013)\n(3) wir erklären den Unterschied zwischen dem Verbrauchsdatum und dem Mindest-Haltbarkeitsdatum. Und wir       Ihnen brauchbare Tipps – so können Sie selbst prüfen, ob ein Lebensmittel noch (BZE/00011)\n…\n\n\nFür fortgeschrittene Anfänger erstellen Sie eine Tabelle mit Belegen für mehrere Verben mit Vokalwechsel im Präsens (z.B. geben, gelten, halten, nehmen) in zufälliger Reihenfolge. Die Lernenden müssen dann den Kontext stärker berücksichtigen, um das richtige Verb zu wählen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von geben - gelten - halten - nehmen ein.\n(1) Lass die Eier etwa 10 min kochen. Nach dem Kochen  nimmst  du die Eier mit einem Löffel aus dem Wasser. Wenn sie noch (SSJ/00003)\n(2) glockenähnlicher Klang zu hören. Wenn du die Schnur nicht an die Ohren  hälst , ist der Klang viel leiser. (SSK/00017)\n(3) können nicht alle kranken Kinder die Medizin bekommen, die sie brauchen. Das       sowohl in Apotheken als auch in Krankenhäusern. Immer mehr Familien sind besorgt (KSN/00225)\n…\n\n\n\nPräteritumsformen (A2/B1)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben im Präteritum (z.B. schreiben, bringen, lassen, heißen, denken, kommen, finden). Wählen Sie im Typfilter die Typen 5 und 6 (Präteritumsformen) aus.\nLaden Sie die Belege für mehrere Verben als Exceltabelle herunter.\nEntfernen Sie die Zielformen aus der Tabelle.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Zielformen in die Lücken einzusetzen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von schreiben - bringen - lassen - heißen - denken - kommen - finden ein.\n\n\n\n\n(1) Jahren. Er war etwa neun Meter lang und vier Meter hoch. Er\n\n\n     \n\n\nein Gewicht von bis zu 12 Tonnen auf die Waage. Damit wog (KLX/00530)\n\n\n\n\n(2) sie wäre. Sie besuchte eine Schule in der englischen Stadt Birmingham und\n\n\n     \n\n\nBücher über ihr Leben. Sie erhielt weitere Preise für ihren Einsatz für (KLX/01912)\n\n\n\n\n(3) sie ziemlich arm: ihre Mutter starb, sie bekam ihr erstes Kind, sie\n\n\n     \n\n\nsich von ihrem Ehemann scheiden. Die Reihe der Harry-Potter-Romane machte sie reich (KLX/02885)\n\n\n\n\n…\n\n\n     \n\n\n…\n\n\n\n\n\n\n\nPartizip-Perfekt-Formen (B1)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben im Partizip Perfekt (z.B. nennen, stehen, heißen, finden). Wählen Sie im Typfilter die Typen 7 und 8 (Partizipformen) aus.\nLaden Sie die Belege für mehrere Verben als Exceltabelle herunter.\nEntfernen Sie unnötige Spalten. Ordnen Sie die linke Spalte mit dem linken Kontext in alphabetischer oder zufälliger Reihenfolge. Ergänzen Sie alphabetische bzw. numerische Indizes in den Spalten.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Kontexte miteinander zu verknüpfen.\n\n\nAufgabe Welche Teile passen zusammen? Verknüpfen Sie die passenden Kontexte.\nA-3, B-   , C-   , D-   , E-  \n\n\n\n\nA zu schlichten. Es soll auch Verständnis dafür geweckt werden, warum jemand etwas\n\n\n\n\n1 genannt. So entstanden Nachnamen wie Lang oder Lange. Der bayerische Nachname Lenk heißt (KLX/02992)\n\n\n\n\nB ein sogenannter Übername. Einen langen Menschen haben die Nachbarn oft den Langen\n\n\n\n\n2 gestanden, vielleicht um eine Staumauer aus Steinen zu bauen? Dann hast du sicher (SSW/00273)\n\n\n\n\nC Leben! Hast du schon einmal ohne Gummistiefel etwas länger in einem Bergbach\n\n\n\n\n3 getan oder gesagt hat, was zu dem Streit geführt hat. Im besten Fall (HAN/00827)\n\n\n\n\nD Der Name stammt von dem Ort in Österreich, wo man zuerst etwas\n\n\n\n\n4 geheißen. Sie teilen dort die Gebete und die Arbeit mit den Brüdern. (KLX/01256)\n\n\n\n\nE Außerdem sind in Taizé Jugendliche aus aller Welt und aus allen Religionen willkommen\n\n\n\n\n5 gefunden hat. Es ist unbekannt, welche Sprache diese Menschen gesprochen haben. Aber aus (KLX/03223)"
+    "text": "Schritt-für-Schritt\n\nProbieren Sie selbst einige Suchanfragen im KED aus. Finden Sie Beispiele für Nomen, die mit Lieblings‐ beginnen.\nInstruieren Sie Ihre Lernenden bei der selbstständigen Suche im KED nach (weiteren) Beispielen für Lieblings‐Komposita.\nLassen Sie Ihre Lernenden in Gruppen fünf verschiedene Komposita auswählen und einen Fragebogen erstellen. Der Fragebogen sollte aus fünf Items mit jeweils vier Antwortmöglichkeiten bestehen. Die Lernenden sollten keine Wörterbücher verwenden, sondern versuchen, die Bedeutung unbekannter Lieblings-Komposita aus dem Kontext zu erschließen. Die Erschließung der Bedeutung ist Voraussetzung für die Entwicklung sinnvoller Antwortmöglichkeiten.\n\n\n\nFragebogen\n\nWer ist dein Lieblingsheld?\nO Iron Man O Wonder Woman O Batman O __________\nWer ist dein Lieblingsmusiker?\nO Taylor Swift O Lady Gaga O Beyoncé O __________\n…\n\n\nLassen Sie die Lernenden im Klassenzimmer umhergehen, andere Lernende mit Hilfe des Fragebogens nach deren Lieblings-X befragen und die Antworten der Befragten notieren. Die Antwortmöglichkeiten geben den befragten Lernenden einen Kontext zum Erschließen der Bedeutung unbekannter Lieblings-Komposita.\nDie Lernenden kehren in Gruppen zurück, berichten ihre Antworten und erstellen eine Statistik.\nSammeln Sie Fragen und Antworten im Plenum und ermitteln Sie die beliebtesten X in der Klasse."
   },
   {
-    "objectID": "examples/activities/strongVerbs.html#suchanfragen-im-ked",
-    "href": "examples/activities/strongVerbs.html#suchanfragen-im-ked",
-    "title": "Starke Verben",
+    "objectID": "examples/activities/favorite.html#suchanfragen-im-ked",
+    "href": "examples/activities/favorite.html#suchanfragen-im-ked",
+    "title": "Lieblings‐Nomenkomposita",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n[base=nehmen]\nSucht nach allen Formen von nehmen.\n1.601\n\n\nnehme|nimmt|nimmst|nehmen\nSucht nach den häufigsten Formen von nehmen im Präsens.\n1.131\n\n\nnahm|nahmen\nSucht nach den Präteritumsformen nahm und nahmen.\n211\n\n\ngenommen\nSucht nach der Partizipform genommen.\n173"
+    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n\"Lieblings.+\"\nDer Punkt . steht für beliebiges Zeichen, das Pluszeichen + für beliebig häufiges Vorkommen des Zeichens davor. Bei der Verwendung solcher Platzhalter muss der Suchausdruck in doppelten Anführungszeichen \"...\" stehen.\n39"
+  },
+  {
+    "objectID": "examples/activities/dates.html",
+    "href": "examples/activities/dates.html",
+    "title": "Zeitangaben mit am vs. um",
+    "section": "",
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nZeitangaben verstehen und ausdrücken\n\n\nZielstruktur\nPräpositionen am und um\n\n\nAnvisierte DDL-Aktivität\nHands-off\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+  },
+  {
+    "objectID": "examples/activities/dates.html#profil",
+    "href": "examples/activities/dates.html#profil",
+    "title": "Zeitangaben mit am vs. um",
+    "section": "",
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nZeitangaben verstehen und ausdrücken\n\n\nZielstruktur\nPräpositionen am und um\n\n\nAnvisierte DDL-Aktivität\nHands-off"
+  },
+  {
+    "objectID": "examples/activities/dates.html#szenario",
+    "href": "examples/activities/dates.html#szenario",
+    "title": "Zeitangaben mit am vs. um",
+    "section": "Szenario",
+    "text": "Szenario\nIn Ihrem A1‐Kurs werden die Präpositionen am und um zum Ausdruck von Zeitangaben eingeführt. Sie möchten, dass Ihre Lernenden die typischen Verwendungsmuster für die beiden Präpositionen an authentischen Beispielen selbst entdecken und bereiten hierfür eine Liste mit einschlägigen Beispielen aus dem KED vor. Die Lernenden nutzen die gefundenen Muster, um den Besuch eines Festivals zu planen."
+  },
+  {
+    "objectID": "examples/activities/dates.html#schritt-für-schritt",
+    "href": "examples/activities/dates.html#schritt-für-schritt",
+    "title": "Zeitangaben mit am vs. um",
+    "section": "Schritt-für-Schritt",
+    "text": "Schritt-für-Schritt\n\nSuchen Sie im KED nach passenden Belegen für die beiden Präpositionen.\nErstellen Sie eine Liste typischer Verwendungsbeispiele. Nutzen Sie hierfür die Filter- und Sortierfunktionen der Trefferliste.\nVerteilen Sie die Beispielliste an die Lernenden mit der Aufgabe, am, um und häufige Nachbarwörter zu markieren und „Regeln“ (typische Kontexte) für die Verwendung von am und um zu erarbeiten.\n\n\nAufgabe Lesen Sie die folgenden Sätze und markieren Sie am, um und häufige Nachbarwörter.\n\nJanuar geboren wurde, feiert seinen Geburtstag immer am 1. Januar. Der „erste Geburtstag“ ist ein Jahr\nSonnenfinsternis gibt es in Europa erst wieder am 3. September 2081.\nim Viertelfinale gegen Italien, das Spiel ist am Dienstag. Einen großen Rückschlag gab es für Titelverteidiger\njedoch eher Zufall. Das Fest beginnt schon am Sonntag mit dem Kinderumzug. Viele Kindergruppen tragen\nFrankreich und Deutschland gegenüber. Das Finale findet um 13 Uhr unserer Zeit statt. Sie haben\n2020, schalten Menschen auf der ganzen Welt um 20.30 Uhr für eine Stunde das Licht\n…\n\n\n\nVerteilen Sie das Programm eines bevorstehenden oder bekannten Festivals (z.B. Wacken Open Air oder Rock am Ring) und lassen Sie die Lernenden in Paaren oder Kleingruppen den Besuch planen. Geben Sie einige geeignete Redemittel vor, falls nötig."
+  },
+  {
+    "objectID": "examples/activities/dates.html#suchanfragen-im-ked",
+    "href": "examples/activities/dates.html#suchanfragen-im-ked",
+    "title": "Zeitangaben mit am vs. um",
+    "section": "Suchanfragen im KED",
+    "text": "Suchanfragen im KED\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\nam\n\n3.921\n\n\num\n\n5.905\n\n\n\n\n\n\n\n\n\n\n\nRechter Kontextfilter\nErläuterung\nn Treffer\n\n\n\n\n^\\d\nWählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n326\n\n\n^\\w*tag\nWählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n179\n\n\n^\\d.*Uhr\nWählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen andere Zeichen (.*), gefolgt von Uhr (Uhr).\n36"
+  },
+  {
+    "objectID": "examples/activities/likeTo.html",
+    "href": "examples/activities/likeTo.html",
+    "title": "gern(e)",
+    "section": "",
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben ausdrücken: etwas gerne tun\n\n\nZielstruktur\nSuche nach Belegen für gern(e) + Verb\n\n\nAnvisierte DDL-Aktivität\nHands-on\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+  },
+  {
+    "objectID": "examples/activities/likeTo.html#profil",
+    "href": "examples/activities/likeTo.html#profil",
+    "title": "gern(e)",
+    "section": "",
+    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben ausdrücken: etwas gerne tun\n\n\nZielstruktur\nSuche nach Belegen für gern(e) + Verb\n\n\nAnvisierte DDL-Aktivität\nHands-on"
+  },
+  {
+    "objectID": "examples/activities/likeTo.html#szenario",
+    "href": "examples/activities/likeTo.html#szenario",
+    "title": "gern(e)",
+    "section": "Szenario",
+    "text": "Szenario\nIn einem A1-Kurs sollen Ihre Lernenden erzählen, was sie gerne tun. Dazu suchen sie im KED nach passenden Verben im Kontext von gern(e) und auch gern(e). Mit Hilfe des KED recherchieren sie Antworten auf vorgegebene Fragen zu Vorlieben verschiedener Gruppen. Anschließend sprechen sie über ihre eigenen Vorlieben."
+  },
+  {
+    "objectID": "examples/activities/likeTo.html#schritt-für-schritt",
+    "href": "examples/activities/likeTo.html#schritt-für-schritt",
+    "title": "gern(e)",
+    "section": "Schritt-für-Schritt",
+    "text": "Schritt-für-Schritt\n\nRecherchieren Sie selbst im KED nach Beispielen, in denen Vorlieben mit den Ausdrücken gern(e) und auch gern(e) vorkommen.\nÜberfliegen Sie die Belege und formulieren Sie eine Reihe geeigneter Fragen der Art Was machen Touristen gerne?, Was machen Katzen gern?, Was machen die Finnen gern?, Was machen Kinder gern?, usw.\nVerteilen Sie die Fragen an die Lernenden. Sie sollen die Fragen mit Hilfe einer Recherche im KED beantworten.\nVeranschaulichen Sie die Suche im KED anhand der ersten Frage (z.B. Was machen Touristen gerne?). Nutzen Sie das Suchfeld und die Filterfunktionen der Trefferliste, um relevante Belege zu finden.\nBegleiten Sie die Lernenden bei der Suche nach Antworten auf die verbleibenden Fragen im KED.\nSammeln und kontrollieren Sie die gefundenen Antworten im Plenum.\nAbschließend sprechen die Lernenden in Gruppen darüber, was die Menschen in ihrem Heimatland und sie selbst gerne tun."
+  },
+  {
+    "objectID": "examples/activities/likeTo.html#suchanfragen-im-ked",
+    "href": "examples/activities/likeTo.html#suchanfragen-im-ked",
+    "title": "gern(e)",
+    "section": "Suchanfragen im KED",
+    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n\"ger(n|ne)\"\nDer Ausdruck (A|B) sucht nach entweder A oder B. Suchausdrücke mit solchen Platzhaltern müssen in doppelte Anführungszeichen \"...\" gesetzt werden.\n663\n\n\nauch \"ger(n|ne)\"\n\n49\n\n\n[pos=VVFIN] \"ger(n|ne)\"\nSuche nach einem finiten Verb ([pos=VVFIN]), gefolgt von gern oder gerne (ger(n|ne)).\n129"
   },
   {
     "objectID": "examples/activities/particleVerbs.html",
@@ -182,172 +280,81 @@
     "text": "Suchanfragen im KED\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n[pos=PTKVZ]\nSucht nach allen abgetrennten Verbpartikeln.\n15.526\n\n\n\n\n\n\n\n\n\n\n\nKorpussuche einschränken\nErläuterung\nn Treffer\n\n\n\n\nThema Natur und Leben\nSuche mit eingeschränktem Korpus (siehe  1. Schritt).\n5.354\n\n\nTextlänge 500-1.000 Wörter\nSuche mit eingeschränktem Korpus (siehe  1. Schritt).\n2.494\n\n\n\n\n\n\nKontext-/Text-ID-Filter\nErläuterung\nn Treffer\n\n\n\n\nBZE/00006\nFiltert die Ergebnistabelle nach bestimmtem Text.\n15"
   },
   {
-    "objectID": "examples/activities/likeTo.html",
-    "href": "examples/activities/likeTo.html",
-    "title": "gern(e)",
+    "objectID": "examples/activities/strongVerbs.html",
+    "href": "examples/activities/strongVerbs.html",
+    "title": "Starke Verben",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben ausdrücken: etwas gerne tun\n\n\nZielstruktur\nSuche nach Belegen für gern(e) + Verb\n\n\nAnvisierte DDL-Aktivität\nHands-on\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Sprachniveau\nA1-B1\n\n\nZielsprachhandlung\nKorrekte Verwendung häufiger starker Verben\n\n\nZielstruktur\nDie 20 häufigsten starken Verben (nach der Herder-Liste)\n\n\nAnvisierte DDL-Aktivität\nHands-off mit vorgefertigten Listen\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/likeTo.html#profil",
-    "href": "examples/activities/likeTo.html#profil",
-    "title": "gern(e)",
+    "objectID": "examples/activities/strongVerbs.html#profil",
+    "href": "examples/activities/strongVerbs.html#profil",
+    "title": "Starke Verben",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben ausdrücken: etwas gerne tun\n\n\nZielstruktur\nSuche nach Belegen für gern(e) + Verb\n\n\nAnvisierte DDL-Aktivität\nHands-on"
+    "text": "Sprachniveau\nA1-B1\n\n\nZielsprachhandlung\nKorrekte Verwendung häufiger starker Verben\n\n\nZielstruktur\nDie 20 häufigsten starken Verben (nach der Herder-Liste)\n\n\nAnvisierte DDL-Aktivität\nHands-off mit vorgefertigten Listen"
   },
   {
-    "objectID": "examples/activities/likeTo.html#szenario",
-    "href": "examples/activities/likeTo.html#szenario",
-    "title": "gern(e)",
+    "objectID": "examples/activities/strongVerbs.html#szenario",
+    "href": "examples/activities/strongVerbs.html#szenario",
+    "title": "Starke Verben",
     "section": "Szenario",
-    "text": "Szenario\nIn einem A1-Kurs sollen Ihre Lernenden erzählen, was sie gerne tun. Dazu suchen sie im KED nach passenden Verben im Kontext von gern(e) und auch gern(e). Mit Hilfe des KED recherchieren sie Antworten auf vorgegebene Fragen zu Vorlieben verschiedener Gruppen. Anschließend sprechen sie über ihre eigenen Vorlieben."
+    "text": "Szenario\nIn Ihrem Kurs auf Sprachniveau A1 bis B1 sollen sich Ihre Lernenden die Formen der starken Verben bewusst machen, besonders Formen im Präsens, Präteritum und Partizip Perfekt („Stammformen“), sowie die Formen im Kontext einüben. Mit Material aus dem KED wollen Sie form-fokussierende Übungsaufgaben erstellen. Hier finden Sie vorausgewählte Belege der 20 häufigsten starken Verben in ihren relevanten Formen."
   },
   {
-    "objectID": "examples/activities/likeTo.html#schritt-für-schritt",
-    "href": "examples/activities/likeTo.html#schritt-für-schritt",
-    "title": "gern(e)",
+    "objectID": "examples/activities/strongVerbs.html#schritt-für-schritt",
+    "href": "examples/activities/strongVerbs.html#schritt-für-schritt",
+    "title": "Starke Verben",
     "section": "Schritt-für-Schritt",
-    "text": "Schritt-für-Schritt\n\nRecherchieren Sie selbst im KED nach Beispielen, in denen Vorlieben mit den Ausdrücken gern(e) und auch gern(e) vorkommen.\nÜberfliegen Sie die Belege und formulieren Sie eine Reihe geeigneter Fragen der Art Was machen Touristen gerne?, Was machen Katzen gern?, Was machen die Finnen gern?, Was machen Kinder gern?, usw.\nVerteilen Sie die Fragen an die Lernenden. Sie sollen die Fragen mit Hilfe einer Recherche im KED beantworten.\nVeranschaulichen Sie die Suche im KED anhand der ersten Frage (z.B. Was machen Touristen gerne?). Nutzen Sie das Suchfeld und die Filterfunktionen der Trefferliste, um relevante Belege zu finden.\nBegleiten Sie die Lernenden bei der Suche nach Antworten auf die verbleibenden Fragen im KED.\nSammeln und kontrollieren Sie die gefundenen Antworten im Plenum.\nAbschließend sprechen die Lernenden in Gruppen darüber, was die Menschen in ihrem Heimatland und sie selbst gerne tun."
+    "text": "Schritt-für-Schritt\n\nVorwissen aktivieren\n\nDurchsuchen Sie die vorausgewählten Belege nach Kontexten, die neben den starken Verbformen auch schwache Verbformen enthalten.\nKopieren Sie die gewünschten Belege einzeln in eine Textdatei und erstellen Sie eine Liste von Belegen.\nVerteilen Sie die Liste an die Lernenden und weisen Sie sie an, in den Belegen nach starken und schwachen Verbformen zu suchen und diese unterschiedlich zu markieren.\n\n\nAufgabe Lesen Sie die folgenden Textschnipsel. Unterstreichen Sie alle starke Verben rot, alle schwachen Verben blau.\n(1) […] sie wäre. Sie besuchte eine Schule in der englischen Stadt Birmingham und schrieb Bücher über ihr Leben. Sie erhielt weitere Preise für ihren Einsatz für […] (KLX/01912)\n(2) […] Diese Filme spielen vor den alten Filmen. Lucas hat dafür neue Schauspieler genommen. Mit den Filmen verdiente Lucas viel Geld, doch waren viele Zuschauer enttäuscht […] (KLX/00777)\n(3) […] Sträuchern oder Stauden. Kommt das Obst von Bäumen in der freien Natur, spricht man von Wildobst. Fallobst ist Obst, das bereits vom Baum auf den […] (KLX/03110)\n…\n\n\n\nVokalwechsel im Präsens (A1/A2)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben mit Vokalwechsel im Präsens (z.B. geben). Wählen Sie im Typfilter die Typen 1 bis 4 (Präsensformen) aus.\nMarkieren Sie die ausgewählten Belege mit der Maus und übertragen Sie sie mit Kopieren und Einfügen in eine Textdatei.\nEntfernen Sie die Zielformen aus der Tabelle, so dass Lücken entstehen.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Zielformen in die Lücken einzusetzen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von geben ein.\n(1) Bei denen, die das Geld schließlich annahmen, passierte zum Teil etwas Seltsames: „Ich  gab  den Schein weiter“, versicherten die einen.” Ich spende euch zehn Franken zurück (FLU/00032)\n(2) dürfen ihre Interessen vertreten. Manche Konzerne haben zum Beispiel viel Geld. Und sie  geben  vielen Menschen Arbeit. Sie dürfen sich zum Beispiel dafür einsetzen, dass die (BPB/00013)\n(3) wir erklären den Unterschied zwischen dem Verbrauchsdatum und dem Mindest-Haltbarkeitsdatum. Und wir       Ihnen brauchbare Tipps – so können Sie selbst prüfen, ob ein Lebensmittel noch (BZE/00011)\n…\n\n\nFür fortgeschrittene Anfänger erstellen Sie eine Tabelle mit Belegen für mehrere Verben mit Vokalwechsel im Präsens (z.B. geben, gelten, halten, nehmen) in zufälliger Reihenfolge. Die Lernenden müssen dann den Kontext stärker berücksichtigen, um das richtige Verb zu wählen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von geben - gelten - halten - nehmen ein.\n(1) Lass die Eier etwa 10 min kochen. Nach dem Kochen  nimmst  du die Eier mit einem Löffel aus dem Wasser. Wenn sie noch (SSJ/00003)\n(2) glockenähnlicher Klang zu hören. Wenn du die Schnur nicht an die Ohren  hälst , ist der Klang viel leiser. (SSK/00017)\n(3) können nicht alle kranken Kinder die Medizin bekommen, die sie brauchen. Das       sowohl in Apotheken als auch in Krankenhäusern. Immer mehr Familien sind besorgt (KSN/00225)\n…\n\n\n\nPräteritumsformen (A2/B1)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben im Präteritum (z.B. schreiben, bringen, lassen, heißen, denken, kommen, finden). Wählen Sie im Typfilter die Typen 5 und 6 (Präteritumsformen) aus.\nLaden Sie die Belege für mehrere Verben als Exceltabelle herunter.\nEntfernen Sie die Zielformen aus der Tabelle.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Zielformen in die Lücken einzusetzen.\n\n\nAufgabe Setzen Sie in den folgenden Textschnipseln die richtigen Formen von schreiben - bringen - lassen - heißen - denken - kommen - finden ein.\n\n\n\n\n(1) Jahren. Er war etwa neun Meter lang und vier Meter hoch. Er\n\n\n     \n\n\nein Gewicht von bis zu 12 Tonnen auf die Waage. Damit wog (KLX/00530)\n\n\n\n\n(2) sie wäre. Sie besuchte eine Schule in der englischen Stadt Birmingham und\n\n\n     \n\n\nBücher über ihr Leben. Sie erhielt weitere Preise für ihren Einsatz für (KLX/01912)\n\n\n\n\n(3) sie ziemlich arm: ihre Mutter starb, sie bekam ihr erstes Kind, sie\n\n\n     \n\n\nsich von ihrem Ehemann scheiden. Die Reihe der Harry-Potter-Romane machte sie reich (KLX/02885)\n\n\n\n\n…\n\n\n     \n\n\n…\n\n\n\n\n\n\n\nPartizip-Perfekt-Formen (B1)\n\nDurchsuchen Sie die vorausgewählten Belege nach einem starken Verben im Partizip Perfekt (z.B. nennen, stehen, heißen, finden). Wählen Sie im Typfilter die Typen 7 und 8 (Partizipformen) aus.\nLaden Sie die Belege für mehrere Verben als Exceltabelle herunter.\nEntfernen Sie unnötige Spalten. Ordnen Sie die linke Spalte mit dem linken Kontext in alphabetischer oder zufälliger Reihenfolge. Ergänzen Sie alphabetische bzw. numerische Indizes in den Spalten.\nVerteilen Sie die Tabelle an die Lernenden und weisen Sie sie an, die Kontexte miteinander zu verknüpfen.\n\n\nAufgabe Welche Teile passen zusammen? Verknüpfen Sie die passenden Kontexte.\nA-3, B-   , C-   , D-   , E-  \n\n\n\n\nA zu schlichten. Es soll auch Verständnis dafür geweckt werden, warum jemand etwas\n\n\n\n\n1 genannt. So entstanden Nachnamen wie Lang oder Lange. Der bayerische Nachname Lenk heißt (KLX/02992)\n\n\n\n\nB ein sogenannter Übername. Einen langen Menschen haben die Nachbarn oft den Langen\n\n\n\n\n2 gestanden, vielleicht um eine Staumauer aus Steinen zu bauen? Dann hast du sicher (SSW/00273)\n\n\n\n\nC Leben! Hast du schon einmal ohne Gummistiefel etwas länger in einem Bergbach\n\n\n\n\n3 getan oder gesagt hat, was zu dem Streit geführt hat. Im besten Fall (HAN/00827)\n\n\n\n\nD Der Name stammt von dem Ort in Österreich, wo man zuerst etwas\n\n\n\n\n4 geheißen. Sie teilen dort die Gebete und die Arbeit mit den Brüdern. (KLX/01256)\n\n\n\n\nE Außerdem sind in Taizé Jugendliche aus aller Welt und aus allen Religionen willkommen\n\n\n\n\n5 gefunden hat. Es ist unbekannt, welche Sprache diese Menschen gesprochen haben. Aber aus (KLX/03223)"
   },
   {
-    "objectID": "examples/activities/likeTo.html#suchanfragen-im-ked",
-    "href": "examples/activities/likeTo.html#suchanfragen-im-ked",
-    "title": "gern(e)",
+    "objectID": "examples/activities/strongVerbs.html#suchanfragen-im-ked",
+    "href": "examples/activities/strongVerbs.html#suchanfragen-im-ked",
+    "title": "Starke Verben",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n\"ger(n|ne)\"\nDer Ausdruck (A|B) sucht nach entweder A oder B. Suchausdrücke mit solchen Platzhaltern müssen in doppelte Anführungszeichen \"...\" gesetzt werden.\n663\n\n\nauch \"ger(n|ne)\"\n\n49\n\n\n[pos=VVFIN] \"ger(n|ne)\"\nSuche nach einem finiten Verb ([pos=VVFIN]), gefolgt von gern oder gerne (ger(n|ne)).\n129"
+    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n[base=nehmen]\nSucht nach allen Formen von nehmen.\n1.601\n\n\nnehme|nimmt|nimmst|nehmen\nSucht nach den häufigsten Formen von nehmen im Präsens.\n1.131\n\n\nnahm|nahmen\nSucht nach den Präteritumsformen nahm und nahmen.\n211\n\n\ngenommen\nSucht nach der Partizipform genommen.\n173"
   },
   {
-    "objectID": "examples/activities/dates.html",
-    "href": "examples/activities/dates.html",
-    "title": "Zeitangaben mit am vs. um",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publikationen",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nZeitangaben verstehen und ausdrücken\n\n\nZielstruktur\nPräpositionen am und um\n\n\nAnvisierte DDL-Aktivität\nHands-off\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Daniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/dates.html#profil",
-    "href": "examples/activities/dates.html#profil",
-    "title": "Zeitangaben mit am vs. um",
+    "objectID": "publications/index.html#aufsätze",
+    "href": "publications/index.html#aufsätze",
+    "title": "Publikationen",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nZeitangaben verstehen und ausdrücken\n\n\nZielstruktur\nPräpositionen am und um\n\n\nAnvisierte DDL-Aktivität\nHands-off"
+    "text": "Daniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996."
   },
   {
-    "objectID": "examples/activities/dates.html#szenario",
-    "href": "examples/activities/dates.html#szenario",
-    "title": "Zeitangaben mit am vs. um",
-    "section": "Szenario",
-    "text": "Szenario\nIn Ihrem A1‐Kurs werden die Präpositionen am und um zum Ausdruck von Zeitangaben eingeführt. Sie möchten, dass Ihre Lernenden die typischen Verwendungsmuster für die beiden Präpositionen an authentischen Beispielen selbst entdecken und bereiten hierfür eine Liste mit einschlägigen Beispielen aus dem KED vor. Die Lernenden nutzen die gefundenen Muster, um den Besuch eines Festivals zu planen."
+    "objectID": "publications/index.html#vorträge",
+    "href": "publications/index.html#vorträge",
+    "title": "Publikationen",
+    "section": "Vorträge",
+    "text": "Vorträge\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Wie kommen authentische Sprachdaten in den DaF-Unterricht? Datengeleitetes Lernen (DDL) mit dem Korpus einfaches Deutsch (KED)“ (Vortrag, Mianyang, 1. Dezember 2024), https://korpus-einfaches-deutsch.de/publications/_mianyang_2024/mianyang_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGunther Dietz und Daniel Jach „Wie kommen authentische Sprachdaten in den DaF-Unterricht? Ansätze datengestützten Lernens (DDL) unter Nutzung des ‚Korpus einfaches Deutsch‘ (KED)“ (Workshop, Göttingen, 12. Oktober 2024), https://korpus-einfaches-deutsch.de/publications/_goettingen_2024/goettingen_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\nKorpora und DDL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatengestütztes Lernen (DDL) mit dem ‚Korpus einfaches Deutsch‘ (KED)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch (KED): Eine digitale Ressource für den datengestützten Fremdsprachenunterricht auf Anfängerniveau“ (Vortrag, Qingdao, 27. August 2024), https://korpus-einfaches-deutsch.de/publications/_qingdao_2024/qingdao_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDaniel Jach und Gunther Dietz „Das Korpus einfaches Deutsch (KED) als Werkzeug für den DaF-Unterricht: Ein Anwendungsszenario zur Vermittlung der je-desto-Konstruktion“ (Vortrag, Bamberg, 27. September 2024), https://korpus-einfaches-deutsch.de/publications/_bamberg_2024/bamberg_2024_slides.html.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGunther Dietz und Daniel Jach „‚Korpus einfaches Deutsch‘ - Sprachdidaktische und korpuslinguistische Perspektiven eines neuen Korpusprojekts“ (Poster, Heidelberg, 21.–22. März 2024), https://korpus-einfaches-deutsch.de/publications/_heidelberg_2024/heidelberg_2024_poster.pdf."
   },
   {
-    "objectID": "examples/activities/dates.html#schritt-für-schritt",
-    "href": "examples/activities/dates.html#schritt-für-schritt",
-    "title": "Zeitangaben mit am vs. um",
-    "section": "Schritt-für-Schritt",
-    "text": "Schritt-für-Schritt\n\nSuchen Sie im KED nach passenden Belegen für die beiden Präpositionen.\nErstellen Sie eine Liste typischer Verwendungsbeispiele. Nutzen Sie hierfür die Filter- und Sortierfunktionen der Trefferliste.\nVerteilen Sie die Beispielliste an die Lernenden mit der Aufgabe, am, um und häufige Nachbarwörter zu markieren und „Regeln“ (typische Kontexte) für die Verwendung von am und um zu erarbeiten.\n\n\nAufgabe Lesen Sie die folgenden Sätze und markieren Sie am, um und häufige Nachbarwörter.\n\nJanuar geboren wurde, feiert seinen Geburtstag immer am 1. Januar. Der „erste Geburtstag“ ist ein Jahr\nSonnenfinsternis gibt es in Europa erst wieder am 3. September 2081.\nim Viertelfinale gegen Italien, das Spiel ist am Dienstag. Einen großen Rückschlag gab es für Titelverteidiger\njedoch eher Zufall. Das Fest beginnt schon am Sonntag mit dem Kinderumzug. Viele Kindergruppen tragen\nFrankreich und Deutschland gegenüber. Das Finale findet um 13 Uhr unserer Zeit statt. Sie haben\n2020, schalten Menschen auf der ganzen Welt um 20.30 Uhr für eine Stunde das Licht\n…\n\n\n\nVerteilen Sie das Programm eines bevorstehenden oder bekannten Festivals (z.B. Wacken Open Air oder Rock am Ring) und lassen Sie die Lernenden in Paaren oder Kleingruppen den Besuch planen. Geben Sie einige geeignete Redemittel vor, falls nötig."
-  },
-  {
-    "objectID": "examples/activities/dates.html#suchanfragen-im-ked",
-    "href": "examples/activities/dates.html#suchanfragen-im-ked",
-    "title": "Zeitangaben mit am vs. um",
-    "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\nam\n\n3.921\n\n\num\n\n5.905\n\n\n\n\n\n\n\n\n\n\n\nRechter Kontextfilter\nErläuterung\nn Treffer\n\n\n\n\n^\\d\nWählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n326\n\n\n^\\w*tag\nWählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n179\n\n\n^\\d.*Uhr\nWählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen andere Zeichen (.*), gefolgt von Uhr (Uhr).\n36"
-  },
-  {
-    "objectID": "examples/activities/favorite.html",
-    "href": "examples/activities/favorite.html",
-    "title": "Lieblings‐Nomenkomposita",
+    "objectID": "description/development.html",
+    "href": "description/development.html",
+    "title": "Entstehung",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben nennen\n\n\nZielstruktur\nKomposita mit Lieblings-\n\n\nAnvisierte DDL-Aktivität\nHands-on\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/favorite.html#profil",
-    "href": "examples/activities/favorite.html#profil",
-    "title": "Lieblings‐Nomenkomposita",
+    "objectID": "help/login.html",
+    "href": "help/login.html",
+    "title": "Wie logge ich mich in der KED-Suche ein?",
     "section": "",
-    "text": "Sprachniveau\nA1\n\n\nZielsprachhandlung\nVorlieben nennen\n\n\nZielstruktur\nKomposita mit Lieblings-\n\n\nAnvisierte DDL-Aktivität\nHands-on"
+    "text": "Um die KED-Suche nutzen zu können, müssen Sie …\n\nsich einmalig und kostenfrei beim IDS (Institut für Deutsche Sprache) registrieren (so geht’s).\neinmalig und kostenfrei einen sog. Access-Token auf der KorAP-Seite generieren (so geht’s).\nsich mit dem Access-Token in der KED-Suche anmelden (so geht’s).\n\n\nErster Schritt: Registrierung beim IDS\n\n\nKlicken Sie auf https://perso.ids-mannheim.de/registration/, um die Registrierungsseite zu öffnen.\nWählen Sie bei Bearbeitungsmodus die Option Registrierung beantragen, dann bei IDS-Dienst die Option: DeReKo und … Korpusrecherchesysteme und darunter Noch keine Registrierung vorhanden.\nGeben Sie Ihren Vor- und Nachnamen ein.\nKlicken Sie auf Persönliche Daten eingeben, um zum Menü Registrierungsdaten anlegen zu gelangen.\nFüllen Sie alle mit einem roten Sternchen versehenen Felder aus und klicken Sie die Erklärungen an.\nHinweis: Sie können die Cosmas II/KorAP-Kennung und das Passwort frei wählen.\nKlicken Sie dann auf Registrierung abschließen.\nSie erhalten danach eine E-Mail zur Bestätigung.\n\n\n\nZweiter Schritt: Ein Access-Token erstellen\n\nKlicken Sie auf https://korap.ids-mannheim.de/instance/ked, um die KED-KorAP-Instanz zu öffnen.\n\n\n\nMelden Sie sich links oben mit Ihrer E-Mail-Adresse und Ihrem Passwort an.\nKlicken Sie auf das Schieberegler-Symbol links unten.\nKlicken Sie auf OAuth. Füllen Sie das Menü wie folgt aus:\n\nName der Client-Application: KED\nKurzbeschreibung: KED-Interface\n\nKlicken Sie dann auf Neue Client-Applikation registrieren.\nKlicken Sie im nächsten Menü unterhalb der ID der Client-Applikation auf Neues Token erstellen (‚issue new token‘).\nKopieren Sie das Access-Token mit Klick auf das Kopieren-Symbol in Ihre Zwischenablage.\nSpeichern Sie das Token sicher ab.\n\n\n\nDritter Schritt: Anmelden in der KED-Suche\n\nRufen Sie die KED-Suche auf: https://ked-portal.shinyapps.io/ked-suche/\n\n\n\nKlicken Sie rechts ob auf die Login-Schaltfläche und kopieren dann Ihr KorAP-Access-Token in das vorgegebene Feld.\nKlicken Sie auf Anmelden. Sie sind nun eingeloggt und können die KED-Suche nutzen.\n\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
-    "objectID": "examples/activities/favorite.html#szenario",
-    "href": "examples/activities/favorite.html#szenario",
-    "title": "Lieblings‐Nomenkomposita",
-    "section": "Szenario",
-    "text": "Szenario\nIn Ihrem A1‐Kurs sollen die Lernenden über ihre Vorlieben berichten und dabei auch Komposita mit dem Bestimmungswort Lieblings‐ nutzen. Hierfür suchen die Lernenden im KED nach geeigneten Komposita und erstellen einen Fragebogen."
-  },
-  {
-    "objectID": "examples/activities/favorite.html#schritt-für-schritt",
-    "href": "examples/activities/favorite.html#schritt-für-schritt",
-    "title": "Lieblings‐Nomenkomposita",
-    "section": "Schritt-für-Schritt",
-    "text": "Schritt-für-Schritt\n\nProbieren Sie selbst einige Suchanfragen im KED aus. Finden Sie Beispiele für Nomen, die mit Lieblings‐ beginnen.\nInstruieren Sie Ihre Lernenden bei der selbstständigen Suche im KED nach (weiteren) Beispielen für Lieblings‐Komposita.\nLassen Sie Ihre Lernenden in Gruppen fünf verschiedene Komposita auswählen und einen Fragebogen erstellen. Der Fragebogen sollte aus fünf Items mit jeweils vier Antwortmöglichkeiten bestehen. Die Lernenden sollten keine Wörterbücher verwenden, sondern versuchen, die Bedeutung unbekannter Lieblings-Komposita aus dem Kontext zu erschließen. Die Erschließung der Bedeutung ist Voraussetzung für die Entwicklung sinnvoller Antwortmöglichkeiten.\n\n\n\nFragebogen\n\nWer ist dein Lieblingsheld?\nO Iron Man O Wonder Woman O Batman O __________\nWer ist dein Lieblingsmusiker?\nO Taylor Swift O Lady Gaga O Beyoncé O __________\n…\n\n\nLassen Sie die Lernenden im Klassenzimmer umhergehen, andere Lernende mit Hilfe des Fragebogens nach deren Lieblings-X befragen und die Antworten der Befragten notieren. Die Antwortmöglichkeiten geben den befragten Lernenden einen Kontext zum Erschließen der Bedeutung unbekannter Lieblings-Komposita.\nDie Lernenden kehren in Gruppen zurück, berichten ihre Antworten und erstellen eine Statistik.\nSammeln Sie Fragen und Antworten im Plenum und ermitteln Sie die beliebtesten X in der Klasse."
-  },
-  {
-    "objectID": "examples/activities/favorite.html#suchanfragen-im-ked",
-    "href": "examples/activities/favorite.html#suchanfragen-im-ked",
-    "title": "Lieblings‐Nomenkomposita",
-    "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\n\n\n\n\nSucheingabe\nErläuterung\nn Treffer\n\n\n\n\n\"Lieblings.+\"\nDer Punkt . steht für beliebiges Zeichen, das Pluszeichen + für beliebig häufiges Vorkommen des Zeichens davor. Bei der Verwendung solcher Platzhalter muss der Suchausdruck in doppelten Anführungszeichen \"...\" stehen.\n39"
-  },
-  {
-    "objectID": "examples/index.html",
-    "href": "examples/index.html",
-    "title": "Einführung",
+    "objectID": "help/index.html",
+    "href": "help/index.html",
+    "title": "Hilfe",
     "section": "",
-    "text": "Wie kommen authentische Sprachdaten in den DaF-Unterricht? Hier werden Beispiele für den Einsatz von Belegen aus dem KED im Unterricht Deutsch als Fremdsprache beschrieben. Die Beispiele richten sich an Lehrende und können im eigenen Unterricht eingesetzt werden oder als Anregung bzw. Vorlage für die Entwicklung eigener Lernaktivitäten mit dem KED dienen. Inhaltlich orientieren die Aktivitäten sich an typischen Lerngegenständen in Lehrwerken. Sie sind nicht als vollständige Unterrichtseinheiten gedacht, sondern als Ergänzungen, die den Einsatz authentischer Sprachdaten im Unterricht im Rahmen eines thematischen Kapitels oder eine kommunikativen Einheit ermöglichen. Sie bestehen daher aus einem möglichst allgemein gehaltenen Szenario, einer Schritt-für-Schritt-Anleitung für die Lehrkraft sowie Hinweisen zu hilfreichen Suchanfragen im KED.\nDie Beispielsammlung wird ständig erweitert. Bisher sind 11 Aktivitäten online.\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
-  },
-  {
-    "objectID": "description/composition.html",
-    "href": "description/composition.html",
-    "title": "Aufbau",
-    "section": "",
-    "text": "Das KED umfasst gegenwärtig 6.841 Texte aus 14 verschiedenen Internetquellen. Tabelle 1 fasst das Korpus zusammen.\n\n\n\nTabelle 1: KED im Überblick\n\n\n\n\n\nKED\n\n\n\n\n\nQuellen: n\n14\n\n\nTexte: n\n6.841\n\n\nTokens: n\n2.803.454\n\n\nTokens/Text: m (se)\n409,8 (3,57)\n\n\nSätze: n\n224.042\n\n\nSätze/Text: m (se)\n32,75 (0,31)\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
-  },
-  {
-    "objectID": "description/composition.html#überblick",
-    "href": "description/composition.html#überblick",
-    "title": "Aufbau",
-    "section": "",
-    "text": "Das KED umfasst gegenwärtig 6.841 Texte aus 14 verschiedenen Internetquellen. Tabelle 1 fasst das Korpus zusammen.\n\n\n\nTabelle 1: KED im Überblick\n\n\n\n\n\nKED\n\n\n\n\n\nQuellen: n\n14\n\n\nTexte: n\n6.841\n\n\nTokens: n\n2.803.454\n\n\nTokens/Text: m (se)\n409,8 (3,57)\n\n\nSätze: n\n224.042\n\n\nSätze/Text: m (se)\n32,75 (0,31)"
-  },
-  {
-    "objectID": "description/composition.html#teilkorpora",
-    "href": "description/composition.html#teilkorpora",
-    "title": "Aufbau",
-    "section": "Teilkorpora",
-    "text": "Teilkorpora\nDie Texte im Korpus sind mit Adressatengruppe, Textsorte, Vertextungsstrategie und Thema annotiert. Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite Kuppelkucker beispielsweise an Kinder1, Texte aus der Online-Ausgabe des Fluter-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft2. Textsorte und Vertextungsstrategie wurden den Texten nach subjektiver Einschätzung der Korpusautoren zugeordnet, abhängig von ihrer Quelle. Teilweise wurden Texte einer Quelle weiter unterteilt. Von der Webseite der Bundeszentrale für politische Bildung beispielsweise sind sowohl Erklärtexte aus der einfach POLITIK-Subdomäne3 als auch Lexikoneinträge aus dem einfach POLITIK: Lexikon4 im KED enthalten. Die Themen der Texte wurden hingegen mit Hilfe von einem unüberwachtem maschinellen Lernverfahren ermittelt (‚unsupervised topic modeling‘, Silge und Robinson 2017). Das Verfahren wird ausführlicher hier beschrieben. In Tabelle 2 wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in Abbildung 2 (i) zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Thementitel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.\n\n\n\nTabelle 2: Aufbau des KED im Überblick\n\n\n\n\n\n\n\n(a) Adressaten im KED\n\n\n\n\n\nAdressaten\nn Texte\nn Wörter\n\n\n\n\nErwachsene\n523\n302.235\n\n\nJugendliche\n525\n379.297\n\n\nKinder\n5.793\n2.121.922\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b) Adressaten im KED\n\n\n\n\n\n\n\n\n\n\n(c) Textsorten im KED\n\n\n\n\n\nTextsorte\nn Texte\nn Wörter\n\n\n\n\nArgumentation\n55\n90.363\n\n\nEmpfehlung\n287\n198.204\n\n\nErklärtext\n915\n477.896\n\n\nExperiment\n217\n59.121\n\n\nLexikonartikel\n4.424\n1.735.711\n\n\nNachricht\n943\n242.159\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(d) Textsorten im KED\n\n\n\n\n\n\n\n\n\n\n(e) Vertextungsstrategien im KED\n\n\n\n\n\nVertextungsstrategie\nn Texte\nn Wörter\n\n\n\n\nAnweisen\n251\n69.522\n\n\nArgumentieren\n55\n90.363\n\n\nBerichten\n943\n242.159\n\n\nErklären\n5.592\n2.401.410\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(f) Vertextungsstrategien im KED\n\n\n\n\n\n\n\n\n\n\n(g) Themen im KED\n\n\n\n\n\nThema\nn Texte\nn Wörter\n\n\n\n\nGeschichte und Kultur\n2.193\n928.465\n\n\nGesundheit und Krankheit\n588\n317.010\n\n\nNatur und Leben\n1.880\n843.224\n\n\nPolitik und Gesellschaft\n2.180\n714.755\n\n\nTotal\n6.841\n2.803.454\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(h) Themen im KED\n\n\n\n\n\n\n\n\n\n\n\n\n\n(i) Wichtige Nomen der Themen im KED"
-  },
-  {
-    "objectID": "description/composition.html#weitere-metadaten",
-    "href": "description/composition.html#weitere-metadaten",
-    "title": "Aufbau",
-    "section": "Weitere Metadaten",
-    "text": "Weitere Metadaten\n\n\nTextdeckung\nDie Textdeckung gibt den Anteil der Textwörter an, die in der Liste der häufigsten Wörter des Deutschen enthalten sind. Dabei wird auf der Grundlage der Herder-Häufigkeitsliste (Tschirner und Möhring 2020) zwischen den häufigsten 1.000, 2.000, 3.000, 4.000 und 5.000 Wörtern des Deutschen unterschieden. Abbildung 1 zeigt beispielhaft die Textdeckung von fünf zufällig ausgewählten Texte.\n\n\n\n\n\n\n\n\nAbbildung 1: Textdeckung zufällig ausgewählter Texte\n\n\n\n\n\n\n\n\n\n\nAbbildung 2: Verteilung der Textdeckung im KED\n\n\n\n\n\nDer Text mit dem Titel Antisemitismus weist beispielsweise für die 1.000 häufigsten Wörter des Deutschen lediglich eine Textdeckung von etwa 0,5 auf, d.h. etwa 50% der Textwörter sind in der Liste der 1.000 häufigsten Wörter des Deutschen enthalten, während die übrigen 50% nicht enthalten sind. Die Textdeckung nimmt mit der Länge der Wortliste zu. Die Textdeckung der 2.000 häufigsten Wörter des Deutschen beträgt nahezu 60%, während sie bei den 3.000 häufigsten Wörtern bereits über 60% liegt. Bei den 4.000 häufigsten Wörtern steigt die Textdeckung auf nahezu 65% an. Die nächsten 1.000 Wörter erzielen dagegen keine signifikante Erhöhung der Textdeckung, die bei knapp unter 65 % konstant bleibt. Abbildung 2 zeigt die Verteilung der Textdeckung im KED. Die Textdeckung lässt sich als Maß für die Schwierigkeit eines Textes interpretieren. Für Anfänger ist ein Text umso einfacher zu verstehen, je höher die Textdeckung bei relativ kleinem Wortschatz ist (z. B. nur die 1.000 häufigsten Wörter des Deutschen) und je schneller die Textabdeckung mit steigendem Wortschatz zunimmt."
-  },
-  {
-    "objectID": "description/composition.html#footnotes",
-    "href": "description/composition.html#footnotes",
-    "title": "Aufbau",
-    "section": "Fußnoten",
-    "text": "Fußnoten\n\n\nhttps://www.kuppelkucker.de, 07. November 2024.↩︎\nhttps://www.bpb.de, 07. November 2024.↩︎\nhttps://www.bpb.de/themen/politisches-system/politik-einfach-fuer-alle/, 07. November 2024.↩︎\nhttps://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/, 07. November 2024.↩︎"
-  },
-  {
-    "objectID": "description/concept.html",
-    "href": "description/concept.html",
-    "title": "Konzept",
-    "section": "",
-    "text": "Das Korpus einfaches Deutsch (KED) ist eine digitale Sammlung bildungssprachlicher Texte in einfachem Deutsch. Unter Texte in einfachem Deutsch werden hier solche Texte verstanden, die für Lesende mit (vermutlich) eingeschränkter oder noch unterentwickelter Lesekompetenz geschrieben sind. Von solchen Texten ist zu erwarten, dass die Textproduzenten sie verständlicher und an die Bedürfnisse ihrer Adressaten angepasst formuliert haben (Bredel und Maaß 2016, 537). Die Auswahl der Texte erfolgt also ausdrücklich nicht nach formalen Kriterien der Einfachheit oder Komplexität eines Textes (etwa der Satzlänge oder dem Umfang des verwendeten Wortschatzes), sondern nach pragmatischen Kriterien. Das Korpus enthält solche Texte, die erkennbar mit der Absicht formuliert wurden, ihre Verständlichkeit für eine Adressatengruppe zu verbessern, von der die Textproduzenten annehmen, dass sie Schwierigkeiten beim Lesen „normalsprachlicher“ Texte haben könnte. Enthalten sind beispielsweise Texte aus dem Online-Kinderlexikon Klexikon. Diese Texte sollen laut Webseite „kindgerecht“ gestaltet sein, d.h. „dass der Inhalt gut verständlich ist und an die Lebenswelt von Kindern anschließt“1. Ein weiteres Beispiel sind Texte aus dem Online-Angebot der Apotheken Umschau in einfacher Sprache. Diese Texte sind mit der Absicht formuliert, „besonders verständlich“ zu sein, so dass „[a]lle Menschen […] sich über medizinische Themen informieren können“2.\nDie Texte im KED sind bildungssprachlich mit Bezug auf ihre Themen, Sprachhandlungen und Textsorten. Mit Bildungssprache wird das Register einer Sprache bezeichnet, das im Kontext formaler Bildung (z. B. in Schule oder Universität) besonders relevant ist (Gogolin und Lange 2011). Das bildungssprachliche Register ist als eine Auswahl von Sprachmitteln beschreibbar, die sich aufgrund ihrer formalen oder pragmatischen Eigenschaften besonders gut für die Wissensvermittlung und die Kommunikation in formalen Bildungskontexten eignen. Hierzu gehören beispielsweise ein sachlicher Stil und logischer Aufbau von Texten, abstrahierende und differenzierende Ausdrücke sowie unpersönliche Formulierungen (z. B. Passivsätze). Solche Eigenschaften sind typisch für bestimmte Textsorten, die in der formalen Bildung eine zentrale Rolle spielen, etwa Sachtexte, Berichte oder Argumentationen. Die im Korpus enthaltenen Texte sind vorwiegend Lexikonartikel, Erklärtexte und Experimente sowie Argumentationen, die häufig ausdrücklich inhaltlich an schulischen Curricula orientiert und als Ergänzung zum Fachunterricht gedacht sind. Sie behandeln Themen der Allgemein- oder schulischen Bildung. Hinzu kommen Nachrichtentexte zu politischen, kulturellen oder sportlichen Themen. Narrative Texte (z. B. Erzählungen) oder fiktionale Texte wie etwa Märchen sind dagegen nicht im Korpus enthalten.\nAuch Texte mit explizit sprachbildender Absicht sind nicht im KED enthalten. In diesem Sinn sind die Texte im KED authentisch (Gilmore 2007). Sie wurden von „echten“ Schreibern für „echte“ Leser mit der Absicht produziert, eine inhaltliche Botschaft zu übermitteln oder eine andere kommunikative Handlung zu realisieren. Sie sind nicht mit sprachdidaktischer Absicht entstanden, etwa um eine bestimmte sprachliche Zielstruktur hervorzuheben oder die Lesefähigkeit der Leser gezielt zu verbessern. Texte in Leichter Sprache (Stefanowitsch 2014) sind ebenfalls nicht im Korpus enthalten. Texte in Leichter Sprache werden von speziell geschulten Autoren verfasst und richten sich vorwiegend an Menschen mit dauerhaften kognitiven Einschränkungen. Sie folgen bestimmten Regeln und weisen besondere formale Eigenschaften auf, beispielsweise die Schreibung von Nomenkomposita mit Trennzeichen oder die weitgehende Vermeidung von Passivkonstruktionen, die sie deutlich von umgangs- oder bildungssprachlichen Varietäten unterscheiden und als ungeeignet für den Fremdsprachenunterricht erscheinen lassen.\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
-  },
-  {
-    "objectID": "description/concept.html#footnotes",
-    "href": "description/concept.html#footnotes",
-    "title": "Konzept",
-    "section": "Fußnoten",
-    "text": "Fußnoten\n\n\nhttps://klexikon.zum.de, 06. November 2024.↩︎\nhttps://www.apotheken-umschau.de, 06. November 2024.↩︎"
-  },
-  {
-    "objectID": "help/cite.html",
-    "href": "help/cite.html",
-    "title": "Wie soll ich das KED zitieren?",
-    "section": "",
-    "text": "Sie können das KED als Ganzes zitieren, indem Sie auf den folgenden Artikel verweisen:\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n\nEinzelne Belege aus dem KED können Sie nach dem Schema ‚Text-ID, Korpussuche-URL, Zugriffsdatum‘ zitieren:\n\n(KED/KLX/01769, https://ked-portal.shinyapps.io/korpussuche/, 13.07.2024)\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Inhaltsverzeichnis Wie logge ich mich in der KED-Suche ein? Wie suche ich in der KED-Suche nach Beispielen? Welche Möglichkeiten bietet die KED-Suche? Wie soll ich das KED zitieren? Weitere häufige Fragen\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
     "objectID": "help/faq.html",
@@ -366,9 +373,9 @@
   {
     "objectID": "material/index.html",
     "href": "material/index.html",
-    "title": "Einführung",
+    "title": "Material",
     "section": "",
-    "text": "© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
+    "text": "Inhaltsverzeichnis Starke Verben\n\n\n\n\n© Daniel Jach und Gunther Dietz 2024. All rights reserved. | Impressum"
   },
   {
     "objectID": "imprint.html",

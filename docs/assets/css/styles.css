@@ -120,3 +120,54 @@ hlb {
   background-color: #fff;
   transition: transform 0.3s ease;
 }
+
+
+
+
+/* CSS for Index Table of Contents */
+.index-toc {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f7f9fc; /* Light background similar to Flatly */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px; /* Centering and limiting width */
+}
+
+.index-toc h1 {
+    font-size: 2em;
+    color: #2c3e50; /* Darker text color for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index-toc ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.index-toc li {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #d1d1d1; /* Light border */
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.index-toc li:hover {
+    background-color: #e9ecef; /* Light gray on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.index-toc a {
+    text-decoration: none;
+    color: #18BC9C; /* Flatly theme link color */
+    font-weight: bold;
+}
+
+.index-toc a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #2980b9; /* Darker blue on hover */
+}
