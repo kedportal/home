@@ -69,6 +69,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../assets/css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body class="nav-fixed">
@@ -174,6 +175,10 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="../../examples/activities/particleVerbs.html">
  <span class="dropdown-text">Trennbare Verben</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../examples/activities/psychAdj.html">
+ <span class="dropdown-text">Gefühlsadjektive</span></a>
   </li>  
     </ul>
   </li>
@@ -318,16 +323,16 @@ Nutzen Sie den Text und die Belege, um Lernaktivitäten zu erstellen.
 <div class="quarto-layout-panel" data-layout-ncol="4">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
-<p><img src="images/daempfen.jpg" class="img-fluid" width="150"></p>
+<p><img src="images/daempfen.png" class="nice-img img-fluid" width="150"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
-<p><img src="images/duensten.jpg" class="img-fluid" width="150"></p>
+<p><img src="images/duensten.png" class="nice-img img-fluid" width="150"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
-<p><img src="images/kochen.jpg" class="img-fluid" width="150"></p>
+<p><img src="images/kochen.png" class="nice-img img-fluid" width="150"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
-<p><img src="images/braten.jpg" class="img-fluid" width="150"></p>
+<p><img src="images/braten.png" class="nice-img img-fluid" width="150"></p>
 </div>
 </div>
 <div class="quarto-layout-row">
@@ -424,17 +429,22 @@ Nutzen Sie den Text und die Belege, um Lernaktivitäten zu erstellen.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Thema <code>Natur und Leben</code></td>
-<td style="text-align: right;">Suche mit eingeschränktem Korpus (siehe <a href="#schritt1"> 1. Schritt</a>).</td>
+<td style="text-align: right;">Suche nach <code>[pos=PTKVZ]</code> in Texten zum Thema „Natur und Leben“ (siehe <a href="#schritt1"> 1. Schritt</a>).</td>
 <td style="text-align: right;">5.354</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Textlänge <code>500-1.000</code> Wörter</td>
-<td style="text-align: right;">Suche mit eingeschränktem Korpus (siehe <a href="#schritt1"> 1. Schritt</a>).</td>
+<td style="text-align: left;">Thema <code>Natur und Leben</code> + Textlänge <code>500-1.000</code> Wörter</td>
+<td style="text-align: right;">Suche nach <code>[pos=PTKVZ]</code> in Texten zum Thema „Natur und Leben“ und mit einer Länge zwischen 500 und 1.000 Wörtern (siehe <a href="#schritt1"> 1. Schritt</a>).</td>
 <td style="text-align: right;">2.494</td>
 </tr>
 </tbody>
 </table>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 55%">
+<col style="width: 12%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Kontext-/Text-ID-Filter</th>
@@ -445,7 +455,7 @@ Nutzen Sie den Text und die Belege, um Lernaktivitäten zu erstellen.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><code>BZE/00006</code></td>
-<td style="text-align: right;">Filtert die Ergebnistabelle nach bestimmtem Text.</td>
+<td style="text-align: right;">Filtert die Ergebnistabelle nach Belegen aus einem bestimmten Text.</td>
 <td style="text-align: right;">15</td>
 </tr>
 </tbody>
