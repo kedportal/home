@@ -171,3 +171,12 @@ hlb {
     text-decoration: underline; /* Underline on hover */
     color: #2980b9; /* Darker blue on hover */
 }
+
+.underline100 {
+  display: inline-block;
+  border-bottom: 1.5px black solid;
+  width: 100%;
+  max-width: 600px;
+  padding: 2px 0;
+  box-sizing: border-box;
+}
