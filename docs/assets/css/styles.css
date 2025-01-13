@@ -180,3 +180,11 @@ hlb {
   padding: 2px 0;
   box-sizing: border-box;
 }
+
+.navbar-logo {
+  max-height: 50px;
+}
+
+.navbar-title {
+  display: none;
+}
