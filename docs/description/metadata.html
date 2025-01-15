@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Redewiedergabe mit sollen – KED-Portal</title>
+<title>Metadaten – KED-Portal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,48 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b2e7262fd1c4b753f9e6155d978276c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b2e7262fd1c4b753f9e6155d978276c2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../assets/css/styles.css">
+<link rel="stylesheet" href="../assets/css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -79,10 +102,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/www/ked_logo_light.svg" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/www/ked_logo_light.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">KED-Portal</span>
     </a>
   </div>
@@ -93,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -102,21 +125,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beschreibung">    
         <li>
-    <a class="dropdown-item" href="../../description/concept.html">
+    <a class="dropdown-item" href="../description/concept.html">
  <span class="dropdown-text">Konzept</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../description/composition.html">
+    <a class="dropdown-item" href="../description/composition.html">
  <span class="dropdown-text">Aufbau</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../description/development.html">
+    <a class="dropdown-item" href="../description/development.html">
  <span class="dropdown-text">Entstehung</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../corpussearch.html"> 
+    <a class="nav-link" href="../corpussearch.html"> 
 <span class="menu-text">Korpussuche</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -125,27 +148,27 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-hilfe">    
         <li>
-    <a class="dropdown-item" href="../../help/index.html">
+    <a class="dropdown-item" href="../help/index.html">
  <span class="dropdown-text">Inhaltsverzeichnis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../help/login.html">
+    <a class="dropdown-item" href="../help/login.html">
  <span class="dropdown-text">Wie logge ich mich in der KED-Suche ein?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../help/search.html">
+    <a class="dropdown-item" href="../help/search.html">
  <span class="dropdown-text">Wie suche ich in der KED-Suche nach Beispielen?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../help/results.html">
+    <a class="dropdown-item" href="../help/results.html">
  <span class="dropdown-text">Welche Möglichkeiten bietet die KED-Suche?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../help/cite.html">
+    <a class="dropdown-item" href="../help/cite.html">
  <span class="dropdown-text">Wie soll ich das KED zitieren?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../help/faq.html">
+    <a class="dropdown-item" href="../help/faq.html">
  <span class="dropdown-text">Weitere häufige Fragen (FAQ)</span></a>
   </li>  
     </ul>
@@ -156,35 +179,35 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beispiele">    
         <li>
-    <a class="dropdown-item" href="../../examples/index.html">
+    <a class="dropdown-item" href="../examples/index.html">
  <span class="dropdown-text">Inhaltsverzeichnis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/favorite.html">
+    <a class="dropdown-item" href="../examples/activities/favorite.html">
  <span class="dropdown-text"><em>Lieblings</em>‐Nomenkomposita</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/dates.html">
+    <a class="dropdown-item" href="../examples/activities/dates.html">
  <span class="dropdown-text">Zeitangaben mit <em>am</em> vs.&nbsp;<em>um</em></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/likeTo.html">
+    <a class="dropdown-item" href="../examples/activities/likeTo.html">
  <span class="dropdown-text">Vorlieben mit <em>gern(e)</em> ausdrücken</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/strongVerbs.html">
+    <a class="dropdown-item" href="../examples/activities/strongVerbs.html">
  <span class="dropdown-text">Starke Verben konjugieren</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/particleVerbs.html">
+    <a class="dropdown-item" href="../examples/activities/particleVerbs.html">
  <span class="dropdown-text">Anweisungen mit trennbaren Verben</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/psychAdj.html">
+    <a class="dropdown-item" href="../examples/activities/psychAdj.html">
  <span class="dropdown-text">Gefühlsadjektive</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../examples/activities/handelnVonUm.html">
+    <a class="dropdown-item" href="../examples/activities/handelnVonUm.html">
  <span class="dropdown-text"><em>handeln von</em> vs.&nbsp;<em>sich handeln um</em></span></a>
   </li>  
     </ul>
@@ -195,29 +218,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-material">    
         <li>
-    <a class="dropdown-item" href="../../material/index.html">
+    <a class="dropdown-item" href="../material/index.html">
  <span class="dropdown-text">Inhaltsverzeichnis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../material/strongVerbs.html">
+    <a class="dropdown-item" href="../material/strongVerbs.html">
  <span class="dropdown-text">Starke Verben</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../publications/index.html"> 
+    <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publikationen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html"> 
+    <a class="nav-link" href="../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../sources/index.html"> 
+    <a class="nav-link" href="../sources/index.html"> 
 <span class="menu-text">Quellen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Kontakt</span></a>
   </li>  
 </ul>
@@ -236,10 +259,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#profil" id="toc-profil" class="nav-link active" data-scroll-target="#profil">Profil</a></li>
-  <li><a href="#szenario" id="toc-szenario" class="nav-link" data-scroll-target="#szenario">Szenario</a></li>
-  <li><a href="#schritt-für-schritt" id="toc-schritt-für-schritt" class="nav-link" data-scroll-target="#schritt-für-schritt">Schritt-für-Schritt</a></li>
-  <li><a href="#suchanfragen-im-ked" id="toc-suchanfragen-im-ked" class="nav-link" data-scroll-target="#suchanfragen-im-ked">Suchanfragen im KED</a></li>
+  <li><a href="#weitere-metadaten" id="toc-weitere-metadaten" class="nav-link active" data-scroll-target="#weitere-metadaten">Weitere Metadaten</a>
+  <ul class="collapse">
+  <li><a href="#textdeckung" id="toc-textdeckung" class="nav-link" data-scroll-target="#textdeckung">Textdeckung</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -248,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Redewiedergabe mit <em>sollen</em></h1>
+<h1 class="title">Metadaten</h1>
 </div>
 
 
@@ -265,123 +288,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="profil" class="level2">
-<h2 class="anchored" data-anchor-id="profil">Profil</h2>
-<table class="table">
-<tbody>
-<tr class="table-primary table-active">
-<th>
-</th>
-<th>
-</th>
-</tr>
-<tr>
-<th scope="row">
-Sprachniveau
-</th>
-<td style="text-align: right;">
-B1
-</td>
-</tr>
-<tr>
-<th scope="row">
-Zielsprachhandlung
-</th>
-<td style="text-align: right;">
-Wiedergabe fremder Behauptungen mit <em>sollen</em>
-</td>
-</tr>
-<tr>
-<th scope="row">
-Zielstruktur
-</th>
-<td style="text-align: right;">
-Modalverb <em>sollen</em> zum Ausdruck epistemischer Unsicherheit
-</td>
-</tr>
-<tr>
-<th scope="row">
-Anvisierte DDL-Aktivität
-</th>
-<td style="text-align: right;">
-Hands-off
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="szenario" class="level2">
-<h2 class="anchored" data-anchor-id="szenario">Szenario</h2>
-<p>In Ihrem B1‐Kurs thematisieren Sie das Modalverb <em>sollen</em> als Signal für die Wiedergabe fremder oder unsicherer Behauptungen.</p>
-<div style="margin-left: 25px;">
-<p>(1) Jesus soll darauf gesagt haben: „Du bist Petrus, der Fels und auf diesen Felsen werde ich meine Kirche bauen.“ (KED)</p>
+<section id="weitere-metadaten" class="level2">
+<h2 class="anchored" data-anchor-id="weitere-metadaten">Weitere Metadaten</h2>
+<!-- Darüber hinaus sind die Texte im KED mit einer Reihe weiterer didaktisch oder wissenschaftlich relevanter Merkmale annotiert. @tbl-metadata-summary fasst alle Metadaten zusammen. -->
+<section id="textdeckung" class="level3">
+<h3 class="anchored" data-anchor-id="textdeckung">Textdeckung</h3>
+<p>Die Textdeckung gibt den Anteil der Textwörter an, die in der Liste der häufigsten Wörter des Deutschen enthalten sind. Dabei wird auf der Grundlage der Herder-Häufigkeitsliste <span class="citation" data-cites="tschirner2020">(<a href="#ref-tschirner2020" role="doc-biblioref">Tschirner und Möhring 2020</a>)</span> zwischen den häufigsten 1.000, 2.000, 3.000, 4.000 und 5.000 Wörtern des Deutschen unterschieden. <a href="#fig-textcoverageExamples" class="quarto-xref">Abbildung&nbsp;1</a> zeigt beispielhaft die Textdeckung von fünf zufällig ausgewählten Texte.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<div id="fig-textcoverageExamples" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="plots/textcoverage_examples.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte"><img src="plots/textcoverage_examples.svg" class="img-fluid figure-img"></a>
 </div>
-<p>Ihre Lerner:innen sollen hierzu Belege aus authentischen Daten des KED kennenlernen und zugleich lernen, <em>sollen</em> in dieser Bedeutung von anderen Bedeutungen zu unterscheiden (v.a. <em>sollen</em> in Anweisungen, Geboten).</p>
-</section>
-<section id="schritt-für-schritt" class="level2">
-<h2 class="anchored" data-anchor-id="schritt-für-schritt">Schritt-für-Schritt</h2>
-</section>
-<section id="suchanfragen-im-ked" class="level2">
-<h2 class="anchored" data-anchor-id="suchanfragen-im-ked">Suchanfragen im KED</h2>
-<table class="table">
-<tbody>
-<tr class="table-primary table-active">
-<th>
-Wo
-</th>
-<th>
-Eingabe
-</th>
-<th>
-Erläuterung
-</th>
-<th>
-n&nbsp;Treffer
-</th>
-</tr>
-<tr>
-<th scope="row" rowspan="3" style="vertical-align: middle;">
-Sucheingabe
-</th>
-<td>
-<code>[base=sollen]</code>
-</td>
-<td>
-Sucht nach allen Wortformen der Grundform <em>sollen</em>.
-</td>
-<td>
-5.064
-</td>
-</tr>
-<tr>
-<td>
-<code>(soll|sollen)</code>
-</td>
-<td>
-Sucht nach den Wortformen <em>soll</em> und <em>sollen</em>.
-</td>
-<td>
-3.099
-</td>
-</tr>
-<tr>
-<td>
-<code>(soll|sollen)[]{0,4}[pos=VVINF]</code>
-</td>
-<td>
-Sucht nach den Wortformen <em>soll</em> und <em>sollen</em> gefolgt von einem infiniten Verb im Abstand von maximal vier Wörtern.
-</td>
-<td>
-853
-</td>
-</tr>
-</tbody>
-</table>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte
+</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:48%;">
+<div id="fig-textcoverage1k" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="plots/textcoverage.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;2: Verteilung der Textdeckung im KED"><img src="plots/textcoverage.svg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Verteilung der Textdeckung im KED
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Der Text mit dem Titel <em>Antisemitismus</em> weist beispielsweise für die 1.000 häufigsten Wörter des Deutschen lediglich eine Textdeckung von etwa 0,5 auf, d.h. etwa 50% der Textwörter sind in der Liste der 1.000 häufigsten Wörter des Deutschen enthalten, während die übrigen 50% nicht enthalten sind. Die Textdeckung nimmt mit der Länge der Wortliste zu. Die Textdeckung der 2.000 häufigsten Wörter des Deutschen beträgt nahezu 60%, während sie bei den 3.000 häufigsten Wörtern bereits über 60% liegt. Bei den 4.000 häufigsten Wörtern steigt die Textdeckung auf nahezu 65% an. Die nächsten 1.000 Wörter erzielen dagegen keine signifikante Erhöhung der Textdeckung, die bei knapp unter 65 % konstant bleibt. <a href="#fig-textcoverage1k" class="quarto-xref">Abbildung&nbsp;2</a> zeigt die Verteilung der Textdeckung im KED. Die Textdeckung lässt sich als Maß für die Schwierigkeit eines Textes interpretieren. Für Anfänger ist ein Text umso einfacher zu verstehen, je höher die Textdeckung bei relativ kleinem Wortschatz ist (z.&nbsp;B. nur die 1.000 häufigsten Wörter des Deutschen) und je schneller die Textabdeckung mit steigendem Wortschatz zunimmt.</p>
+
 
 
 </section>
+</section>
 
-<p>© Daniel Jach und Gunther Dietz 2025. All rights reserved. | <a href="imprint.html">Impressum</a></p></main> <!-- /main -->
+<p>© Daniel Jach und Gunther Dietz 2025. All rights reserved. | <a href="imprint.html">Impressum</a></p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-tschirner2020" class="csl-entry" role="listitem">
+Tschirner, Erwin, und Jupp Möhring. 2020. <em>A frequency dictionary of German: core vocabulary for learners</em>. 2. Aufl. Abingdon, Oxon, und New York, NY: Routledge.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -800,6 +749,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -260,11 +260,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#überblick" id="toc-überblick" class="nav-link active" data-scroll-target="#überblick">Überblick</a></li>
-  <li><a href="#teilkorpora" id="toc-teilkorpora" class="nav-link" data-scroll-target="#teilkorpora">Teilkorpora</a></li>
-  <li><a href="#weitere-metadaten" id="toc-weitere-metadaten" class="nav-link" data-scroll-target="#weitere-metadaten">Weitere Metadaten</a>
-  <ul class="collapse">
-  <li><a href="#textdeckung" id="toc-textdeckung" class="nav-link" data-scroll-target="#textdeckung">Textdeckung</a></li>
-  </ul></li>
+  <li><a href="#zusammensetzung-des-korpus-nach-adressaten-textsorte-vertextungsstrategie-und-thema" id="toc-zusammensetzung-des-korpus-nach-adressaten-textsorte-vertextungsstrategie-und-thema" class="nav-link" data-scroll-target="#zusammensetzung-des-korpus-nach-adressaten-textsorte-vertextungsstrategie-und-thema">Zusammensetzung des Korpus nach Adressaten, Textsorte, Vertextungsstrategie und Thema</a></li>
   </ul>
 </nav>
     </div>
@@ -292,7 +288,7 @@ div.csl-indent {
 
 <section id="überblick" class="level2">
 <h2 class="anchored" data-anchor-id="überblick">Überblick</h2>
-<p>Das KED umfasst gegenwärtig 6.841 Texte aus 14 verschiedenen Internetquellen. <a href="#tbl-overview" class="quarto-xref">Tabelle&nbsp;1</a> fasst das Korpus zusammen.</p>
+<p>Das KED umfasst gegenwärtig 6.841 Texte aus 19 verschiedenen Internetquellen. <a href="#tbl-overview" class="quarto-xref">Tabelle&nbsp;1</a> fasst das Korpus zusammen.</p>
 <div id="tbl-overview" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-overview-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -309,7 +305,7 @@ Tabelle&nbsp;1: KED im Überblick
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Quellen: n</td>
-<td style="text-align: right;">14</td>
+<td style="text-align: right;">19</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Texte: n</td>
@@ -333,17 +329,141 @@ Tabelle&nbsp;1: KED im Überblick
 </tr>
 </tbody>
 </table>
+<p>Anmerkung: n = Anzahl, m = Mittelwert, se = Standardfehler</p>
 </div>
 </figure>
 </div>
 </section>
-<section id="teilkorpora" class="level2">
-<h2 class="anchored" data-anchor-id="teilkorpora">Teilkorpora</h2>
-<p>Die Texte im Korpus sind mit Adressatengruppe, Textsorte, Vertextungsstrategie und Thema annotiert. Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite <em>Kuppelkucker</em> beispielsweise an Kinder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, Texte aus der Online-Ausgabe des <em>Fluter</em>-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Textsorte und Vertextungsstrategie wurden den Texten nach subjektiver Einschätzung der Korpusautoren zugeordnet, abhängig von ihrer Quelle. Teilweise wurden Texte einer Quelle weiter unterteilt. Von der Webseite der Bundeszentrale für politische Bildung beispielsweise sind sowohl Erklärtexte aus der <em>einfach POLITIK</em>-Subdomäne<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> als auch Lexikoneinträge aus dem <em>einfach POLITIK: Lexikon</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> im KED enthalten. Die Themen der Texte wurden hingegen mit Hilfe von einem unüberwachtem maschinellen Lernverfahren ermittelt <span class="citation" data-cites="silge2017">(‚unsupervised topic modeling‘, <a href="#ref-silge2017" role="doc-biblioref">Silge und Robinson 2017</a>)</span>. Das Verfahren wird ausführlicher <a href="../description/development.html">hier</a> beschrieben. In <a href="#tbl-panel" class="quarto-xref">Tabelle&nbsp;2</a> wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in <a href="#fig-wordclouds" class="quarto-xref">Abbildung&nbsp;2 (i)</a> zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Thementitel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.</p>
+<section id="zusammensetzung-des-korpus-nach-adressaten-textsorte-vertextungsstrategie-und-thema" class="level2">
+<h2 class="anchored" data-anchor-id="zusammensetzung-des-korpus-nach-adressaten-textsorte-vertextungsstrategie-und-thema">Zusammensetzung des Korpus nach Adressaten, Textsorte, Vertextungsstrategie und Thema</h2>
+<p>Im Folgenden wird das Korpus nach der Adressatengruppe, der Textsorte, der Vertextungsstrategie und dem Thema der enthaltenen Texte beschrieben. Weitere Metadaten und Annotationen werden hier beschrieben.</p>
+<p>Die Adressatengruppe bezeichnet die Gruppe von Lesern, für die der Text in erster Linie geschrieben wurde. Die Adressatengruppe eines Textes ergibt sich in der Regel aus der Internetquelle. Häufig wird dort explizit auf die intendierte Adressatengruppe hingewiesen. So richten sich Texte der Internetseite <em>Kuppelkucker</em> beispielsweise an Kinder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, Texte aus der Online-Ausgabe des <em>Fluter</em>-Magazins, herausgegeben von der Bundeszentrale für politische Bildung, an eine jugendliche Leserschaft<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>Textsorte und Vertextungsstrategie wurden den Texten von uns jeweils pauschal allen Texten einer Quelle zugewiesen. Ausgehend von der Annahme, „dass Textsorten in der Regel mehrere Strategien kombinieren, oft […] aber eine Strategie dominierend [ist]“ <span class="citation" data-cites="woellstein2016">(<a href="#ref-woellstein2016" role="doc-biblioref">Wöllstein 2016, 1164</a>)</span>, wurden in Zweifelsfällen dominierende Vertextungsstrategien annotiert, auch wenn in einzelnen Texten weitere Strategien vorfindlich sind. Beispielsweise weisen viele Exemplare der Textsorte „Empfehlung“ aus dem Online-Angebot des <em>Bundeszentrums für Ernäherung</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> sowohl erklärende als auch anweisende Passagen auf. <a href="#tbl-sourceXtxttypXstrtgy" class="quarto-xref">Tabelle&nbsp;2</a> zeigt die Zuordnung von Textsorten und Vertextungsstrategien zu den KED-Quellen.</p>
+<div id="tbl-sourceXtxttypXstrtgy" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sourceXtxttypXstrtgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;2: Zuordnung von Textsorten und Vertextungsstrategien zu den KED-Quellen
+</figcaption>
+<div aria-describedby="tbl-sourceXtxttypXstrtgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 21%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quelle</th>
+<th style="text-align: center;">Textsorte</th>
+<th style="text-align: center;">Vertextungsstrategie</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">apotheken-umschau</td>
+<td style="text-align: center;">Empfehlung</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bpb</td>
+<td style="text-align: center;">Erklärtext</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bpb-lexikon</td>
+<td style="text-align: center;">Lexikonartikel</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bzfe</td>
+<td style="text-align: center;">Empfehlung</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deinspiegel</td>
+<td style="text-align: center;">Erklärtext</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">fluter</td>
+<td style="text-align: center;">Argumentation</td>
+<td style="text-align: center;">Argumentieren</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hanisauland-lexikon</td>
+<td style="text-align: center;">Lexikonartikel</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">internetabc</td>
+<td style="text-align: center;">Empfehlung</td>
+<td style="text-align: center;">Anweisen</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">kidsandscience-erklaertexte</td>
+<td style="text-align: center;">Erklärtext</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">kidsandscience-experimente</td>
+<td style="text-align: center;">Experiment</td>
+<td style="text-align: center;">Anweisen</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">kindersache-nachrichten</td>
+<td style="text-align: center;">Nachricht</td>
+<td style="text-align: center;">Berichten</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">klexikon</td>
+<td style="text-align: center;">Lexikonartikel</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">kuppelkucker-lexikon</td>
+<td style="text-align: center;">Lexikonartikel</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">kuppelkucker-nachrichten</td>
+<td style="text-align: center;">Nachricht</td>
+<td style="text-align: center;">Berichten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">recht-kinderleicht</td>
+<td style="text-align: center;">Erklärtext</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">scroller</td>
+<td style="text-align: center;">Empfehlung</td>
+<td style="text-align: center;">Anweisen</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">simplyscience-experimente-jugendliche</td>
+<td style="text-align: center;">Experiment</td>
+<td style="text-align: center;">Anweisen</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">simplyscience-experimente-kinder</td>
+<td style="text-align: center;">Experiment</td>
+<td style="text-align: center;">Anweisen</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">simplyscience-wissen</td>
+<td style="text-align: center;">Erklärtext</td>
+<td style="text-align: center;">Erklären</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Die Themen der Texte wurden mit Hilfe eines unüberwachten maschinellen Lernverfahrens ermittelt <span class="citation" data-cites="silge2017">(‚unsupervised topic modeling‘, <a href="#ref-silge2017" role="doc-biblioref">Silge und Robinson 2017</a>)</span>. Das Verfahren wird ausführlicher <a href="../description/development.html">hier</a> beschrieben. In <a href="#tbl-panel" class="quarto-xref">Tabelle&nbsp;3</a> wird der Aufbau des KED zusammengefasst. Sie können die Diagramme durch Anklicken vergrößern. Die Wortwolken in <a href="#fig-wordclouds" class="quarto-xref">Abbildung&nbsp;3 (i)</a> zeigen die wichtigsten Nomen jedes Themas. Schriftgröße und Farbe zeigen an, wie wichtig das Wort für das jeweilige Thema ist. Die Thementitel wurden nachträglich von den Korpusautoren hinzugefügt, um die Themen begrifflich zusammenzufassen.</p>
 <div id="tbl-panel" class="quarto-layout-panel anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabelle&nbsp;2: Aufbau des KED im Überblick
+Tabelle&nbsp;3: Aufbau des KED im Überblick
 </figcaption>
 <div aria-describedby="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
@@ -393,7 +513,7 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 <div id="fig-composition-rcpnt" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-composition-rcpnt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/adressaten.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;2&nbsp;(b): Adressaten im KED"><img src="plots/adressaten.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
+<a href="plots/adressaten.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;3&nbsp;(b): Adressaten im KED"><img src="plots/adressaten.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-composition-rcpnt-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) Adressaten im KED
@@ -464,7 +584,7 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 <div id="fig-composition-txttyp" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-composition-txttyp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/textsorte.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;2&nbsp;(d): Textsorten im KED"><img src="plots/textsorte.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
+<a href="plots/textsorte.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;3&nbsp;(d): Textsorten im KED"><img src="plots/textsorte.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-composition-txttyp-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (d) Textsorten im KED
@@ -525,7 +645,7 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 <div id="fig-composition-strtgy" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-composition-strtgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/vertextungsstrategie.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;2&nbsp;(f): Vertextungsstrategien im KED"><img src="plots/vertextungsstrategie.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
+<a href="plots/vertextungsstrategie.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;3&nbsp;(f): Vertextungsstrategien im KED"><img src="plots/vertextungsstrategie.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-composition-strtgy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (f) Vertextungsstrategien im KED
@@ -586,7 +706,7 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 <div id="fig-composition-topics" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-composition-topics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/thema.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;2&nbsp;(h): Themen im KED"><img src="plots/thema.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
+<a href="plots/thema.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;3&nbsp;(h): Themen im KED"><img src="plots/thema.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-composition-topics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (h) Themen im KED
@@ -600,7 +720,7 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 <div id="fig-wordclouds" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-wordclouds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/wordclouds.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;2&nbsp;(i): Wichtige Nomen der Themen im KED"><img src="plots/wordclouds.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
+<a href="plots/wordclouds.svg" class="lightbox" data-gallery="tbl-panel" title="Tabelle&nbsp;3&nbsp;(i): Wichtige Nomen der Themen im KED"><img src="plots/wordclouds.svg" class="img-fluid figure-img" data-ref-parent="tbl-panel"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-wordclouds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (i) Wichtige Nomen der Themen im KED
@@ -612,43 +732,9 @@ Tabelle&nbsp;2: Aufbau des KED im Überblick
 </div>
 </figure>
 </div>
-</section>
-<section id="weitere-metadaten" class="level2">
-<h2 class="anchored" data-anchor-id="weitere-metadaten">Weitere Metadaten</h2>
-<!-- Darüber hinaus sind die Texte im KED mit einer Reihe weiterer didaktisch oder wissenschaftlich relevanter Merkmale annotiert. @tbl-metadata-summary fasst alle Metadaten zusammen. -->
-<section id="textdeckung" class="level3">
-<h3 class="anchored" data-anchor-id="textdeckung">Textdeckung</h3>
-<p>Die Textdeckung gibt den Anteil der Textwörter an, die in der Liste der häufigsten Wörter des Deutschen enthalten sind. Dabei wird auf der Grundlage der Herder-Häufigkeitsliste <span class="citation" data-cites="tschirner2020">(<a href="#ref-tschirner2020" role="doc-biblioref">Tschirner und Möhring 2020</a>)</span> zwischen den häufigsten 1.000, 2.000, 3.000, 4.000 und 5.000 Wörtern des Deutschen unterschieden. <a href="#fig-textcoverageExamples" class="quarto-xref">Abbildung&nbsp;1</a> zeigt beispielhaft die Textdeckung von fünf zufällig ausgewählten Texte.</p>
-<div class="columns">
-<div class="column" style="width:48%;">
-<div id="fig-textcoverageExamples" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/textcoverage_examples.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte"><img src="plots/textcoverage_examples.svg" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverageExamples-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1: Textdeckung zufällig ausgewählter Texte
-</figcaption>
-</figure>
-</div>
-</div><div class="column" style="width:48%;">
-<div id="fig-textcoverage1k" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="plots/textcoverage.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Abbildung&nbsp;2: Verteilung der Textdeckung im KED"><img src="plots/textcoverage.svg" class="img-fluid figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-textcoverage1k-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;2: Verteilung der Textdeckung im KED
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>Der Text mit dem Titel <em>Antisemitismus</em> weist beispielsweise für die 1.000 häufigsten Wörter des Deutschen lediglich eine Textdeckung von etwa 0,5 auf, d.h. etwa 50% der Textwörter sind in der Liste der 1.000 häufigsten Wörter des Deutschen enthalten, während die übrigen 50% nicht enthalten sind. Die Textdeckung nimmt mit der Länge der Wortliste zu. Die Textdeckung der 2.000 häufigsten Wörter des Deutschen beträgt nahezu 60%, während sie bei den 3.000 häufigsten Wörtern bereits über 60% liegt. Bei den 4.000 häufigsten Wörtern steigt die Textdeckung auf nahezu 65% an. Die nächsten 1.000 Wörter erzielen dagegen keine signifikante Erhöhung der Textdeckung, die bei knapp unter 65 % konstant bleibt. <a href="#fig-textcoverage1k" class="quarto-xref">Abbildung&nbsp;2</a> zeigt die Verteilung der Textdeckung im KED. Die Textdeckung lässt sich als Maß für die Schwierigkeit eines Textes interpretieren. Für Anfänger ist ein Text umso einfacher zu verstehen, je höher die Textdeckung bei relativ kleinem Wortschatz ist (z.&nbsp;B. nur die 1.000 häufigsten Wörter des Deutschen) und je schneller die Textabdeckung mit steigendem Wortschatz zunimmt.</p>
 
 
 
-</section>
 </section>
 
 
@@ -656,16 +742,15 @@ Abbildung&nbsp;2: Verteilung der Textdeckung im KED
 <div id="ref-silge2017" class="csl-entry" role="listitem">
 Silge, Julia, und David Robinson. 2017. <em>Text Mining with R: A Tidy Approach</em>. Sebastopol, CA: O’Reilly. <a href="https://www.tidytextmining.com/">https://www.tidytextmining.com/</a>.
 </div>
-<div id="ref-tschirner2020" class="csl-entry" role="listitem">
-Tschirner, Erwin, und Jupp Möhring. 2020. <em>A frequency dictionary of German: core vocabulary for learners</em>. 2. Aufl. Abingdon, Oxon, und New York, NY: Routledge.
+<div id="ref-woellstein2016" class="csl-entry" role="listitem">
+Wöllstein, Angelika. 2016. <em>Duden - Die Grammatik</em>. 9., vollständig überarbeitete und aktualisierte Auflage. Berlin: Dudenverlag.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
 
 <ol>
 <li id="fn1"><p><a href="https://www.kuppelkucker.de/ueber-uns">https://www.kuppelkucker.de</a>, 07. November 2024.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p><a href="https://www.bpb.de/die-bpb/presse/pressemitteilungen/230819/relaunch-fluter-de/">https://www.bpb.de</a>, 07. November 2024.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p><a href="https://www.bpb.de/themen/politisches-system/politik-einfach-fuer-alle/">https://www.bpb.de/themen/politisches-system/politik-einfach-fuer-alle/</a>, 07. November 2024.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p><a href="https://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/">https://www.bpb.de/kurz-knapp/lexika/lexikon-in-einfacher-sprache/</a>, 07. November 2024.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.bzfe.de/">https://www.bzfe.de/</a>, 15. Januar 2025.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
