@@ -74,7 +74,7 @@
     "href": "examples/activities/strongVerbs.html#suchanfragen-im-ked",
     "title": "Starke Verben konjugieren",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=nehmen]\n\n\nSucht nach allen Formen von nehmen.\n\n\n1.601\n\n\n\n\nnehme|nimmt|nimmst|nehmen\n\n\nSucht nach den häufigsten Formen von nehmen im Präsens.\n\n\n1.131\n\n\n\n\nnahm|nahmen\n\n\nSucht nach den Präteritumsformen nahm und nahmen.\n\n\n211\n\n\n\n\ngenommen\n\n\nSucht nach der Partizipform genommen.\n\n\n173"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=nehmen]\n\n\nsucht nach allen Formen von nehmen.\n\n\n1.601\n\n\n\n\nnehme|nimmt|nimmst|nehmen\n\n\nsucht nach den häufigsten Formen von nehmen im Präsens.\n\n\n1.131\n\n\n\n\nnahm|nahmen\n\n\nsucht nach den Präteritumsformen nahm und nahmen.\n\n\n211\n\n\n\n\ngenommen\n\n\nsucht nach der Partizipform genommen.\n\n\n173"
   },
   {
     "objectID": "examples/activities/particleVerbs.html",
@@ -116,7 +116,7 @@
     "href": "examples/activities/particleVerbs.html#suchanfragen-im-ked",
     "title": "Anweisungen mit trennbaren Verben",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[pos=PTKVZ]\n\n\nSucht nach allen abgetrennten Verbpartikeln.\n\n\n15.526\n\n\n\n\nKorpussuche einschränken\n\n\nThema Natur und Leben\n\n\nSuche nach [pos=PTKVZ] in Texten zum Thema „Natur und Leben“ (siehe  1. Schritt).\n\n\n5.354\n\n\n\n\nThema Natur und Leben + Textlänge 500-1.000 Wörter\n\n\nSuche nach [pos=PTKVZ] in Texten zum Thema „Natur und Leben“ und mit einer Länge zwischen 500 und 1.000 Wörtern (siehe  1. Schritt).\n\n\n2.494\n\n\n\n\nText-ID-Filter\n\n\nBZE/00006\n\n\nFiltert die Ergebnistabelle nach Belegen aus einem bestimmten Text.\n\n\n15"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[pos=PTKVZ]\n\n\nsucht nach allen abgetrennten Verbpartikeln.\n\n\n15.526\n\n\n\n\nKorpussuche einschränken\n\n\nThema Natur und Leben\n\n\nsucht nach [pos=PTKVZ] in Texten zum Thema „Natur und Leben“ (siehe  1. Schritt).\n\n\n5.354\n\n\n\n\nThema Natur und Leben + Textlänge 500-1.000 Wörter\n\n\nsucht nach [pos=PTKVZ] in Texten zum Thema „Natur und Leben“ und mit einer Länge zwischen 500 und 1.000 Wörtern (siehe  1. Schritt).\n\n\n2.494\n\n\n\n\nText-ID-Filter\n\n\nBZE/00006\n\n\nfiltert die Ergebnistabelle nach Belegen aus einem bestimmten Text.\n\n\n15"
   },
   {
     "objectID": "examples/activities/dates.html",
@@ -151,7 +151,7 @@
     "href": "examples/activities/dates.html#suchanfragen-im-ked",
     "title": "Zeitangaben mit am vs. um",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\\bam\\b\n\n\nWählt alle Treffer mit der Wortform am im Kontext nach dem Suchausdruck aus.\n\n\n3.921\n\n\n\n\n\\bum\\b\n\n\nWählt alle Treffer mit der Wortform um im Kontext nach dem Suchausdruck aus.\n\n\n5.905\n\n\n\n\nRechter Kontextfilter\n\n\n^\\d\n\n\nWählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n\n\n326\n\n\n\n\n^\\w*tag\n\n\nWählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n\n\n179\n\n\n\n\n^\\d.*Uhr\n\n\nWählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen anderen Zeichen (.*), gefolgt von Uhr (Uhr).\n\n\n36"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\\bam\\b\n\n\nwählt alle Treffer mit der Wortform am im Kontext nach dem Suchausdruck aus.\n\n\n3.921\n\n\n\n\n\\bum\\b\n\n\nwählt alle Treffer mit der Wortform um im Kontext nach dem Suchausdruck aus.\n\n\n5.905\n\n\n\n\nRechter Kontextfilter\n\n\n^\\d\n\n\nwählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n\n\n326\n\n\n\n\n^\\w*tag\n\n\nwählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n\n\n179\n\n\n\n\n^\\d.*Uhr\n\n\nwählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen anderen Zeichen (.*), gefolgt von Uhr (Uhr).\n\n\n36"
   },
   {
     "objectID": "examples/activities/handelnVonUm.html",
@@ -186,7 +186,7 @@
     "href": "examples/activities/handelnVonUm.html#suchanfragen-im-ked",
     "title": "handeln von vs. sich handeln um",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=handeln]\n\n\nSucht nach allen Formen von handeln.\n\n\n643\n\n\n\n\nRechter Kontextfilter\n\n\n\\bum\\b\n\n\nFiltert die Ergebnisse nach Belegen mit der Wortform um im rechten Kontext.\n\n\n214\n\n\n\n\n\\bvon\\b\n\n\nFiltert die Ergebnisse nach Belegen mit der Wortform von im rechten Kontext.\n\n\n98\n\n\n\n\nN-Gramme\n\n\nLänge 4\n\n\nSucht nach häufigen 4-Wort-Folgen, z. B. handelt es sich um.\n\n\n70"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=handeln]\n\n\nsucht nach allen Formen von handeln.\n\n\n643\n\n\n\n\nRechter Kontextfilter\n\n\n\\bum\\b\n\n\nfiltert die Ergebnisse nach Belegen mit der Wortform um im rechten Kontext.\n\n\n214\n\n\n\n\n\\bvon\\b\n\n\nfiltert die Ergebnisse nach Belegen mit der Wortform von im rechten Kontext.\n\n\n98\n\n\n\n\nN-Gramme\n\n\nLänge 4\n\n\nsucht nach häufigen 4-Wort-Folgen, z. B. handelt es sich um.\n\n\n70"
   },
   {
     "objectID": "examples/activities/handelnVonUm.html#sec-target-patterns",
@@ -228,7 +228,7 @@
     "href": "examples/activities/favorite.html#suchanfragen-im-ked",
     "title": "Lieblings‐Nomenkomposita",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\"Lieblings.+\"\n\n\nDer Punkt . steht für beliebiges Zeichen, das Pluszeichen + für beliebig häufiges Vorkommen des Zeichens davor. Bei der Verwendung solcher Platzhalter muss der Suchausdruck in doppelten Anführungszeichen \"...\" stehen.\n\n\n39"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\"Lieblings.+\"\n\n\nsucht alle Ausdrücke, die mit Lieblings beginnen. Der Punkt . steht für beliebiges Zeichen, das Pluszeichen + für beliebig häufiges Vorkommen des Zeichens davor. Bei der Verwendung solcher Platzhalter muss der Suchausdruck in doppelten Anführungszeichen \"...\" stehen.\n\n\n39"
   },
   {
     "objectID": "corpussearch.html",
@@ -396,7 +396,7 @@
     "href": "examples/activities/passive.html#suchanfragen-im-ked",
     "title": "Agensnennung beim Vorgangspassiv: von vs. durch",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\nwird\n\n\nSucht nach allen Belegen der Wortform wird.\n\n\n9.335\n\n\n\n\n[base=werden] durch\n\n\nSucht nach Belegen für eine Form von werden, gefolgt von durch.\n\n\n249\n\n\n\n\n[base=werden] von\n\n\nSucht nach Belegen für eine Form von werden, gefolgt von von.\n\n\n555\n\n\n\n\nwird durch\n\n\nSucht nach Belegen für die Wortfolge wird durch.\n\n\n126\n\n\n\n\n\nwird von\n\n\nSucht nach Belegen für die Wortfolge wird von.\n\n\n211"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\nwird\n\n\nsucht nach allen Belegen der Wortform wird.\n\n\n9.335\n\n\n\n\n[base=werden] durch\n\n\nsucht nach Belegen für eine Form von werden, gefolgt von durch.\n\n\n249\n\n\n\n\n[base=werden] von\n\n\nsucht nach Belegen für eine Form von werden, gefolgt von von.\n\n\n555\n\n\n\n\nwird durch\n\n\nsucht nach Belegen für die Wortfolge wird durch.\n\n\n126\n\n\n\n\nwird von\n\n\nsucht nach Belegen für die Wortfolge wird von.\n\n\n211"
   },
   {
     "objectID": "examples/activities/psychAdj.html",
@@ -431,7 +431,7 @@
     "href": "examples/activities/psychAdj.html#sec-psychAdj-searchTerms",
     "title": "Gefühlsadjektive",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n(wütend|nervös|hungrig|zufrieden|glücklich|...)\n\n\nSucht nach den eingegeben Adjektiven in genau dieser Form.\n\n\n497\n\n\n\n\nKorpussuche einschränken\n\n\nTextdeckung 60%-80%\n\n\nSchränkt die Korpussuche auf Texte mit einer Textdeckung zwischen 60% und 80% ein.\n\n\n170"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n(wütend|nervös|hungrig|zufrieden|glücklich|...)\n\n\nsucht nach den eingegeben Adjektiven in genau dieser Form.\n\n\n497\n\n\n\n\nKorpussuche einschränken\n\n\nTextdeckung 60%-80%\n\n\nschränkt die Korpussuche auf Texte mit einer Textdeckung zwischen 60% und 80% ein.\n\n\n170"
   },
   {
     "objectID": "examples/activities/likeTo.html",
@@ -466,7 +466,7 @@
     "href": "examples/activities/likeTo.html#suchanfragen-im-ked",
     "title": "Vorlieben mit gern(e) ausdrücken",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\"ger(n|ne)\"\n\n\nDer Ausdruck (A|B) sucht nach entweder A oder B. Suchausdrücke mit solchen Platzhaltern müssen in doppelte Anführungszeichen \"...\" gesetzt werden.\n\n\n663\n\n\n\n\nauch \"ger(n|ne)\"\n\n\n\n\n49\n\n\n\n\n[pos=VVFIN] \"ger(n|ne)\"\n\n\nSuche nach einem finiten Verb ([pos=VVFIN]), gefolgt von gern oder gerne (ger(n|ne)).\n\n\n129"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\"ger(n|ne)\"\n\n\nsucht nach Belegen für gern und gerne. Der Ausdruck (A|B) sucht nach entweder A oder B. Suchausdrücke mit solchen Platzhaltern müssen in doppelte Anführungszeichen \"...\" gesetzt werden.\n\n\n663\n\n\n\n\nauch \"ger(n|ne)\"\n\n\n\n\n49\n\n\n\n\n[pos=VVFIN] \"ger(n|ne)\"\n\n\nsucht nach einem finiten Verb ([pos=VVFIN]), gefolgt von gern oder gerne (ger(n|ne)).\n\n\n129"
   },
   {
     "objectID": "examples/activities/sollen.html",
@@ -487,21 +487,21 @@
     "href": "examples/activities/sollen.html#szenario",
     "title": "Redewiedergabe mit sollen",
     "section": "Szenario",
-    "text": "Szenario\nIn Ihrem B1‐Kurs thematisieren Sie das Modalverb sollen als Signal für die Wiedergabe fremder oder unsicherer Behauptungen.\n\n(1) Jesus soll darauf gesagt haben: „Du bist Petrus, der Fels und auf diesen Felsen werde ich meine Kirche bauen.“ (KED)\n\nIhre Lerner:innen sollen hierzu Belege aus authentischen Daten des KED kennenlernen und zugleich lernen, sollen in dieser Bedeutung von anderen Bedeutungen zu unterscheiden (v.a. sollen in Anweisungen, Geboten)."
+    "text": "Szenario\nIn Ihrem B1‐Kurs thematisieren Sie das Modalverb sollen als Signal für die Wiedergabe fremder oder unsicherer Behauptungen.\n\n(1) Jesus soll darauf gesagt haben: „Du bist Petrus, der Fels und auf diesen Felsen werde ich meine Kirche bauen.“ (KED/KLX/00229)\n\nIhre Lerner:innen sollen hierzu Belege aus authentischen Daten des KED kennenlernen und zugleich lernen, sollen in dieser Bedeutung von anderen Bedeutungen zu unterscheiden (v.a. sollen in Anweisungen, Geboten)."
   },
   {
     "objectID": "examples/activities/sollen.html#schritt-für-schritt",
     "href": "examples/activities/sollen.html#schritt-für-schritt",
     "title": "Redewiedergabe mit sollen",
     "section": "Schritt-für-Schritt",
-    "text": "Schritt-für-Schritt"
+    "text": "Schritt-für-Schritt\n\nSuchen Sie im KED nach Belegen für die Grundform sollen. Ermitteln Sie mit der Funktion „Texte“ diejenigen Texte, in denen der Suchausdruck besonders häufig vorkommt. Die Durchsicht der Texte ergibt als ein überraschendes mögliches Thema: „Religion und Geschichte“. Zwei der aufgelisteten Texte fallen in dieses Thema, Zehn Gebote (KLX/00448) und Simon Petrus (KLX/00229). Die Lektüre der Texte zeigt, dass der Text Zehn Gebote erwartungsgemäß vor allem Verwendungen von sollen zum Ausdruck von Geboten und Anweisungen enthält, der Text Simon Petrus dagegen Belege für die Verwendung von sollen zum Ausdruck unsicherer Behauptungen (1)."
   },
   {
     "objectID": "examples/activities/sollen.html#suchanfragen-im-ked",
     "href": "examples/activities/sollen.html#suchanfragen-im-ked",
     "title": "Redewiedergabe mit sollen",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=sollen]\n\n\nSucht nach allen Wortformen der Grundform sollen.\n\n\n5.064\n\n\n\n\n(soll|sollen)\n\n\nSucht nach den Wortformen soll und sollen.\n\n\n3.099\n\n\n\n\n(soll|sollen)[]{0,4}[pos=VVINF]\n\n\nSucht nach den Wortformen soll und sollen gefolgt von einem infiniten Verb im Abstand von maximal vier Wörtern.\n\n\n853"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n[base=sollen]\n\n\nsucht nach allen Wortformen der Grundform sollen.\n\n\n5.064\n\n\n\n\n(soll|sollen)\n\n\nsucht nach den Wortformen soll und sollen.\n\n\n3.099\n\n\n\n\n(soll|sollen)[]{0,4}[pos=VVINF]\n\n\nsucht nach den Wortformen soll und sollen gefolgt von einem infiniten Verb im Abstand von maximal vier Wörtern.\n\n\n853"
   },
   {
     "objectID": "help/index.html",
