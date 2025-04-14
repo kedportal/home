@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.60697364"
-     inkscape:cx="522.26321"
-     inkscape:cy="340.21247"
+     inkscape:cx="524.73448"
+     inkscape:cy="341.85999"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -78,9 +78,9 @@
        style="font-size:192px;font-family:'Linux Biolinum O';-inkscape-font-specification:'Linux Biolinum O';text-align:center;white-space:pre;shape-inside:url(#rect6706);display:inline;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#343a40;stroke-width:5.66929;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="145.25885"
          y="261.38354"
-         id="tspan8729"><tspan
+         id="tspan378"><tspan
            style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#343a40;stroke:none"
-           id="tspan8727">KED</tspan></tspan></text>
+           id="tspan376">KED</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-2.9194027,2.4024192)"
@@ -90,21 +90,21 @@
        y="0"><tspan
          x="687.36328"
          y="137.34577"
-         id="tspan8733"><tspan
-           style="text-align:start;text-anchor:start"
-           id="tspan8731">Korpus
+         id="tspan382"><tspan
+           style="text-align:start"
+           id="tspan380">Korpus
 </tspan></tspan><tspan
          x="687.36328"
          y="244.0124"
-         id="tspan8737"><tspan
-           style="text-align:start;text-anchor:start"
-           id="tspan8735">einfaches
+         id="tspan386"><tspan
+           style="text-align:start"
+           id="tspan384">einfaches
 </tspan></tspan><tspan
          x="687.36328"
          y="350.67903"
-         id="tspan8741"><tspan
-           style="text-align:start;text-anchor:start"
-           id="tspan8739">Deutsch</tspan></tspan></text>
+         id="tspan390"><tspan
+           style="text-align:start"
+           id="tspan388">Deutsch</tspan></tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.41285;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        id="rect8390"
