@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.60697364"
-     inkscape:cx="524.73448"
-     inkscape:cy="341.85999"
+     inkscape:cx="521.43945"
+     inkscape:cy="343.5075"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -65,7 +65,7 @@
      id="layer1"
      transform="translate(-0.0953545,-0.09705704)">
     <rect
-       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#343a40;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#212529;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        id="rect241"
        width="162.66425"
        height="95.775581"
@@ -75,36 +75,36 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.4562273,7.9945321)"
        id="text6704"
-       style="font-size:192px;font-family:'Linux Biolinum O';-inkscape-font-specification:'Linux Biolinum O';text-align:center;white-space:pre;shape-inside:url(#rect6706);display:inline;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#343a40;stroke-width:5.66929;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"><tspan
+       style="font-size:192px;font-family:'Linux Biolinum O';-inkscape-font-specification:'Linux Biolinum O';text-align:center;white-space:pre;shape-inside:url(#rect6706);display:inline;fill:#212529;fill-opacity:1;fill-rule:nonzero;stroke:#343a40;stroke-width:5.66929;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="145.25885"
          y="261.38354"
-         id="tspan378"><tspan
-           style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#343a40;stroke:none"
-           id="tspan376">KED</tspan></tspan></text>
+         id="tspan13285"><tspan
+           style="font-weight:bold;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke:none"
+           id="tspan13283">KED</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-2.9194027,2.4024192)"
        id="text8276"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;white-space:pre;shape-inside:url(#rect8278);display:inline;fill:#343a40;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.66929;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;white-space:pre;shape-inside:url(#rect8278);display:inline;fill:#212529;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.66929;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        x="-88.106552"
        y="0"><tspan
          x="687.36328"
          y="137.34577"
-         id="tspan382"><tspan
+         id="tspan13289"><tspan
            style="text-align:start"
-           id="tspan380">Korpus
+           id="tspan13287">Korpus
 </tspan></tspan><tspan
          x="687.36328"
          y="244.0124"
-         id="tspan386"><tspan
+         id="tspan13293"><tspan
            style="text-align:start"
-           id="tspan384">einfaches
+           id="tspan13291">einfaches
 </tspan></tspan><tspan
          x="687.36328"
          y="350.67903"
-         id="tspan390"><tspan
+         id="tspan13297"><tspan
            style="text-align:start"
-           id="tspan388">Deutsch</tspan></tspan></text>
+           id="tspan13295">Deutsch</tspan></tspan></text>
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.41285;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        id="rect8390"

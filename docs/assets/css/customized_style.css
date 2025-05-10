@@ -119,3 +119,31 @@ hlb {
 .navbar-title {
   display: none;
 }
+
+
+
+.toc_img-grid {
+  width: 90%;        
+  margin: 20px auto;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 0px; 
+  row-gap: 0px;
+  box-shadow: 0 4px 20px var(--bs-gray-700);
+}
+
+.toc_img-grid p {
+  margin-bottom: 0px;
+}
+
+.toc_img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border: 1.5px solid #212529; 
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for scaling and filter */
+}
+
+.toc_img:hover {
+    transform: scale(1.1); /* Increase size by 10% on hover */
+}
