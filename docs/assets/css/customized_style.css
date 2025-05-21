@@ -127,9 +127,8 @@ hlb {
   margin: 20px auto;  
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-  gap: 0px; 
-  row-gap: 0px;
-  box-shadow: 0 4px 20px var(--bs-gray-700);
+  gap: 5px; 
+  row-gap: 5px;
 }
 
 .toc_img-grid p {
@@ -137,11 +136,13 @@ hlb {
 }
 
 .toc_img {
-    width: 100%; 
-    height: auto;
-    display: block;
-    border: 1.5px solid #212529; 
-    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for scaling and filter */
+  width: 100%; 
+  height: auto;
+  display: block;
+  border: 1.5px solid #212529; 
+  border-radius: 8px;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for scaling and filter */
+  box-shadow: 0 4px 20px var(--bs-gray-700);
 }
 
 .toc_img:hover {
