@@ -148,3 +148,9 @@ hlb {
 .toc_img:hover {
     transform: scale(1.1); /* Increase size by 10% on hover */
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; 
+}
