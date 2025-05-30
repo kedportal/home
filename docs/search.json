@@ -224,11 +224,11 @@
     "text": "Suche über KorAP\nDas KED ist über die Plattform KorAP des Leibniz-Instituts für deutsche Sprache in Mannheim online durchsuchbar. Eine Schritt-für-Schritt-Anleitung zur Registrierung auf KorAP finden Sie hier („Erster Schritt: Registrierung beim IDS“). Die Nutzung der KorAP-Plattform erfordert etwas Übung und ist stärker auf die Bedürfnisse von Forschenden ausgerichtet.\n\nhttps://korap.ids-mannheim.de/instance/ked"
   },
   {
-    "objectID": "corpussearch.html#suche-im-dereko",
-    "href": "corpussearch.html#suche-im-dereko",
+    "objectID": "corpussearch.html#suche-im-dereko-via-cosmas-ii",
+    "href": "corpussearch.html#suche-im-dereko-via-cosmas-ii",
     "title": "Korpussuche",
-    "section": "Suche im DeReKo",
-    "text": "Suche im DeReKo\nDas KED wird in Zukunft als Teil des Deutschen Referenzkorpus (DeReKo) am Leibniz-Institut für deutsche Sprache in Mannheim durchsuchbar sein."
+    "section": "Suche im DeReKo (via COSMAS II)",
+    "text": "Suche im DeReKo (via COSMAS II)\nDas KED ist seit Anfang 2025 als Teil des Deutschen Referenzkorpus (DeReKo) am Leibniz-Institut für deutsche Sprache in Mannheim über die Anwendung COSMAS IIweb (https://cosmas2.ids-mannheim.de/cosmas2-web/) durchsuchbar.\nNach erfolgter Anmeldung / Registrierung finden Sie das KED dort im „W2 – Archiv der geschriebenen Sprache“ unter den „vordefinierten Korpora“ unter der Sigle „ked - Korpus Einfaches Deutsch, 2023 – 2024“."
   },
   {
     "objectID": "description/composition.html",
