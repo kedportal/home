@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Korpussuche – KED-Portal</title>
+<title>KED: Korpus einfaches Deutsch – KED-Portal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="assets/css/customized_style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -120,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./corpussearch.html" aria-current="page"> 
+    <a class="nav-link" href="./corpussearch/index.html"> 
 <span class="menu-text">KED-Suche</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -225,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Quellen</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="./contact/index.html"> 
 <span class="menu-text">Kontakt</span></a>
   </li>  
 </ul>
@@ -239,23 +299,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#suche-über-die-ked-suche" id="toc-suche-über-die-ked-suche" class="nav-link active" data-scroll-target="#suche-über-die-ked-suche">Suche über die KED-Suche</a></li>
-  <li><a href="#suche-über-korap" id="toc-suche-über-korap" class="nav-link" data-scroll-target="#suche-über-korap">Suche über <em>KorAP</em></a></li>
-  <li><a href="#suche-im-dereko-via-cosmas-ii" id="toc-suche-im-dereko-via-cosmas-ii" class="nav-link" data-scroll-target="#suche-im-dereko-via-cosmas-ii">Suche im <em>DeReKo</em> (via COSMAS II)</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Korpussuche</h1>
+<h1 class="title">KED: Korpus einfaches Deutsch</h1>
 </div>
 
 
@@ -272,29 +324,222 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="suche-über-die-ked-suche" class="level2">
-<h2 class="anchored" data-anchor-id="suche-über-die-ked-suche">Suche über die KED-Suche</h2>
-<p>Die KED-Suche ist benutzerfreundlich und stärker auf die Bedürfnisse von Lehrkräften ausgerichtet. Eine Schritt-für-Schritt-Anleitung zur Registrierung für die KED-Suche finden Sie <a href="./help/login.html">hier</a>.</p>
 <center>
-<a href="https://ked-suche.korpus-einfaches-deutsch.de/" target="_blank">https://ked-suche.korpus-einfaches-deutsch.de/</a>
+<b>Webseite im Aufbau</b>
 </center>
-</section>
-<section id="suche-über-korap" class="level2">
-<h2 class="anchored" data-anchor-id="suche-über-korap">Suche über <em>KorAP</em></h2>
-<p>Das KED ist über die Plattform <em>KorAP</em> des Leibniz-Instituts für deutsche Sprache in Mannheim online durchsuchbar. Eine Schritt-für-Schritt-Anleitung zur Registrierung auf <em>KorAP</em> finden Sie <a href="./help/login.html#sec-registerIDS">hier</a> („Erster Schritt: Registrierung beim IDS“). Die Nutzung der <em>KorAP</em>-Plattform erfordert etwas Übung und ist stärker auf die Bedürfnisse von Forschenden ausgerichtet.</p>
-<center>
-<a href="https://korap.ids-mannheim.de/instance/ked" target="_blank">https://korap.ids-mannheim.de/instance/ked</a>
-</center>
-</section>
-<section id="suche-im-dereko-via-cosmas-ii" class="level2">
-<h2 class="anchored" data-anchor-id="suche-im-dereko-via-cosmas-ii">Suche im <em>DeReKo</em> (via COSMAS II)</h2>
-<p>Das KED ist seit Anfang 2025 als Teil des <em>Deutschen Referenzkorpus</em> (DeReKo) am Leibniz-Institut für deutsche Sprache in Mannheim über die Anwendung <strong>COSMAS II</strong><sub>web</sub> (<a href="https://cosmas2.ids-mannheim.de/cosmas2-web/" target="_blank">https://cosmas2.ids-mannheim.de/cosmas2-web/</a>) durchsuchbar.</p>
-<p>Nach erfolgter Anmeldung / Registrierung finden Sie das KED dort im „W2 – Archiv der geschriebenen Sprache“ unter den „vordefinierten Korpora“ unter der Sigle „ked - Korpus Einfaches Deutsch, 2023 – 2024“.</p>
+<p>Willkommen auf dem KED-Portal. Das KED-Portal befindet sich noch im Aufbau. Teile davon können Sie jedoch bereits nutzen.</p>
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar" style="min-height: calc(-120px + 10vh);">
+
+</div>
 
 
-</section>
 
-<p>© Daniel Jach und Gunther Dietz 2025. All rights reserved. | <a href="./imprint.html">Impressum</a></p></main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1746890143359" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<a href="./description/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="description/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Beschreibung
+</h5>
+<div class="card-text listing-description">
+Hier finden Sie Informationen zu den Zielen des KED-Projekts, zur Zusammenstellung des Korpus sowie zu Metadaten, Annotierungen und technischen Details.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1750137312261" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+<a href="./corpussearch/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="corpussearch/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Korpussuche
+</h5>
+<div class="card-text listing-description">
+In dieser Rubrik finden Sie alle Suchmöglichkeiten im KED: die didaktisch orientierte KED-Suche sowie die forschungsorientierten Plattformen KorAP und COSMAS II.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1743993987459" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<a href="./help/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="help/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hilfe
+</h5>
+<div class="card-text listing-description">
+Bei Fragen und Problemen finden Sie hier detaillierte Antworten und Lösungen, beispielsweise zur KED-Suche, zum Login und zu weiteren Themen.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1746890239899" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<a href="./examples/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="examples/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Beispiele
+</h5>
+<div class="card-text listing-description">
+In dieser Rubrik finden Sie Beispiele von Lehrkräften, die Ihnen als Anregung für die Entwicklung eigener Lernaktivitäten mit dem KED dienen können.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1743993996236" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="./material/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="material/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Material
+</h5>
+<div class="card-text listing-description">
+In dieser Kategorie finden Sie eine Sammlung vorgefertigter KED-Materialien, die für den Einsatz im schulischen Kontext konzipiert sind.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1741252621544" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<a href="./publications/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="publications/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Publikationen
+</h5>
+<div class="card-text listing-description">
+Hier finden Sie bibliografische Angaben und Links zu Veröffentlichungen mit und über das KED sowie Vortragsfolien und andere Materialien.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1744364628738" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./blog/posts.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="blog/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+KED Blog
+</h5>
+<div class="card-text listing-description">
+In unserem KED-Blog finden Sie Beiträge rund um datengeleitetes Lernen mit dem KED sowie gebrauchsfertige Unterrichtssequenzen, Einführungstexte und vieles mehr.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1735613872000" data-listing-reading-time-sort="5" data-listing-word-count-sort="891">
+<a href="./sources/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="sources/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quellen
+</h5>
+<div class="card-text listing-description">
+Hier werden die Internetquellen näher beschrieben, aus denen die Texte des KED stammen.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1746754073748" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<a href="./contact/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="contact/preview_image.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Kontakt
+</h5>
+<div class="card-text listing-description">
+Bei Fragen, Kritik oder Wünschen können Sie sich gern an die Verantwortlichen des KED-Portals wenden. Die Kontaktinformationen finden Sie hier.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div><p>© Daniel Jach und Gunther Dietz 2025. All rights reserved. | <a href="./imprint.html">Impressum</a></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

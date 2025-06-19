@@ -121,33 +121,23 @@ hlb {
 }
 
 
-
-.toc_img-grid {
-  width: 90%;        
-  margin: 20px auto;  
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-  gap: 5px; 
-  row-gap: 5px;
-}
-
-.toc_img-grid p {
-  margin-bottom: 0px;
-}
-
-.toc_img {
-  width: 100%; 
-  height: auto;
-  display: block;
-  border: 1.5px solid #212529; 
+.quarto-grid-item {
+  box-shadow: 0 2px 10px var(--bs-gray-700);
   border-radius: 8px;
-  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for scaling and filter */
-  box-shadow: 0 4px 20px var(--bs-gray-700);
+  /* transition: transform 0.3s ease, height 0.3s ease; */
+  /* opacity: 0.7; */
 }
 
-.toc_img:hover {
-    transform: scale(1.1); /* Increase size by 10% on hover */
+.card-img {
+  border-radius: 8px;
 }
+
+/*
+.quarto-grid-item:hover {
+  opacity: 1.0;
+  transform: scale(1.1);
+}
+*/
 
 .clearfix::after {
   content: "";

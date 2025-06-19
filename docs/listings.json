@@ -1,5 +1,33 @@
 [
   {
+    "listing": "/index (conflicted).html",
+    "items": [
+      "/description/index.html",
+      "/corpussearch/index.html",
+      "/help/index.html",
+      "/examples/index.html",
+      "/material/index.html",
+      "/publications/index.html",
+      "/blog/posts.html",
+      "/sources/index.html",
+      "/contact/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/description/index.html",
+      "/corpussearch/index.html",
+      "/help/index.html",
+      "/examples/index.html",
+      "/material/index.html",
+      "/publications/index.html",
+      "/blog/posts.html",
+      "/sources/index.html",
+      "/contact/index.html"
+    ]
+  },
+  {
     "listing": "/blog/posts.html",
     "items": [
       "/blog/posts/2025-05-23-sagen-wo-wann-es-wehtut/index.html",
