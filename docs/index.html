@@ -128,8 +128,10 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="assets/css/customized_style.css">
+<link rel="stylesheet" href="assets/css/customized_style.scss">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="assets/css/home_carousel.css">
+<link rel="stylesheet" href="assets/css/flickity.css">
 </head>
 
 <body class="nav-fixed">
@@ -328,6 +330,142 @@ window.Quarto = {
 <b>Webseite im Aufbau</b>
 </center>
 <p>Willkommen auf dem KED-Portal. Das KED-Portal befindet sich noch im Aufbau. Teile davon können Sie jedoch bereits nutzen.</p>
+<!-- preview carousel -->
+<!-- initiate flickity -->
+<script src="assets/js/flickity.pkgd.min.js"></script>
+<div class="carousel js-flickity" data-flickity-options="{ &quot;wrapAround&quot;: true, &quot;draggable&quot;: false, &quot;autoPlay&quot;: 2000, &quot;pageDots&quot;: false}">
+<!-- card description -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='description/';">
+<h4 class="card-header anchored">
+Beschreibung
+</h4>
+<div class="card-body">
+<p class="card-text">
+Hier finden Sie Informationen zu den Zielen des KED-Projekts, zur Zusammenstellung des Korpus sowie zu Metadaten, Annotierungen und technischen Details.
+</p>
+</div>
+</div>
+<!-- card corpussearch -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='corpussearch/';">
+<h4 class="card-header anchored">
+KED-Suche
+</h4>
+<div class="card-body">
+<p class="card-text">
+In dieser Rubrik finden Sie alle Suchmöglichkeiten im KED: die didaktisch orientierte KED-Suche sowie die forschungsorientierten Plattformen KorAP und COSMAS II.
+</p>
+</div>
+</div>
+<!-- card help -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='help/';">
+<h4 class="card-header anchored">
+Hilfe
+</h4>
+<div class="card-body">
+<p class="card-text">
+Bei Fragen und Problemen finden Sie hier detaillierte Antworten und Lösungen, beispielsweise zur KED-Suche, zum Login und zu weiteren Themen.
+</p>
+</div>
+</div>
+<!-- card examples -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='examples/';">
+<h4 class="card-header anchored">
+Beispiele
+</h4>
+<div class="card-body">
+<p class="card-text">
+In dieser Rubrik finden Sie Beispiele von Lehrkräften, die Ihnen als Anregung für die Entwicklung eigener Lernaktivitäten mit dem KED dienen können.
+</p>
+</div>
+</div>
+<!-- card material -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='material/';">
+<h4 class="card-header anchored">
+Material
+</h4>
+<div class="card-body">
+<p class="card-text">
+In dieser Kategorie finden Sie eine Sammlung vorgefertigter KED-Materialien, die für den Einsatz im schulischen Kontext konzipiert sind.
+</p>
+</div>
+</div>
+<!-- card publications -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='publications/';">
+<h4 class="card-header anchored">
+Publikationen
+</h4>
+<div class="card-body">
+<p class="card-text">
+Hier finden Sie bibliografische Angaben und Links zu Veröffentlichungen mit und über das KED sowie Vortragsfolien und andere Materialien.
+</p>
+</div>
+</div>
+<!-- card blog -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='blog/';">
+<h4 class="card-header anchored">
+Blog
+</h4>
+<div class="card-body">
+<p class="card-text">
+In unserem KED-Blog finden Sie Beiträge rund um datengeleitetes Lernen mit dem KED sowie gebrauchsfertige Unterrichtssequenzen, Einführungstexte und vieles mehr.
+</p>
+</div>
+</div>
+<!-- card sources -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='sources/';">
+<h4 class="card-header anchored">
+Quellen
+</h4>
+<div class="card-body">
+<p class="card-text">
+Hier werden die Internetquellen näher beschrieben, aus denen die Texte des KED stammen.
+</p>
+</div>
+</div>
+<!-- card contact -->
+<div class="card text-white bg-secondary mb-3 carousel-card" onclick="location.href='contact/';">
+<h4 class="card-header anchored">
+Kontakt
+</h4>
+<div class="card-body">
+<p class="card-text">
+Bei Fragen, Kritik oder Wünschen können Sie sich gern an die Verantwortlichen des KED-Portals wenden. Die Kontaktinformationen finden Sie hier.
+</p>
+</div>
+</div>
+</div>
+<!-- preview carousel -->
+<!-- news table -->
+<table class="table table-hover">
+<thead>
+<tr class="table-dark">
+<th scope="col" colspan="2" style="text-align: center;">
+Neuigkeiten
+</th>
+</tr>
+</thead>
+<tbody class="table-light ">
+<tr>
+<td style="white-space: nowrap;">
+<ol start="27" type="1">
+<li>August 2024
+</li></ol></td>
+<td>
+Vortrag zum ‚Korpus einfaches Deutsch‘ und datengeleitetem Lernen auf der Asiatischen Germanistenkonferenz in Qingdao, China.
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+21./22. März 2024
+</td>
+<td>
+Poster ‚Korpus einfaches Deutsch‘ auf der Tagung „Einfach oder komplex“ in Heidelberg, Deutschland.
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- news table -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar" style="min-height: calc(-120px + 10vh);">
 
 </div>
@@ -337,11 +475,11 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1746890143359" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1750387246537" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <a href="./description/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="description/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="description/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -363,7 +501,7 @@ Hier finden Sie Informationen zu den Zielen des KED-Projekts, zur Zusammenstellu
 <a href="./corpussearch/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="corpussearch/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="corpussearch/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -381,11 +519,11 @@ In dieser Rubrik finden Sie alle Suchmöglichkeiten im KED: die didaktisch orien
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1743993987459" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1750387278669" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <a href="./help/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="help/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="help/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -403,11 +541,11 @@ Bei Fragen und Problemen finden Sie hier detaillierte Antworten und Lösungen, b
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1746890239899" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1750387305353" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
 <a href="./examples/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="examples/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="examples/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -425,11 +563,11 @@ In dieser Rubrik finden Sie Beispiele von Lehrkräften, die Ihnen als Anregung f
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1743993996236" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1750387322811" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <a href="./material/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="material/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="material/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -451,7 +589,7 @@ In dieser Kategorie finden Sie eine Sammlung vorgefertigter KED-Materialien, die
 <a href="./publications/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="publications/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="publications/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -473,7 +611,7 @@ Hier finden Sie bibliografische Angaben und Links zu Veröffentlichungen mit und
 <a href="./blog/posts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="blog/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="blog/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -495,7 +633,7 @@ In unserem KED-Blog finden Sie Beiträge rund um datengeleitetes Lernen mit dem 
 <a href="./sources/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="sources/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="sources/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -517,7 +655,7 @@ Hier werden die Internetquellen näher beschrieben, aus denen die Texte des KED 
 <a href="./contact/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="contact/preview_image_4x3.png" class="thumbnail-image card-img" style="height: 100px;">
+<img loading="lazy" src="contact/preview_image_16x9.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">

@@ -1,3 +1,9 @@
+// Variables
+
+
+// Styles
+
+
 .presentations-iframe {
   box-shadow: 0 4px 20px var(--bs-gray-700);
   border-radius: 10px;
@@ -120,24 +126,32 @@ hlb {
   display: none;
 }
 
+/*
 
 .quarto-grid-item {
   box-shadow: 0 2px 10px var(--bs-gray-700);
   border-radius: 8px;
-  /* transition: transform 0.3s ease, height 0.3s ease; */
-  /* opacity: 0.7; */
+  transition: transform 0.3s ease, height 0.3s ease;
+  opacity: 0.7;
 }
 
-.card-img {
-  border-radius: 8px;
-}
-
-/*
 .quarto-grid-item:hover {
   opacity: 1.0;
   transform: scale(1.1);
 }
 */
+
+.quarto-grid-item, .card-img {
+  border-radius: 4px;
+}
+
+
+
+.table-dark {
+  background: var(--bs-table-bg) !important;
+  color: var(--bs-table-color) !important;
+}
+
 
 .clearfix::after {
   content: "";
