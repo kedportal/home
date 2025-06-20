@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -38,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-15308473c599faf57ec154abca24affd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-13d183c034de913316caad0be0a16df1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -244,7 +278,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#suche-über-die-ked-suche" id="toc-suche-über-die-ked-suche" class="nav-link active" data-scroll-target="#suche-über-die-ked-suche">Suche über die KED-Suche</a></li>
+  <li><a href="#suche-über-die-ked-suche" id="toc-suche-über-die-ked-suche" class="nav-link active" data-scroll-target="#suche-über-die-ked-suche">Suche über die KED-Suche</a>
+  <ul class="collapse">
+  <li><a href="#ked-suche-online" id="toc-ked-suche-online" class="nav-link" data-scroll-target="#ked-suche-online">KED-Suche online</a></li>
+  <li><a href="#ked-suche-auf-dem-eigenen-computer" id="toc-ked-suche-auf-dem-eigenen-computer" class="nav-link" data-scroll-target="#ked-suche-auf-dem-eigenen-computer">KED-Suche auf dem eigenen Computer</a></li>
+  </ul></li>
   <li><a href="#suche-über-korap" id="toc-suche-über-korap" class="nav-link" data-scroll-target="#suche-über-korap">Suche über <em>KorAP</em></a></li>
   <li><a href="#suche-im-dereko-via-cosmas-ii" id="toc-suche-im-dereko-via-cosmas-ii" class="nav-link" data-scroll-target="#suche-im-dereko-via-cosmas-ii">Suche im <em>DeReKo</em> (via COSMAS II)</a></li>
   </ul>
@@ -275,9 +313,36 @@ ul.task-list li input[type="checkbox"] {
 <section id="suche-über-die-ked-suche" class="level2">
 <h2 class="anchored" data-anchor-id="suche-über-die-ked-suche">Suche über die KED-Suche</h2>
 <p>Die KED-Suche ist benutzerfreundlich und stärker auf die Bedürfnisse von Lehrkräften ausgerichtet. Eine Schritt-für-Schritt-Anleitung zur Registrierung für die KED-Suche finden Sie <a href="../help/login.html">hier</a>.</p>
+<section id="ked-suche-online" class="level3">
+<h3 class="anchored" data-anchor-id="ked-suche-online">KED-Suche online</h3>
+<p>Die KED-Suche ist als Web-Anwendung unter folgender Adresse aufrufbar:</p>
 <center>
 <a href="https://ked-suche.korpus-einfaches-deutsch.de/" target="_blank">https://ked-suche.korpus-einfaches-deutsch.de/</a>
 </center>
+</section>
+<section id="ked-suche-auf-dem-eigenen-computer" class="level3">
+<h3 class="anchored" data-anchor-id="ked-suche-auf-dem-eigenen-computer">KED-Suche auf dem eigenen Computer</h3>
+<p>Die KED-Suche ist auch als Desktop-Anwendung verwendbar. Die folgenden Schritte beschreiben die Installation unter Windows und Linux/Ubuntu.</p>
+<section id="docker-installieren" class="level4">
+<h4 class="anchored" data-anchor-id="docker-installieren">Docker installieren</h4>
+<p>Um die KED-Suche auf Ihrem Computer zu nutzen, benötigen Sie die das Programm <em>Docker</em>. Laden Sie <em>Docker</em> von der <a href="https://www.docker.com/" target="_blank"><em>Docker</em>-Website</a> herunter und installieren Sie es. Folgen Sie dabei den Anweisungen für Ihr Betriebssystem.</p>
+</section>
+<section id="ked-suche-herunterladen-windowsmacos" class="level4">
+<h4 class="anchored" data-anchor-id="ked-suche-herunterladen-windowsmacos">KED-Suche herunterladen: Windows/MacOS</h4>
+<p>Öffnen Sie <em>Docker Desktop</em> und geben Sie im Suchfeld <em>KED-Suche</em> ein. Wählen Sie das Docker-Datei <em>keddocker/ked-suche</em> aus und klicken Sie anschließend auf <em>Pull</em>. Die Datei wird heruntergeladen. Sobald der Download abgeschlossen ist, klicken Sie auf <em>Run</em>. Beim ersten Ausführen müssen Sie unter <em>Optional settings</em> evtl. noch den sogenannten <em>Port</em> (3838) der Datei angeben (<a href="img/docker_options.png" target="_blank">Screenshot</a>) und erneut auf <em>Run</em> klicken.</p>
+<p>Klicken Sie anschließend in <em>Docker Desktop</em> auf den aktiven <em>Port</em> oder rufen Sie folgende Adresse in Ihrem Internetbrowser auf: <code>http://127.0.0.1:3838/</code>. Die KED-Suche wird daraufhin im Internetbrowser geöffnet.</p>
+<p>Um die KED-Suche wieder zu stoppen, klicken Sie in <em>Docker Desktop</em> neben der aktiven Anwendung auf <em>Stop</em>.</p>
+</section>
+<section id="ked-suche-herunterladen-ubuntulinux" class="level4">
+<h4 class="anchored" data-anchor-id="ked-suche-herunterladen-ubuntulinux">KED-Suche herunterladen: Ubuntu/Linux</h4>
+<p>Öffnen Sie ein Terminal und führen Sie die folgenden Befehle nacheinander aus, um die KED-Suche herunterzuladen und zu starten:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>docker pull keddocker<span class="sc">/</span>ked<span class="sc">-</span>suche</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>docker run <span class="sc">-</span>p <span class="dv">3838</span><span class="sc">:</span><span class="dv">3838</span> keddocker<span class="sc">/</span>ked<span class="sc">-</span>suche</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Navigieren Sie anschließend in Ihrem Internetbrowser zu folgender Adresse:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>http<span class="sc">:</span><span class="er">//</span><span class="dv">127</span>.<span class="dv">0</span>.<span class="fl">0.1</span><span class="sc">:</span><span class="dv">3838</span><span class="sc">/</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Sie stoppen die KED-Suche im Terminal mit der Tastenkombination <code>Strg + C</code>.</p>
+</section>
+</section>
 </section>
 <section id="suche-über-korap" class="level2">
 <h2 class="anchored" data-anchor-id="suche-über-korap">Suche über <em>KorAP</em></h2>
