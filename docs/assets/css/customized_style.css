@@ -133,12 +133,6 @@ hlb {
   word-wrap: break-word;
 }
 
-.toc-grid .card-header {
-  border-radius: 0px 0px 0px 0px;
-  background: var(--bs-primary-bg-subtle);
-  font-weight: bold;
-}
-
 .toc-grid .card-body {
   height: 205px;
   border-radius: 0px 0px 0px 0px;
@@ -151,8 +145,4 @@ hlb {
 
 .anchorjs-link {
   display: none !important;
-}
-
-.thumbnail-image {
-  border: 2px solid black !important;
 }
