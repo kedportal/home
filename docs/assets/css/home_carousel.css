@@ -37,6 +37,20 @@
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
 }
 
+@media (min-width: 320px) {
+  .news-carousel .carousel-cell {
+    height: 200px !important;
+  }
+  
+  .news-carousel .carousel-cell .carousel-cell-text {
+    font-size: .9em;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+}
+
+
 /* brighten selected image */
 .carousel-cell.is-selected img {
   opacity: 1;
