@@ -9,7 +9,7 @@
   user-select: none; /* Standard syntax */
 }
 
-.carousel-cell {
+.news-carousel .carousel-cell {
   width: 70%;
   height: 200px;
   /* flex-box, center image in cell */
@@ -35,19 +35,6 @@
           filter: blur(5px);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
-}
-
-@media (min-width: 320px) {
-  .news-carousel .carousel-cell {
-    height: 200px !important;
-  }
-  
-  .news-carousel .carousel-cell .carousel-cell-text {
-    font-size: .9em;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  
 }
 
 
