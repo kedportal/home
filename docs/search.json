@@ -669,7 +669,7 @@
     "href": "examples/activities/dates.html#suchanfragen-im-ked",
     "title": "Zeitangaben mit am vs. um (A1)",
     "section": "Suchanfragen im KED",
-    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\n\\bam\\b\n\n\nwählt alle Treffer mit der Wortform am im Kontext nach dem Suchausdruck aus.\n\n\n3.921\n\n\n\n\n\\bum\\b\n\n\nwählt alle Treffer mit der Wortform um im Kontext nach dem Suchausdruck aus.\n\n\n5.905\n\n\n\n\nRechter Kontextfilter\n\n\n^\\d\n\n\nwählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n\n\n326\n\n\n\n\n^\\w*tag\n\n\nwählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n\n\n179\n\n\n\n\n^\\d.*Uhr\n\n\nwählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen anderen Zeichen (.*), gefolgt von Uhr (Uhr).\n\n\n36"
+    "text": "Suchanfragen im KED\n\n\n\n\nWo\n\n\nEingabe\n\n\nErläuterung\n\n\nn Treffer\n\n\n\n\nSucheingabe\n\n\nam\n\n\nwählt alle Treffer mit der Wortform am aus.\n\n\n3.921\n\n\n\n\nRechter Kontextfilter\n\n\n^\\w*tag\n\n\nwählt alle Treffer aus, die mit beliebig vielen Wortzeichen beginnen (\\w*), gefolgt von tag (tag).\n\n\n179\n\n\n\n\n\nSucheingabe\n\n\num\n\n\nwählt alle Treffer mit der Wortform um aus.\n\n\n5.905\n\n\n\nRechter Kontextfilter\n\n\n^\\d\n\n\nwählt alle Treffer aus, die mit einer Zahl (\\d) beginnen (^).\n\n\n326\n\n\n\n\n^\\d.*Uhr\n\n\nwählt alle Treffer aus, mit einer Zahl beginnen (^\\d), gefolgt von beliebig vielen anderen Zeichen (.*), gefolgt von Uhr (Uhr).\n\n\n36"
   },
   {
     "objectID": "examples/activities/particleVerbs.html",
