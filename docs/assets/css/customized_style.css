@@ -141,7 +141,7 @@ hlb {
   border-radius: 0px 0px 0px 0px;
   font-size: .9em;
   height: 205px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 @media (max-width: 768px) {
