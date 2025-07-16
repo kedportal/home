@@ -46,7 +46,7 @@
     "href": "help/cite.html",
     "title": "Wie soll ich das KED zitieren?",
     "section": "",
-    "text": "Sie können das KED als Ganzes zitieren, indem Sie auf den folgenden Artikel verweisen:\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n\nEinzelne Belege aus dem KED können Sie nach dem Schema ‚Text-ID, Korpussuche-URL, Zugriffsdatum‘ zitieren:\n\n(KED/KLX/01769, https://ked-portal.shinyapps.io/korpussuche/, 13.07.2024)"
+    "text": "Sie können das KED als Ganzes zitieren, indem Sie auf den folgenden Artikel verweisen:\n\nDaniel Jach und Gunther Dietz „Korpus einfaches Deutsch“, Korpora Deutsch als Fremdsprache 4, Nr. 1 (2024): 123–30, https://doi.org/10.48694/kordaf.3996.\n\nEinzelne Belege aus dem KED können Sie nach dem Schema ‚Text-ID, Korpussuche-URL, Zugriffsdatum‘ zitieren:\n\n(KED/KLX/01769, https://ked-suche.korpus-einfaches-deutsch.de/, 13.07.2024)"
   },
   {
     "objectID": "examples/activities/strongVerbs.html",
